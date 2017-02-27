@@ -1,0 +1,98 @@
+body {
+    background-color: #f9f9f9;
+}
+.wrapper {
+    margin:0 auto;
+    width: 1060px;
+    font-family: Arial;/*OpenSans у меня нет*/
+    border:  1px solid #c8c8c8;
+    background-color: #ffffff;
+}
+.contaner {
+    margin:50px auto;
+    width: 965px;
+}
+.content div,
+.footer div {
+    display: inline-block;
+}
+.navUp li,
+.navDown li {
+    display: inline-block;
+    margin-left: 20px;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    padding-top: 10px;
+}
+.navUp li:hover  {
+    background-color: #383838;
+    border-left: 1px solid #f9f9f9;
+    border-right:1px solid #f9f9f9;
+}
+.logo,
+.menu {
+    margin-bottom: 32px;
+}
+.menu {
+    height: 40px;
+    color: white;
+    background-color: #515151;
+    }
+.content {
+    height: 640px;
+    position: relative;
+}
+.list{
+    margin: 0 auto;
+    width: 30%;
+    height: 100%;
+    float: left;/*Логике не поддается*/
+    }
+.listN li{
+    padding-top: 10px;
+    padding-left: 15px;
+    height: 40px;
+    width: 238px;
+    border: 1px solid #c8c8c8;
+}
+.listN li:hover{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+    background-color: #f9f9f9;
+}
+.velo_text{
+    width: 70%;
+}
+.bord {
+    width: 100%;
+    border: 1px solid #c8c8c8;
+}
+.img {
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 90px;
+    }
+.fullLatter {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footer {
+    margin-top: 20px;
+    background-color: #e1e1e1;
+    position: relative;
+}
+.coppyR {
+    float: right;
+    padding-top: 10px;
+}
+.navDown li:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+

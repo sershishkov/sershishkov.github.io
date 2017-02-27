@@ -1,32 +1,31 @@
-    .name {
-        font-weight: bold;
-        font-size: 70px;
-        text-transform: uppercase;
-        text-align: center;
-    }
+.name {
+    font-weight: bold;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+}
 
-    p {
-        font-weight: bold;
-        font-size: 40px;
-    }
+p {
+    font-weight: bold;
+    font-size: 40px;
+}
 
-    .wrapper {
-        width: 50%;
-        margin-left: 30%;
-    }
+.wrapper {
+    width: 50%;
+    margin-left: 30%;
+}
 
-    .pict {
-        text-align: center;
-    }
+.pict {
+    text-align: center;
+}
 
-    ul {
-        font-size: 20px;
-    }
+ul {
+    font-size: 20px;
+}
 
-    .tel,
-    a,
-    .about {
-        font-size: 20px;
-        margin-left: 50px
-    }
-
+.tel,
+a ,
+.about {
+    font-size: 20px;
+    margin-left: 50px
+}

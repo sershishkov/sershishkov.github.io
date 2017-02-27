@@ -1,0 +1,56 @@
+/*div {
+    border: 1px solid white;
+}*/
+
+.wrapper {
+    background-image: url("../img/backround.jpg");
+    width: 960px;
+    height: 883px;
+    margin: 0 auto;
+    color: white;
+}
+.hh{
+    height: 57px;
+}
+.contaner {
+    width: 814px;
+    margin: 0 auto;
+}
+.header {
+    margin-top: 57px;/*Не хочет работать пришлось добавить div class="hh"*/
+
+    }
+
+.logo {
+    width: 266px;
+
+}
+.header_right {
+    width: 100px;
+    margin-left: 430px;
+    font-size: 10px;
+}
+
+.header div {
+    display: inline-block;
+}
+
+.pictures1 img,
+.pictures2 img{
+    margin-top: 11px;
+    border: 3px ridge #b2b2b2;
+    border-radius: 3px;
+}
+h3 {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.pictures2 {
+    margin-top: 50px;
+}
+.footer {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 10px;
+}
