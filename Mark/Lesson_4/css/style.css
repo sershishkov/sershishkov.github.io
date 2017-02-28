@@ -1,0 +1,9 @@
+/*div {
+    border: 1px solid white;
+}*/
+.wrapper {
+    margin: 0 auto;
+    width: 1280px;
+    height: 1060px;
+    background-image: url("../img/backround.jpg");
+}

@@ -1,3 +1,6 @@
+/*div {
+    border:1px solid black;
+}*/
 body {
     background-color: #f9f9f9;
 }
@@ -9,8 +12,11 @@ body {
     background-color: #ffffff;
 }
 .contaner {
-    margin:50px auto;
+    margin-top: 50px;
+    margin-left: 46px;
     width: 965px;
+    height: 950px;
+
 }
 .content div,
 .footer div {
@@ -23,7 +29,7 @@ body {
     height: 40px;
     width: 140px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 .navUp li:hover  {
     background-color: #383838;
@@ -32,7 +38,7 @@ body {
 }
 .logo,
 .menu {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 .menu {
     height: 40px;
@@ -40,12 +46,12 @@ body {
     background-color: #515151;
     }
 .content {
-    height: 640px;
+    height: 600px;
     position: relative;
 }
 .list{
     margin: 0 auto;
-    width: 30%;
+    width: 288px;
     height: 100%;
     float: left;/*Логике не поддается*/
     }
@@ -79,13 +85,13 @@ body {
     margin-top: 20px;
 }
 .footer {
-    margin-top: 20px;
+    margin-top: 80px;
     background-color: #e1e1e1;
     position: relative;
 }
 .coppyR {
     float: right;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 .navDown li:hover {
     text-decoration: underline;
