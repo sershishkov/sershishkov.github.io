@@ -7,7 +7,6 @@ body {
 .wrapper {
     margin:0 auto;
     width: 1060px;
-    font-family: OpenSans;/*OpenSans у меня нет*/
     border:  1px solid #c8c8c8;
     background-color: #ffffff;
 }
@@ -16,6 +15,7 @@ body {
     margin-left: 46px;
     width: 965px;
     height: 950px;
+    font-family: "OpenSans Regular";
 
 }
 .content div,
@@ -28,12 +28,17 @@ body {
 a {
     text-decoration: none;
 }
+.navUp li {
+    font-family: "Myriad Pro Regular";
+    text-shadow:2px 2px 1px #373737 ;
+}
 .navUp li,
 .navDown li {
     display: inline-block;
     margin-left: 20px;
     height: 40px;
     width: 140px;
+
     text-align: center;
     padding-top: 12px;
 }
@@ -59,9 +64,10 @@ a {
     margin: 0 auto;
     width: 288px;
     height: 100%;
-    float: left;/*Логике не поддается*/
+    float: left;
     }
 .listN li a{
+    font-size: 13px;
     color: #7a7878;
 }
 .listN  {
@@ -76,15 +82,14 @@ a {
     height: 40px;
     width: 238px;
     border-bottom: 1px solid #c8c8c8;
-    color: #7a7878;
-    text-shadow:2px 0px 1px #d6d5d5 ;
+
 }
 .listN li:hover{
     padding-top: 10px;
     padding-left: 20px;
-    font-weight: bold;
+    border-right: 1px solid #c8c8c8;
     background-color: #f9f9f9;
-    color: #474747;
+    color: #2c2c2c;
 }
 .velo_text{
     width: 70%;
@@ -101,7 +106,7 @@ a {
 .fullLatter {
     margin-left: 20px;
     margin-top: 20px;
-}
+    }
 .footer {
     margin-top: 80px;
     background-color: #e1e1e1;
