@@ -22,9 +22,7 @@ body {
 .footer div {
     display: inline-block;
 }
-.navUp li a{
-    color: #ffffff;
-}
+
 a {
     text-decoration: none;
 }
@@ -32,15 +30,22 @@ a {
     font-family: "Myriad Pro Regular";
     text-shadow:2px 2px 1px #373737 ;
 }
-.navUp li,
-.navDown li {
+.navUp li {
     display: inline-block;
-    margin-left: 20px;
     height: 40px;
     width: 140px;
-
-    text-align: center;
     padding-top: 12px;
+}
+.navDown li {
+    display: inline-block;
+    height: 40px;
+    width: 140px;
+    padding-top: 12px;
+}
+.navUp li a,
+.navDown li a {
+    color: #ffffff;
+    margin-left: 24px;
 }
 .navUp li:hover  {
     background-color: #383838;
@@ -68,7 +73,7 @@ a {
     }
 .listN li a{
     font-size: 13px;
-    color: #7a7878;
+    color: #7a7878 ;
 }
 .listN  {
     width: 238px;
@@ -104,8 +109,8 @@ a {
     margin-top: 90px;
     }
 .fullLatter {
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 26px;
+    margin-top: 42px;
     }
 .footer {
     margin-top: 80px;

@@ -1,15 +1,59 @@
-/*div {
+div {
     border: 1px solid white;
-}*/
+}
 /* 1_Positioning */
 /* 2_Display & Box Model */
 /* 3_Color */
 /* 4_Text */
 /* 5_Other */
-}
 .wrapper {
     margin: 0 auto;
     width: 1280px;
     height: 1060px;
     background-image: url("../img/backround.jpg");
+}
+.contaner {
+    margin: 0 auto;
+    width: 1000px;
+    height: 1029px;
+}
+.header {
+    height: 174px;
+    display: inline-block;
+}
+.header_l,
+.header_r {
+    display: inline-block;
+
+}
+.header_l {
+    width: 283px;
+    height: 164px;
+    margin-left: 28px;
+    margin-top: 10px;
+    float: left;
+}
+.header_r {
+    width: 80%;
+
+}
+.contacts {
+
+
+    height: 84px;
+
+
+
+}
+.flags_country {
+
+    height: 60px;
+
+
+}
+.flags img {
+    margin-left: 3px;
+}
+h6 {
+    display: inline;
 }
