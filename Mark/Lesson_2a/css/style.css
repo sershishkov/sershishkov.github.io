@@ -1,6 +1,10 @@
 /*div {
     border:1px solid black;
 }*/
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url(../fonts/opensans/OpenSans-Regular.ttf);
+}
 body {
     background-color: #f9f9f9;
 }
@@ -15,8 +19,7 @@ body {
     margin-left: 46px;
     width: 965px;
     height: 950px;
-    font-family: "OpenSans Regular";
-
+    font-family: "Open Sans Regular";
 }
 .content div,
 .footer div {
@@ -27,8 +30,7 @@ a {
     text-decoration: none;
 }
 .navUp li {
-    font-family: "Myriad Pro Regular";
-    text-shadow:2px 2px 1px #373737 ;
+       text-shadow:2px 2px 1px #373737 ;
 }
 .navUp li {
     display: inline-block;
