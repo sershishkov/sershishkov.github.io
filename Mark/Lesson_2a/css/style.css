@@ -20,6 +20,7 @@ body {
     width: 965px;
     height: 950px;
     font-family: "Open Sans Regular";
+    font-size: 13px;
 }
 .content div,
 .footer div {
@@ -29,14 +30,14 @@ body {
 a {
     text-decoration: none;
 }
-.navUp li {
-       text-shadow:2px 2px 1px #373737 ;
-}
+
 .navUp li {
     display: inline-block;
     height: 40px;
     width: 140px;
     padding-top: 12px;
+    text-shadow:2px 2px 1px #373737 ;
+    font-size: 15px;
 }
 .navDown li {
     display: inline-block;
