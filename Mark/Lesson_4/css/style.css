@@ -1,6 +1,6 @@
-div {
-    border: 1px solid white;
-}
+/*div {
+    border: 1px solid black;
+}*/
 /* 1_Positioning */
 /* 2_Display & Box Model */
 /* 3_Color */
@@ -9,7 +9,6 @@ div {
 .wrapper {
     margin: 0 auto;
     width: 1280px;
-    height: 1060px;
     background-image: url("../img/backround.jpg");
 }
 .contaner {
@@ -18,42 +17,48 @@ div {
     height: 1029px;
 }
 .header {
-    height: 174px;
-    display: inline-block;
+    height: 173px;
+    background-color: #ffffff;
 }
 .header_l,
 .header_r {
     display: inline-block;
-
 }
 .header_l {
     width: 283px;
-    height: 164px;
     margin-left: 28px;
     margin-top: 10px;
-    float: left;
+    border: 1px solid black;
 }
 .header_r {
-    width: 80%;
-
+    height: 164px;
+    border: 1px solid black;
+    float: right;
+    margin-top: 10px;
 }
 .contacts {
-
-
     height: 84px;
-
-
+    width: 160px;
+    float: right;
+    color: #5fa5bb;
+    font-family: "Tahoma Regular";
+    font-size: 12px;
 
 }
 .flags_country {
-
+    clear: both;
     height: 60px;
-
-
+    width: 340px;
+    float: right;
+    border: 1px solid black;
 }
 .flags img {
     margin-left: 3px;
 }
 h6 {
     display: inline;
+}
+.picture {
+    border-top:    1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
 }
