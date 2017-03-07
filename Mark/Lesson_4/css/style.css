@@ -27,12 +27,11 @@
 .header_l {
     width: 283px;
     margin-left: 28px;
-    margin-top: 10px;
-    border: 1px solid black;
+    margin-top: 8px;
+
 }
 .header_r {
     height: 164px;
-    border: 1px solid black;
     float: right;
     margin-top: 10px;
 }
@@ -41,24 +40,71 @@
     width: 160px;
     float: right;
     color: #5fa5bb;
-    font-family: "Tahoma Regular";
+    font-family: "Tahoma Regular", serif;
     font-size: 12px;
+}
+.flags {
+    clear: both;
+    height: 80px;
+    width: 360px;
+    float: right;
+}
+.navigation {
+margin-top: 13px;
+}
+.navigation li {
+    float: left;
+    margin-right: 8px;
 
 }
-.flags_country {
-    clear: both;
-    height: 60px;
-    width: 340px;
-    float: right;
-    border: 1px solid black;
+.navigation li a {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 42px; /* внутренний остту чтобы текст был вне фона */
+    color: #128aa7;
+    /* выравниваем фон вверх и по центру */
+    background: no-repeat center top;
+    width: 48px; /* размеры указываем чтобы картинки полностью отобразились */
+    height: 50px;
 }
-.flags img {
-    margin-left: 3px;
+.navigation .india a {
+    background-image: url("../img/India.png");
 }
-h6 {
-    display: inline;
+.navigation .nepal a {
+    background-image: url("../img/Nepal.png");
+}
+.navigation .tibet a {
+    background-image: url("../img/Tibet.png");
+}
+.navigation .bhutan a {
+    background-image: url("../img/Bhutan.png");
+}
+.navigation .sri-lanka a {
+    background-image: url("../img/Sri-Lanka.png");
+}
+.navigation .maldives a {
+    background-image: url("../img/Maldives.png");
 }
 .picture {
-    border-top:    1px solid #128aa7;
-    border-bottom: 1px solid #128aa7;
+    height: 237px;
 }
+.main_menu {
+    height: 29px;
+    background-color: #333333;
+    color: #ffffff;
+    font-family: "Tahoma Regular", serif;
+    font-size: 14px;
+    border-bottom: 1px solid #000000;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+    margin-top: 8px;
+    width: 145px;
+}
+li.with_sub_menu:after {
+    content: url("../img/triangle.png");
+    margin-left: 8px;
+}
+
