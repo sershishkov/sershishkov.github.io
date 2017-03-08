@@ -8,12 +8,19 @@
 body {
     background-color: #f9f9f9;
 }
+.obolochka {
+    margin:0 auto;
+    width: 1366px;
+    height: 950px;
+    background-color: #f9f9f9;
+}
 .wrapper {
     margin:0 auto;
     width: 1060px;
     height: 950px;
-    border:  1px solid #c8c8c8;
+    border:  1px solid transparent;
     background-color: #ffffff;
+    box-shadow:0px 0px 3px 0px rgba(50, 50, 50, 0.58);
 }
 .contaner {
     margin-top: 50px;
@@ -25,6 +32,9 @@ body {
 .content div,
 .footer div {
     display: inline-block;
+}
+.logo {
+
 }
 
 a {
@@ -40,18 +50,19 @@ a {
     font-size: 15px;
     border-left: 1px solid transparent;
     border-right:1px solid transparent;
+    text-align: center;
 }
 .navDown li {
     display: inline-block;
     height: 40px;
     width: 140px;
     padding-top: 12px;
+    text-align: center;
 }
 .navUp li a,
 .navDown li a {
     color: #ffffff;
 
-    margin-left: 24px;
 }
 .navUp li:hover  {
     background-color: #383838;
@@ -67,7 +78,7 @@ a {
 .menu {
     height: 40px;
     color: white;
-    background-color: #515151;
+    background: linear-gradient(to top, #444343, #5e5e5e);
     }
 .content {
     height: 600px;
@@ -93,7 +104,7 @@ a {
     padding-top: 13px;
     padding-left: 23px;
     height: 40px;
-    width: 238px;
+    width: 237px;
     border-bottom: 1px solid #c8c8c8;
 
 }

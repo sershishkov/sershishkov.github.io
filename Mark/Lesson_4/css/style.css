@@ -18,7 +18,7 @@
     height: 890px;
 }
 .header {
-    height: 174px;
+    height: 175px;
     background-color: #ffffff;
 }
 .header_l,
@@ -106,6 +106,7 @@ margin-top: 13px;
     font-family: "Tahoma Regular", serif;
     font-size: 14px;
     border-bottom: 1px solid #000000;
+    box-shadow: 0 3px 0 #4f4f50;
 }
 .menu li {
     float: left;
@@ -119,7 +120,6 @@ li.with_sub_menu:after {
     margin-left: 8px;
 }
 ul.sub_menu{
-
     margin-top: 21px;
     width: 145px;
     display: block;
@@ -128,7 +128,7 @@ ul.sub_menu{
 .sub_menu li {
     display: none;
     padding-top: 8px;
-    margin-top: 0px;
+    margin-top: 0;
     width: 150px;
     height: 29px;
     background-color: #333333;
@@ -145,7 +145,6 @@ li.with_sub_menu:hover .sub_menu li{
 .content {
     height: 545px;
     background-color: #ffffff;
-    
 }
 .cont_l p,
 .cont_r p {
@@ -154,6 +153,13 @@ li.with_sub_menu:hover .sub_menu li{
     font-weight: bold;
     text-align: center;
     color: #424c43;
+}
+.cont_l,
+.cont_c,
+.cont_r{
+    border-bottom: 3px solid #031d28;
+    float: left;
+    height: 545px;
 }
 .article {
     margin-top: 16px;
@@ -164,15 +170,16 @@ li.with_sub_menu:hover .sub_menu li{
     line-height: 24px;
 }
 .cont_l {
-    float: left;
+    width: 210px;
+}
+.cont_c {
+    width: 580px;
 }
 .cont_r {
-    float: right;
+    width: 210px;
 }
 .cont_l,
 .cont_r {
-    height: 545px;
-    width: 210px;
     background-color: #edeef0;
     border-left: 1px solid #c7cacf;
     border-right:1px solid #c7cacf;
