@@ -11,6 +11,7 @@ body {
 .wrapper {
     margin:0 auto;
     width: 1060px;
+    height: 950px;
     border:  1px solid #c8c8c8;
     background-color: #ffffff;
 }
@@ -18,7 +19,6 @@ body {
     margin-top: 50px;
     margin-left: 46px;
     width: 965px;
-    height: 950px;
     font-family: "Open Sans Regular";
     font-size: 13px;
 }
@@ -38,6 +38,8 @@ a {
     padding-top: 12px;
     text-shadow:2px 2px 1px #373737 ;
     font-size: 15px;
+    border-left: 1px solid transparent;
+    border-right:1px solid transparent;
 }
 .navDown li {
     display: inline-block;
@@ -48,13 +50,16 @@ a {
 .navUp li a,
 .navDown li a {
     color: #ffffff;
+
     margin-left: 24px;
 }
 .navUp li:hover  {
     background-color: #383838;
     border-left: 1px solid #838383;
     border-right:1px solid #838383;
+
 }
+
 .logo,
 .menu {
     margin-bottom: 40px;
@@ -76,7 +81,7 @@ a {
     }
 .listN li a{
     font-size: 13px;
-    color: #7a7878 ;
+    color: #656363 ;
 }
 .listN  {
     width: 238px;
@@ -85,16 +90,16 @@ a {
     border-right: 1px solid #c8c8c8;
 }
 .listN li{
-    padding-top: 10px;
-    padding-left: 15px;
+    padding-top: 13px;
+    padding-left: 23px;
     height: 40px;
     width: 238px;
     border-bottom: 1px solid #c8c8c8;
 
 }
 .listN li:hover{
-    padding-top: 10px;
-    padding-left: 20px;
+    padding-top: 13px;
+    padding-left: 35px;
     width: 237px;
     border-right: 1px solid #c8c8c8;
     background-color: #f9f9f9;

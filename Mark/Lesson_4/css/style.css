@@ -9,15 +9,16 @@
 .wrapper {
     margin: 0 auto;
     width: 1280px;
+    height: 1020px;
     background-image: url("../img/backround.jpg");
 }
 .contaner {
     margin: 0 auto;
     width: 1000px;
-    height: 1029px;
+    height: 890px;
 }
 .header {
-    height: 173px;
+    height: 174px;
     background-color: #ffffff;
 }
 .header_l,
@@ -39,10 +40,19 @@
     height: 84px;
     width: 160px;
     float: right;
-    color: #5fa5bb;
+    color: #41a1b9;
     font-family: "Tahoma Regular", serif;
     font-size: 12px;
 }
+.contacts p {
+    text-align: left;
+    line-height: 18px;
+}
+.contacts p:first-line{
+    font-weight: bold;
+}
+
+
 .flags {
     clear: both;
     height: 80px;
@@ -98,13 +108,85 @@ margin-top: 13px;
     border-bottom: 1px solid #000000;
 }
 .menu li {
-    display: inline-block;
+    float: left;
     text-align: center;
     margin-top: 8px;
     width: 145px;
+    position: relative;
 }
 li.with_sub_menu:after {
     content: url("../img/triangle.png");
     margin-left: 8px;
 }
+ul.sub_menu{
+
+    margin-top: 21px;
+    width: 145px;
+    display: block;
+    position: absolute;
+}
+.sub_menu li {
+    display: none;
+    padding-top: 8px;
+    margin-top: 0px;
+    width: 150px;
+    height: 29px;
+    background-color: #333333;
+}
+.sub_menu li a {
+    font-size: 16px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+li.with_sub_menu:hover .sub_menu li{
+    display: block;
+}
+.content {
+    height: 545px;
+    background-color: #ffffff;
+    
+}
+.cont_l p,
+.cont_r p {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #424c43;
+}
+.article {
+    margin-top: 16px;
+    margin-left: 15px;
+    margin-right: 24px;
+    color: #424c43;
+    font-size: 14px;
+    line-height: 24px;
+}
+.cont_l {
+    float: left;
+}
+.cont_r {
+    float: right;
+}
+.cont_l,
+.cont_r {
+    height: 545px;
+    width: 210px;
+    background-color: #edeef0;
+    border-left: 1px solid #c7cacf;
+    border-right:1px solid #c7cacf;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+    color: #cee3ec;
+    font-size: 12px;
+}
+
+
+
+
+
 
