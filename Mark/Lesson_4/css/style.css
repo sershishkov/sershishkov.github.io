@@ -1,11 +1,7 @@
 /*div {
     border: 1px solid black;
 }*/
-/* 1_Positioning */
-/* 2_Display & Box Model */
-/* 3_Color */
-/* 4_Text */
-/* 5_Other */
+
 .wrapper {
     margin: 0 auto;
     width: 1280px;
@@ -16,6 +12,9 @@
     margin: 0 auto;
     width: 1000px;
     height: 890px;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.49);
+    -moz-box-shadow:    0px 0px 16px 0px rgba(50, 50, 50, 0.49);
+    box-shadow:         0px 0px 16px 0px rgba(50, 50, 50, 0.49);
 }
 .header {
     height: 175px;
@@ -29,17 +28,16 @@
     width: 283px;
     margin-left: 28px;
     margin-top: 8px;
-
 }
 .header_r {
-    height: 164px;
     float: right;
     margin-top: 10px;
+    height: 164px;
 }
 .contacts {
+    float: right;
     height: 84px;
     width: 160px;
-    float: right;
     color: #41a1b9;
     font-family: "Tahoma Regular", serif;
     font-size: 12px;
@@ -51,21 +49,18 @@
 .contacts p:first-line{
     font-weight: bold;
 }
-
-
 .flags {
+    float: right;
     clear: both;
     height: 80px;
     width: 360px;
-    float: right;
 }
 .navigation {
-margin-top: 13px;
+    margin-top: 13px;
 }
 .navigation li {
     float: left;
     margin-right: 8px;
-
 }
 .navigation li a {
     display: block;
@@ -106,24 +101,23 @@ margin-top: 13px;
     font-family: "Tahoma Regular", serif;
     font-size: 14px;
     border-bottom: 1px solid #000000;
-    box-shadow: 0 3px 0 #4f4f50;
 }
 .menu li {
-    float: left;
-    text-align: center;
-    margin-top: 8px;
-    width: 145px;
     position: relative;
+    float: left;
+    margin-top: 8px;
+    text-align: center;
+    width: 145px;
 }
 li.with_sub_menu:after {
     content: url("../img/triangle.png");
     margin-left: 8px;
 }
 ul.sub_menu{
-    margin-top: 21px;
-    width: 145px;
     display: block;
     position: absolute;
+    margin-top: 21px;
+    width: 145px;
 }
 .sub_menu li {
     display: none;
@@ -157,8 +151,8 @@ li.with_sub_menu:hover .sub_menu li{
 .cont_l,
 .cont_c,
 .cont_r{
-    border-bottom: 3px solid #031d28;
     float: left;
+    border-bottom: 3px solid #031d28;
     height: 545px;
 }
 .article {
@@ -184,7 +178,6 @@ li.with_sub_menu:hover .sub_menu li{
     border-left: 1px solid #c7cacf;
     border-right:1px solid #c7cacf;
 }
-
 p {
     margin-top: 10px;
     text-align: center;
