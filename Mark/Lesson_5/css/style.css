@@ -2,14 +2,16 @@
     border: 1px solid black;
 }*/
 
+
 .wrapper {
     margin: 0 auto;
-    width: 1215px;
-    height: 1064px;
-    font-family: "Tahoma Regular", serif;
+    font-family: "HelveticaNeueCyr";
+    background-repeat: no-repeat;
 }
 .header {
+    margin: 0 auto;
     height: 36px;
+    width: 1215px;
     background-color: #074c89;
     font-size: 14px;
 }
@@ -48,12 +50,14 @@ a {
     height: 31px;
     border-right: 1px solid #56a2dc;
 }
-.menu_left ul li.vv {
+.menu_left ul li:hover {
     background-color: #4eabda;
+
 }
-.menu_left ul li.vv a {
+.menu_left ul li:hover a {
     color: #ffffff;
 }
+
 .menu_right ul {
     height: 36px;
 }
@@ -71,6 +75,7 @@ li.flag {
     height: 21px;
     background-image: url("../img/flag.png");
     background-repeat: no-repeat;
+
 }
 li.ola {
     padding-left: 18px;
@@ -82,22 +87,23 @@ li.ola {
     text-decoration: underline;
 }
 .background {
-    height: 1028px;
+    margin: 0 auto;
+    display: flex;
     background-image:url("../img/backround.jpg");
+    width: 1215px;
+    padding: 213px;
+    background-repeat: no-repeat;
 }
-.spacer {
-    height: 213px;
-}
+
 .window {
-    margin: 0px auto;
+    margin: auto;
     width: 560px;
-    height: 613px;
-    background-color: rgba(90,90,90,0.75);
 }
 .cadastr {
     padding-top: 22px;
     height: 64px;
-    border-bottom: 2px solid #efeeee;
+    margin-bottom: 2px;
+    background-color: rgba(90,90,90,0.75);
 }
 .cadastr p {
     text-align: center;
@@ -106,15 +112,12 @@ li.ola {
 }
 .wrap_face {
     margin: 0 auto;
-    width: 276px;
-    height: 490px;
     border: 1px solid transparent;
+    background-color: rgba(90,90,90,0.75);
 }
 .face {
     margin-top: 36px ;
-    width: 276px;
-    height: 35px;
-    background-image: url("../img/LogInFacebook.png");
+    text-align: center;
 }
 .line {
     height: 73px;
@@ -152,6 +155,7 @@ td.ou {
 }
 .interface {
     margin: 0 auto;
+    width: 276px
 }
 .enter {
     padding-left: 19px;
@@ -165,7 +169,6 @@ td.ou {
     border-top:  transparent;
     border-left: transparent;
     border-right: transparent;
-
 }
 .enter:hover {
     background-color: #1b5288;
