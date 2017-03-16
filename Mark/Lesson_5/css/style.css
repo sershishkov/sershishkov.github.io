@@ -7,6 +7,7 @@
     flex-direction: column;
     align-items: center;
     font-family: "HelveticaNeueCyr";
+    height: 100vh;
 }
 .header {
     margin: 0 auto;
@@ -88,9 +89,10 @@ li.ola {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-image:url("../img/backround.jpg");
     width: 1215px;
-    min-height: 100%;
+    height: 1028px;
     background-repeat: no-repeat;
 }
 .window {

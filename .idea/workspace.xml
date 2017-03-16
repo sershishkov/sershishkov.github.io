@@ -4,6 +4,9 @@
     <list default="true" id="f795a239-dbf1-44bc-b867-01e3d8f8a3bf" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_4/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_5/css/fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_6/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_6/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_6/index.html" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/DZ.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/copyright/profiles_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/deployment.xml" afterPath="" />
@@ -28,6 +31,10 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/Lesson_3/img/Tibet.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/Lesson_3/img/backround.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/Lesson_3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/Ltsson_5a/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/Ltsson_5a/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/Ltsson_5a/img/Homework_5a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/Ltsson_5a/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/sershishkov.github.io" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -56,8 +63,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Mark/Lesson_5/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="683">
-                  <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+                <state relative-caret-position="270">
+                  <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -70,7 +77,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Mark/Lesson_5/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
+                <state relative-caret-position="76">
                   <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
                   <folding />
                 </state>
@@ -110,6 +117,10 @@
         <option value="$PROJECT_DIR$/Mark/Ltsson_5a/css/style.css" />
         <option value="$PROJECT_DIR$/Mark/Lesson_5/css/fonts.css" />
         <option value="$PROJECT_DIR$/Mark/Lesson_5/index.html" />
+        <option value="$PROJECT_DIR$/Mark/Lesson_6/js/index.html" />
+        <option value="$PROJECT_DIR$/Mark/Lesson_6/css/style.css" />
+        <option value="$PROJECT_DIR$/Mark/Lesson_6/css/reset.css" />
+        <option value="$PROJECT_DIR$/Mark/Lesson_6/index.html" />
         <option value="$PROJECT_DIR$/Mark/Lesson_5/css/style.css" />
       </list>
     </option>
@@ -177,8 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,46 +209,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Mark" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeWorkSh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeWorkSh" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mark" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lesson_5" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeWorkSh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeWorkSh" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mark" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lesson_5" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,17 +309,20 @@
       <workItem from="1489516943886" duration="158000" />
       <workItem from="1489558235199" duration="3496000" />
       <workItem from="1489581965281" duration="1140000" />
+      <workItem from="1489603177398" duration="1188000" />
+      <workItem from="1489654601701" duration="864000" />
+      <workItem from="1489682024023" duration="2468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149472000" />
+    <option name="totallyTimeSpent" value="153992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1401919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -383,48 +357,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Mark/Lesson_4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mark/Lesson_4/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mark/Lesson_4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mark/Lesson_4/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mark/Lesson_4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mark/Lesson_4/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mark/Lesson_2a/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2057">
@@ -674,32 +606,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mark/Ltsson_5a/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mark/Ltsson_5a/img/Homework_5a.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mark/Ltsson_5a/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mark/Ltsson_5a/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Mark/Ltsson_5a/css/reset.css" />
+    <entry file="file://$PROJECT_DIR$/Mark/Ltsson_5a/img/Homework_5a.jpg" />
+    <entry file="file://$PROJECT_DIR$/Mark/Ltsson_5a/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/Mark/Ltsson_5a/index.html" />
     <entry file="file://$USER_HOME$/Downloads/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -714,9 +624,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mark/Lesson_6/js/index.html" />
+    <entry file="file://$PROJECT_DIR$/Mark/Lesson_6/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mark/Lesson_5a/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mark/Lesson_6/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mark/Lesson_5a/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mark/Lesson_6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mark/Lesson_5/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="76">
           <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding />
         </state>
@@ -724,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mark/Lesson_5/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
