@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-ItalicMT.eot');
+    src: url('../fonts/Arial-ItalicMT.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Arial-ItalicMT.woff') format('woff'),
+    url('../fonts/Arial-ItalicMT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/ArialMT.eot');
+    src: url('../fonts/ArialMT.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ArialMT.woff') format('woff'),
+    url('../fonts/ArialMT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-Black.eot');
+    src: url('../fonts/Arial-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Arial-Black.woff') format('woff'),
+    url('../fonts/Arial-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-BoldMT.eot');
+    src: url('../fonts/Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Arial-BoldMT.woff') format('woff'),
+    url('../fonts/Arial-BoldMT.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-BoldItalicMT.eot');
+    src: url('../fonts/Arial-BoldItalicMT.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Arial-BoldItalicMT.woff') format('woff'),
+    url('../fonts/Arial-BoldItalicMT.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url('../fonts/LucidaSansUnicode.eot');
+    src: url('../fonts/LucidaSansUnicode.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/LucidaSansUnicode.woff') format('woff'),
+    url('../fonts/LucidaSansUnicode.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
