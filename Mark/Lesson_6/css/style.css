@@ -40,7 +40,7 @@
 p.t_044  {
 margin-top: 3px;
 }
-.sneg {
+.snow {
     width: 14px;
     height: 18px;
     margin-left: 7px;
@@ -68,10 +68,10 @@ input[type="submit"] {
     font-family: 'Lucida Sans Unicode', arial;
     border: transparent;
 }
-input.knopka:hover {
-    cursor: hand;
+input.sub_but:hover {
+    cursor: pointer;
 }
-span.linia {
+span.line_vert {
     width: 1px;
     color: #ffffff;
 }
@@ -153,24 +153,24 @@ span.value_k {
     font-weight: normal;
     font-style: normal;
 }
-.poisk {
+.search {
     margin-top: 9px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
-.poisk_avto {
+.search_avto {
     width: 413px;
     height: 134px;
 }
-.header_poisk_avto {
+.header_search_avto {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 
 }
-.header_poisk_avto span {
+.header_search_avto span {
     margin-top: 6px;
     color: #154467;
     font-size: 10px;
@@ -182,7 +182,7 @@ span.ppa {
     margin-top: 2px;
     font-size: 12px;
 }
-.wrapp_label_select_poisk_avto {
+.wrapp_label_select_search_avto {
     margin: 0 auto;
     width: 380px;
     height: 90px;
@@ -196,13 +196,13 @@ span.ppa {
 .select_width {
     width: 97px;
 }
-.label_select_poisk_avto {
+.label_select_search_avto {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     width: 176px;
 }
-.label_poisk_avto {
+.label_search_avto {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -224,10 +224,10 @@ span.ppa {
     font-weight: normal;
     font-style: normal;
 }
-.label_poisk_avto p {
+.label_search_avto p {
     line-height: 8px;
 }
-.select_poisk_avto {
+.select_search_avto {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -235,14 +235,14 @@ span.ppa {
     width: 98px;
     height: 84px;
 }
-.link_poisk {
+.link_search {
     width: 370px;
 }
-.link_poisk p {
+.link_search p {
     margin-top: 5px;
     text-align: right;
 }
-.link_poisk a{
+.link_search a{
     color: #154467;
     font-size: 14px;
     font-family: Arial, serif;/*Italic*/
@@ -250,7 +250,7 @@ span.ppa {
     font-style: italic;
     text-decoration: underline;
 }
-.poisk_shin {
+.search_shin {
     width: 192px;
     height: 134px;
 }
@@ -348,18 +348,18 @@ span.ppa {
     height: 10px;
     margin: 0px;
 }
-.link_poisk_shin {
+.link_search_shin {
     width: 160px;
 }
-.poisk_diskov {
+.search_diskov {
     width: 266px;
     height: 134px;
 }
-.link_poisk_diskov {
+.link_search_diskov {
     width: 240px;
     height: 134px;
 }
-.wrapper_poisk_diskov {
+.wrapper_search_diskov {
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
@@ -368,11 +368,11 @@ span.ppa {
     width: 250px;
     height: 110px;
 }
-.wr_poisk_diskov {
+.wr_search_diskov {
     width: 166px;
     height: 108px;
 }
-.zagolovok_poisk_diskov p{
+.zagolovok_search_diskov p{
     text-align: left;
     color: #114165;
     font-size: 12px;
@@ -380,7 +380,7 @@ span.ppa {
     font-weight: 900;
     font-style: normal;
 }
-.label_select_poisk_diskov {
+.label_select_search_diskov {
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
@@ -389,19 +389,19 @@ span.ppa {
     width: 165px;
     height: 93px;
 }
-.label_poisk_diskov {
+.label_search_diskov {
     width: 92px;
     height: 92px;
 }
-.label_poisk_diskov p {
+.label_search_diskov p {
     line-height: 7px;
     margin-bottom: 5px;
 }
-.label_poisk_diskov p:first-child {
+.label_search_diskov p:first-child {
 
     margin-top: 5px;
 }
-.select_poisk_diskov {
+.select_search_diskov {
     width: 71px;
     height: 92px;
 }
@@ -432,9 +432,9 @@ span.ppa {
 #dtso {
     margin-bottom: 3px;
 }
-.poisk_avto,
-.poisk_shin,
-.poisk_diskov {
+.search_avto,
+.search_shin,
+.search_diskov {
     border: 1px solid #cacacb;
     border-radius: 12px;
     -webkit-box-shadow: 4px 4px 11px 0px rgba(50, 50, 50, 0.75);
@@ -488,7 +488,8 @@ span.ppa {
     font-family: 'Lucida Sans Unicode', arial;
 }
 .shina_as_l img {
-    margin-left: 4px;
+    margin-left: 2px;
+   margin-top: -1px;
 }
 .shina_as_l span {
     margin-left: 3px;
@@ -573,7 +574,7 @@ input.cheks  {
     margin-left: 10px;
     border: 1px solid #2f5674 ;
 }
-.brendi {
+.brend {
     margin-bottom: 13px;
     display: flex;
     flex-flow: row wrap;
@@ -590,13 +591,11 @@ label {
     font-family: 'Lucida Sans Unicode', arial;
 }
 .buttt {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+
 }
 .subm {
     margin-top: 20px;
+    margin-left: 14px;
     width: 80px;
     height: 26px;
     border: transparent;

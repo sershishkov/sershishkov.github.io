@@ -8,7 +8,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_6/css/reset.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_6/css/style.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_6/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/DZ.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/copyright/profiles_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/deployment.xml" afterPath="" />
@@ -34,8 +33,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/Lesson_3/img/backround.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/Lesson_3/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/sershishkov.github.io" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/HomeWorkSh.iml" afterPath="$PROJECT_DIR$/.idea/HomeWorkSh.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HomeWorkSh.iws" />
@@ -62,8 +59,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Mark/Lesson_6/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="545">
-                  <caret line="432" column="23" lean-forward="false" selection-start-line="432" selection-start-column="23" selection-end-line="432" selection-end-column="23" />
+                <state relative-caret-position="17280">
+                  <caret line="576" column="6" lean-forward="false" selection-start-line="576" selection-start-column="6" selection-end-line="576" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -76,10 +73,10 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Mark/Lesson_6/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="247" column="66" lean-forward="true" selection-start-line="247" selection-start-column="66" selection-end-line="247" selection-end-column="66" />
+                <state relative-caret-position="696">
+                  <caret line="27" column="63" lean-forward="false" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
                   <folding>
-                    <element signature="e#24906#24912#0" expanded="true" />
+                    <element signature="e#24926#24932#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -127,8 +124,8 @@
         <option value="$PROJECT_DIR$/Mark/Lesson_6/css/reset.css" />
         <option value="$PROJECT_DIR$/Mark/Lesson_5/css/style.css" />
         <option value="$PROJECT_DIR$/Mark/Lesson_6/css/font.css" />
-        <option value="$PROJECT_DIR$/Mark/Lesson_6/index.html" />
         <option value="$PROJECT_DIR$/Mark/Lesson_6/css/style.css" />
+        <option value="$PROJECT_DIR$/Mark/Lesson_6/index.html" />
       </list>
     </option>
   </component>
@@ -405,11 +402,14 @@
       <workItem from="1489989987017" duration="2646000" />
       <workItem from="1490027590470" duration="5076000" />
       <workItem from="1490032800262" duration="9844000" />
+      <workItem from="1490075433076" duration="622000" />
+      <workItem from="1490098305505" duration="2133000" />
+      <workItem from="1490109683369" duration="3347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234833000" />
+    <option name="totallyTimeSpent" value="240935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
@@ -718,7 +718,7 @@
         <state relative-caret-position="3199">
           <caret line="142" column="29" lean-forward="false" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="29" />
           <folding>
-            <element signature="e#24906#24912#0" expanded="true" />
+            <element signature="e#24926#24932#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,25 +743,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-839">
           <caret line="7" column="23" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mark/Lesson_6/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="432" column="23" lean-forward="false" selection-start-line="432" selection-start-column="23" selection-end-line="432" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mark/Lesson_6/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="247" column="66" lean-forward="true" selection-start-line="247" selection-start-column="66" selection-end-line="247" selection-end-column="66" />
+        <state relative-caret-position="696">
+          <caret line="27" column="63" lean-forward="false" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
           <folding>
-            <element signature="e#24906#24912#0" expanded="true" />
+            <element signature="e#24926#24932#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mark/Lesson_6/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17280">
+          <caret line="576" column="6" lean-forward="false" selection-start-line="576" selection-start-column="6" selection-end-line="576" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
