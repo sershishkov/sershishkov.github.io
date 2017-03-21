@@ -574,7 +574,7 @@ input.cheks  {
     margin-left: 10px;
     border: 1px solid #2f5674 ;
 }
-.brend {
+.brand {
     margin-bottom: 13px;
     display: flex;
     flex-flow: row wrap;
@@ -607,7 +607,7 @@ label {
     font-weight: normal;
     font-style: normal;
 }
-.reklamma {
+.advertising {
     margin-top:40px;
     margin-bottom: 28px;
     display: flex;
@@ -616,7 +616,7 @@ label {
     align-items: flex-start;
     height: 30px;
 }
-.reklamma a {
+.advertising a {
     margin-right: 15px;
 }
 .footer {
