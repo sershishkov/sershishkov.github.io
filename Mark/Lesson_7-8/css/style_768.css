@@ -1,0 +1,50 @@
+@media (min-width: 768px) and (max-width: 959px) {
+    .section {
+        width: 768px;
+        margin-left: 0 ;
+    }
+    .header {
+        height: 789px;
+        border:1px solid transparent;
+    }
+    .navigation__list {
+        margin-top: 39px;
+    }
+    .presentation {
+        margin-top: 80px;
+        justify-content: flex-start;
+    }
+    .article__top {
+        width: 708px;
+    }
+    .slider_l {
+        margin-right: 0;
+    }
+    .slider_r {
+        margin-left: 0;
+    }
+    .radio_top {
+        margin-top: 40px;
+    }
+    .announcement p {
+        width: 310px;
+    }
+    .libero {
+        display: none;
+    }
+    .footer {
+        height: 200px;
+        background-size: cover;
+    }
+    .wrap__nav--footer {
+        display: block;
+        border: 1px solid transparent;
+    }
+    .nav__down {
+        margin-top: 47px;
+        margin-bottom: 40px;
+    }
+    .designed {
+        text-align: right;
+    }
+}
