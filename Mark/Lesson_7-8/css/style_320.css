@@ -1,7 +1,7 @@
 @media (min-width: 320px) and (max-width: 479px) {
     .section {
         width: 320px ;
-        margin-left: 0 ;
+
     }
     .header {
         height: 517px;
@@ -24,6 +24,7 @@
 
     .header__head {
         margin-top: 54px;
+        margin-left: 1040px;
         display: flex;
         flex-flow: column wrap;
         justify-content:center;
@@ -62,7 +63,7 @@
     }
     .presentation {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         margin-top: 191px;
         height: 60px;
         background-color: transparent;

@@ -1,18 +1,21 @@
 @media (min-width: 768px) and (max-width: 959px) {
     .section {
         width: 768px;
-        margin-left: 0 ;
+
     }
     .header {
         height: 789px;
         border:1px solid transparent;
+    }
+    .header__head {
+        margin-left: 833px;
     }
     .navigation__list {
         margin-top: 39px;
     }
     .presentation {
         margin-top: 80px;
-        justify-content: flex-start;
+        justify-content: center;
     }
     .article__top {
         width: 708px;
