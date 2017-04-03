@@ -38,11 +38,12 @@
     .navigation {
         position: relative;
     }
-    .list__top {
+    .navigation__list {
         position: absolute;
         top:25px;
         left: -80px;
         display: block;
+        background-color: RGBA(63,51,71,.0);
         width: 160px;
         border-radius: 16px;
     }
@@ -60,22 +61,6 @@
     .navigation__list li:hover {
         background-color: transparent;
         border-bottom: transparent;
-    }
-    .list__top:hover   {
-        background-color: RGBA(63,51,71,.5);
-    }
-    .list__top:hover .list_next  {
-        visibility: visible;
-    }
-    .navigation__list li:hover {
-        background-color: #2d2533;
-        border-bottom: 1px solid #edbfff;
-    }
-    .list__first:hover {
-        border-radius: 16px 16px 0px 0px;
-    }
-    .navigation__list li:last-child:hover {
-        border-radius:  0px 0px 16px 16px;
     }
     .presentation {
         display: -webkit-flex;

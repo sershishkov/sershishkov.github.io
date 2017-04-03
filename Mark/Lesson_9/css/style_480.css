@@ -22,33 +22,24 @@
     .navigation {
         position: relative;
     }
-    .list__top {
+    .navigation__list {
         position: absolute;
         top:25px;
         left: -120px;
         display: block;
+        background-color: RGBA(63,51,71,.5);
         width: 244px;
         border-radius: 16px;
-    }
-    .list_next {
-        visibility: hidden;
     }
     .navigation__list li{
         height: 43px;
         text-align: center;
         padding: 13px;
     }
-    .list__top:hover   {
-        background-color: RGBA(63,51,71,.5);
-    }
-    .list__top:hover .list_next  {
-           visibility: visible;
-    }
     .navigation__list li:hover {
         background-color: #2d2533;
-        border-bottom: 1px solid #edbfff;
     }
-    .list__first:hover {
+    .navigation__list li:first-child:hover {
         border-radius: 16px 16px 0px 0px;
     }
     .navigation__list li:last-child:hover {
