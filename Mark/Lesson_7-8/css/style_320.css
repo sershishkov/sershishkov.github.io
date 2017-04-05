@@ -5,10 +5,10 @@
     .header {
         height: 517px;
     }
-    .about {
+    .section_top {
         height: 599px;
     }
-    .main {
+    .section_middle {
         height: 1210px;
     }
     .articles {
@@ -62,7 +62,7 @@
         border-bottom: transparent;
     }
     .list__top:hover   {
-        background-color: RGBA(63,51,71,.5);
+        background-color: RGBA(63,51,71,.9);
     }
     .list__top:hover .list_next  {
         visibility: visible;
@@ -138,7 +138,7 @@
     .wrap__sprite_content {
         width: 95%;
     }
-    .main__wrap_content {
+    .section_middle__wrap_content {
         height: 100%;
         display: block;
     }
@@ -208,7 +208,7 @@
     .logos_img  {
         margin: 6%;
     }
-    .comments {
+    .section_3 {
         display: none;
     }
     .nav__footer {

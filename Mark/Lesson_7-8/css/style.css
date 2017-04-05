@@ -32,16 +32,21 @@
 .logo {
     margin-left: 36px;
 }
-.sp__first {
+.logo__a {
+    text-decoration: none;
+}
+ .sp__first {
     color: #ffffff;
     font-size: 48px;
 }
+
 .sp__second {
-    background: linear-gradient(#745083, #33263a);  /* подробнее про градиенты */
-    -webkit-background-clip: text;  /* подробнее про background-clip */
-    color: transparent;
-    font-size: 48px;
+     background: linear-gradient(#745083, #33263a);
+     -webkit-background-clip: text;
+     color: transparent;
+font-size: 48px;
 }
+
 .navigation__list {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -87,9 +92,9 @@
     -ms-flex-align: center;
     align-items: center;
     height: 400px;
-
-    background-color:RGBA(0,0,0,0.1);
+    background-color:RGBA(0,0,0,0.2);
 }
+
 .slider_l {
     margin-right: 292px;
 }
@@ -145,7 +150,11 @@
 .radio_top img {
     margin-left: 75%;
 }
-.about {
+.radio_top:hover {
+    cursor: pointer;
+
+}
+.section_top {
     margin-left: auto;
     margin-right: auto;
 
@@ -234,14 +243,14 @@
     height: 31px;
     background-position: -45px -5px;
 }
-.main {
+.section_middle {
     margin-left: auto;
     margin-right: auto;
 
     height: 607px;
     background-color: #f9f9f9;
 }
-.main__wrap_content {
+.section_middle__wrap_content {
     margin: 0 auto;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -363,6 +372,9 @@
     text-align: center;
     margin-top: 80px;
 }
+.radio:hover {
+    cursor: pointer;
+}
 .articles__right__notes {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -411,7 +423,7 @@
     font-size: 18px;
     color: #454545;
 }
-.comments {
+.section_3 {
     margin-left: auto;
     margin-right: auto;
     display: -webkit-flex;
@@ -430,7 +442,7 @@
 
     height: 396px;
 }
-.wrapp__comments__news {
+.wrapp__section_3__news {
     margin: 0 auto;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -446,7 +458,7 @@
     align-items: flex-start;
     width:960px ;
 }
-.comments__news {
+.section_3__news {
     width: 30%;
 }
 .sp__first--down {

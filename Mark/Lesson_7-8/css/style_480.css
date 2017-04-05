@@ -39,7 +39,7 @@
         padding: 13px;
     }
     .list__top:hover   {
-        background-color: RGBA(63,51,71,.5);
+        background-color: RGBA(63,51,71,.9);
     }
     .list__top:hover .list_next  {
            visibility: visible;
@@ -95,7 +95,7 @@
     .radio_top img{
         margin-left: 50%;
     }
-    .about {
+    .section_top {
         height: 597px;
     }
     .content {
@@ -116,11 +116,11 @@
     .wrap__sprite_content {
         width: 92%;
     }
-    .main {
+    .section_middle {
         height: 1020px;
 
     }
-    .main__wrap_content {
+    .section_middle__wrap_content {
         height: 1020px;
 
     }
@@ -153,10 +153,10 @@
     .articles {
         height: 790px;
     }
-    .comments {
+    .section_3 {
         height: 667px;
     }
-    .wrapp__comments__news {
+    .wrapp__section_3__news {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
@@ -171,7 +171,7 @@
         align-items: center;
         height: 100%;
     }
-    .comments__news {
+    .section_3__news {
         width: 95%;
     }
     .footer {
