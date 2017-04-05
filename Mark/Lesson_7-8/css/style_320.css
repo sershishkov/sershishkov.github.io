@@ -169,7 +169,7 @@
         margin-right: 5px;
     }
     .radio {
-        margin-top: 20px;
+        margin-bottom: 0px;
     }
     .starts {
         display: block;
@@ -208,7 +208,7 @@
     .logos_img  {
         margin: 6%;
     }
-    .section_3 {
+    .section_down {
         display: none;
     }
     .nav__footer {

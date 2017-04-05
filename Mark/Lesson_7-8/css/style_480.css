@@ -153,10 +153,10 @@
     .articles {
         height: 790px;
     }
-    .section_3 {
+    .section_down {
         height: 667px;
     }
-    .wrapp__section_3__news {
+    .wrapp__section_down__news {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
@@ -171,7 +171,7 @@
         align-items: center;
         height: 100%;
     }
-    .section_3__news {
+    .section_down__news {
         width: 95%;
     }
     .footer {

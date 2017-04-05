@@ -1,7 +1,9 @@
 
 .wrapper {
     margin: 0 auto;
-    font-family: "League Gothic Regular";
+    font-family: 'League Gothic';
+    font-weight: normal;
+    font-style: normal;
 }
 
 .header {
@@ -44,7 +46,7 @@
      background: linear-gradient(#745083, #33263a);
      -webkit-background-clip: text;
      color: transparent;
-font-size: 48px;
+    font-size: 48px;
 }
 
 .navigation__list {
@@ -132,14 +134,14 @@ font-size: 48px;
     font-size: 18px;
     color: #dadadc;
     line-height: 20px;
-    font-weight: 100;
+    font-weight: 300;
 }
 .article__top__img {
     width: 42%;
     text-align: center;
 }
 .article__top__img img {
-    margin-top: -55px;
+
 }
 .radio_top {
     margin-top: 90px;
@@ -205,7 +207,7 @@ font-size: 48px;
     line-height: 20px;
     font-family: "Open Sans ";
     font-size: 16px;
-    font-weight: lighter;
+    font-weight: 300;
 }
 .content__text h3 {
     margin-top: 27px;
@@ -217,7 +219,7 @@ font-size: 48px;
     font-size: 18px;
 }
 .content__text a:hover {
-    text-shadow: 0px 0px 21px rgba(255, 255, 255, 0.85);
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.314);
 }
 .sprite__key,
 .sprite__think,
@@ -227,6 +229,7 @@ font-size: 48px;
     display: block;
     overflow: hidden;
     height: 35px;
+    margin-top: 8px;
 }
 .sprite__key {
     width: 30px;
@@ -246,7 +249,6 @@ font-size: 48px;
 .section_middle {
     margin-left: auto;
     margin-right: auto;
-
     height: 607px;
     background-color: #f9f9f9;
 }
@@ -281,13 +283,14 @@ font-size: 48px;
     -ms-flex-align: center;
     align-items: center;
     height: 470px;
+    width: 960px;
 }
 .articles__left,
 .articles__right {
     height: 323px;
 }
 .articles__left {
-    width: 48%;
+    width: 45%;
 }
 .articles__right{
     width: 52%;
@@ -295,7 +298,11 @@ font-size: 48px;
 .articles__left {
     background: url("../img/bg_for_letter.png") center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+}
+.wrap__logos {
+    border: 1px solid #d8d8d8;
+    background-color: #f9f9f9;
 }
 .logos {
     margin: 0 auto;
@@ -313,6 +320,7 @@ font-size: 48px;
     align-items: center;
     height: 120px;
     width: 100%;
+    width: 960px;
 }
 .logos_img {
     height: 65px;
@@ -362,15 +370,16 @@ font-size: 48px;
     margin-top: -16px;
     margin-left: 50px;
     margin-right: 50px;
-    font-family: "Open Sans Light";
+    font-family: "Open Sans";
     font-size: 16px;
+    font-weight: 300;
     line-height: 22px;
     color: #454545;
 }
 .radio {
     height: 21px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .radio:hover {
     cursor: pointer;
@@ -406,12 +415,14 @@ font-size: 48px;
     font-family: "Open Sans ";
     font-size: 16px;
     color: #454545;
-    font-weight: bolder;
+    font-weight: 800;
+    margin-bottom: 10px;
 }
 .announcement p {
-    font-family: "Open Sans Light";
+    font-family: "Open Sans ";
     font-size: 16px;
     color: #454545;
+    font-weight: 300;
 }
 .next {
     height: 20px;
@@ -423,7 +434,7 @@ font-size: 48px;
     font-size: 18px;
     color: #454545;
 }
-.section_3 {
+.section_down {
     margin-left: auto;
     margin-right: auto;
     display: -webkit-flex;
@@ -442,7 +453,7 @@ font-size: 48px;
 
     height: 396px;
 }
-.wrapp__section_3__news {
+.wrapp__section_down__news {
     margin: 0 auto;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -458,7 +469,7 @@ font-size: 48px;
     align-items: flex-start;
     width:960px ;
 }
-.section_3__news {
+.section_down__news {
     width: 30%;
 }
 .sp__first--down {
@@ -484,6 +495,7 @@ font-size: 48px;
     line-height: 1.5;
     text-align: left;
     text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.392);
+    font-weight: 300;
 }
 .cm__center h2,
 .cm__right h2 {
@@ -496,6 +508,7 @@ font-size: 48px;
     font-family: "Open Sans";
     color: rgb(120, 120, 120);
     line-height: 1.5;
+    font-weight: 300;
 }
 .footer {
     margin-left: auto;
@@ -530,12 +543,13 @@ font-size: 48px;
     font-size: 12px;
     font-family: "Open Sans";
     color: #ffffff;
+    font-weight: 300;
 }
 .des__second {
     font-size: 12px;
     font-family: "Open Sans";
     color: #ffffff;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 
