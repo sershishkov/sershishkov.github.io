@@ -51,6 +51,12 @@
     .libero {
         display: none;
     }
+    .articles__left {
+        width: 45%;
+    }
+    .articles__right{
+        width: 52%;
+    }
     .footer {
         height: 200px;
         background-size: cover;

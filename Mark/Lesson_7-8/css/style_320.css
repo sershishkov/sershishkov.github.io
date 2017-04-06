@@ -9,11 +9,9 @@
         height: 599px;
     }
     .section_middle {
-        height: 1210px;
-    }
-    .articles {
         height: 787px;
     }
+
     .logos {
         height: 422px;
     }
@@ -140,9 +138,6 @@
     }
     .section_middle__wrap_content {
         height: 100%;
-        display: block;
-    }
-    .articles {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
@@ -152,6 +147,9 @@
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
+    }
+    .articles {
+
     }
     .articles__left,
     .articles__right {
@@ -213,5 +211,20 @@
     }
     .nav__footer {
         display: none;
+    }
+    .wrap__nav--footer {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-justify-content: center;
+        -ms-flex-pack: distribute;
+        justify-content:center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+
     }
 }
