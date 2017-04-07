@@ -159,6 +159,9 @@
     .articles__right {
         width: 95%;
     }
+    .articles__right {
+        padding-left: 0;
+    }
     .articles {
         height: 790px;
     }

@@ -27,6 +27,15 @@
     .article__top {
         width: 708px;
     }
+    .article__top__content h1 {
+        font-size: 48px;
+    }
+    .article__top__content h2 {
+        font-size: 24px;
+    }
+    .article__top__content p {
+        font-size: 16px;
+    }
     .slider_l {
         margin-right: 0;
     }
@@ -41,6 +50,12 @@
     }
     .libero {
         display: none;
+    }
+    .articles__left {
+        width: 45%;
+    }
+    .articles__right{
+        width: 52%;
     }
     .footer {
         height: 200px;

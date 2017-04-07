@@ -1,11 +1,9 @@
 
-.wrapper {
-    margin: 0 auto;
+body {
     font-family: 'League Gothic';
     font-weight: normal;
     font-style: normal;
 }
-
 .header {
     margin: 0 auto;
     background: url("../img/background_1.jpg") top center no-repeat;
@@ -41,14 +39,12 @@
     color: #ffffff;
     font-size: 48px;
 }
-
 .sp__second {
      background: linear-gradient(#745083, #33263a);
      -webkit-background-clip: text;
      color: transparent;
     font-size: 48px;
 }
-
 .navigation__list {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -67,7 +63,6 @@
 .navigation__list li {
     border-bottom: 2px solid transparent;
 }
-
 .navigation__list li:hover {
     border-bottom: 2px solid #edbfff;
 }
@@ -78,8 +73,6 @@
     text-transform: uppercase;
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.157);
 }
-
-
 .presentation {
     margin-top: 164px;
     margin-left: auto;
@@ -99,7 +92,6 @@
     height: 400px;
     background-color:RGBA(0,0,0,0.2);
 }
-
 .slider_l {
     margin-right: 292px;
 }
@@ -135,8 +127,8 @@
 .article__top__content p {
     font-family: 'Open Sans';
     font-size: 18px;
-    color: #dadadc;
-    line-height: 20px;
+    color: #c7c6c9;
+    line-height: 24px;
     font-weight: 300;
 }
 .article__top__img {
@@ -205,8 +197,9 @@
     font-size: 30px;
 }
 .content__text p {
-    margin-top: 19px;
-    line-height: 20px;
+    margin-top: 10px;
+    line-height: 24px;
+    text-shadow: 0.5px 0.866px 0px rgba(15, 21, 24, 0.392);
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 300;
@@ -274,21 +267,110 @@
     width: 960px;
     height: 100%;
 }
-
 .articles__left,
 .articles__right {
     height: 323px;
 }
 .articles__left {
     width: 45%;
+    padding-left: 50px;
+    padding-right: 13px;
 }
-.articles__right{
-    width: 50%;
-}
+
 .articles__left {
     background: url("../img/bg_for_letter.png") center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.articles__left h1 {
+    margin-left: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #454545;
+}
+.starts {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #edbfff;
+}
+.avatar {
+    margin-top: 35px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height:51px ;
+}
+.avatar img {
+    margin-left: -63px;
+}
+.articles__left p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #454545;
+}
+.articles__right{
+    width: 50%;
+    padding-left: 38px;
+}
+.articles__right__notes {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 66px;
+}
+.articles__right h1 {
+    margin-top: 47px;
+
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #454545;
+}
+.circle__first {
+    margin-top: 13px;
+}
+.img__circle {
+    width: 50px;
+
+    margin-right: 13px;
+    text-align: center;
+}
+.announcement h5 {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #454545;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.announcement p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #454545;
+    font-weight: 300;
+}
+.next {
+    height: 20px;
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+}
+.next a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #454545;
+    text-shadow: 1px 1px 0px #ffffff;
 }
 .wrap__logos {
     border: 1px solid #fefefe;
@@ -339,33 +421,7 @@
     background-image: url("../img/logos6.png");
     width: 82px;
 }
-.articles__left h1 {
-    margin-top: 32px;
-    margin-left: 50px;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #454545;
-}
-.articles__left p:before {
-    content: url("../img/avatar.png");
-    margin-left: -56px;
-    margin-right: 5px;
-}
-.starts {
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #edbfff;
-}
-.articles__left p {
-    margin-top: -16px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-family: 'Open Sans';
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 22px;
-    color: #454545;
-}
+
 .radio {
     height: 21px;
     text-align: center;
@@ -374,57 +430,7 @@
 .radio:hover {
     cursor: pointer;
 }
-.articles__right__notes {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 66px;
-}
-.articles__right h1 {
-    margin-top: 32px;
-    margin-bottom: 23px;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #454545;
-}
-.img__circle {
-    width: 50px;
-    margin-right: 16px;
-    text-align: center;
-}
-.announcement h5 {
-    font-family: 'Open Sans';
-    font-size: 16px;
-    color: #454545;
-    font-weight: 800;
-    margin-bottom: 10px;
-}
-.announcement p {
-    font-family: 'Open Sans';
-    font-size: 16px;
-    color: #454545;
-    font-weight: 300;
-}
-.next {
-    height: 20px;
-    width: 100%;
-    text-align: right;
-}
-.next a{
-    text-decoration: none;
-    font-size: 18px;
-    color: #454545;
-    text-shadow: 1px 1px 0px #ffffff;
-}
+
 .section_down {
     margin-left: auto;
     margin-right: auto;
@@ -468,20 +474,6 @@
     font-size: 48px;
     text-shadow: 0px 1px 0px #ffffff;
 }
-.RECENT_COMMENTS {
-    font-size: 30px;
-    font-family: "League Gothic";
-    color: rgb(69, 69, 69);
-    line-height: 0.8;
-    text-align: left;
-    text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.392);
-    position: absolute;
-    left: 1057px;
-    top: 1914.977px;
-    z-index: 88;
-}
-
-
 .sp__second--down {
     background: #b9b9b9;
     -webkit-background-clip: text;  /* подробнее про background-clip */
@@ -489,12 +481,14 @@
     font-size: 48px;
 }
 .cm__left h6 {
+    margin-top: 10px;
     font-size: 16px;
-    font-family: "Georgia";
+    font-family: 'Georgia';
     color: rgb(197, 197, 197);
     font-style: italic;
 }
 .cm__left p {
+    margin-top: 10px;
     font-size: 16px;
     font-family: 'Open Sans';
     color: rgb(120, 120, 120);
@@ -511,10 +505,11 @@
 }
 .cm__center p,
 .cm__right p {
+    margin-top: 7px;
     font-size: 16px;
     font-family: 'Open Sans';
     color: rgb(120, 120, 120);
-    line-height: 1.5;
+    line-height: 24px;
     font-weight: 300;
 }
 .footer {
@@ -540,12 +535,12 @@
     width: 960px;
     height: 114px;
 }
-
 .nav__down {
     width: 595px;
 }
 .nav__down a{
     font-size: 20px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
 }
 .des__first {
     font-size: 12px;
@@ -559,6 +554,7 @@
     color: #ffffff;
     font-weight: 800;
 }
+
 
 
 

@@ -1,15 +1,16 @@
 
 .wrapper {
     margin: 0 auto;
-    font-family: "League Gothic Regular";
+    font-family: 'League Gothic';
+    font-weight: normal;
+    font-style: normal;
 }
 
 .header {
     margin: 0 auto;
     background: url("../img/background_1.jpg") top center no-repeat;
-    height: 869px;
+    height: 846px;
     border:1px solid transparent;
-    width: 2400px;
 }
 
 .header__head {
@@ -33,16 +34,21 @@
 .logo {
     margin-left: 36px;
 }
-.sp__first {
+.logo__a {
+    text-decoration: none;
+}
+ .sp__first {
     color: #ffffff;
     font-size: 48px;
 }
+
 .sp__second {
-    background: linear-gradient(#745083, #33263a);  /* подробнее про градиенты */
-    -webkit-background-clip: text;  /* подробнее про background-clip */
-    color: transparent;
+     background: linear-gradient(#745083, #33263a);
+     -webkit-background-clip: text;
+     color: transparent;
     font-size: 48px;
 }
+
 .navigation__list {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -70,7 +76,10 @@
     color: #ffffff;
     font-size: 24px;
     text-transform: uppercase;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.157);
 }
+
+
 .presentation {
     margin-top: 164px;
     margin-left: auto;
@@ -88,9 +97,9 @@
     -ms-flex-align: center;
     align-items: center;
     height: 400px;
-    width: 2400px;
-    background-color:RGBA(0,0,0,0.1);
+    background-color:RGBA(0,0,0,0.2);
 }
+
 .slider_l {
     margin-right: 292px;
 }
@@ -124,18 +133,18 @@
     color: #edbfff;
 }
 .article__top__content p {
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-size: 18px;
     color: #dadadc;
     line-height: 20px;
-    font-weight: 100;
+    font-weight: 300;
 }
 .article__top__img {
     width: 42%;
     text-align: center;
 }
 .article__top__img img {
-    margin-top: -55px;
+
 }
 .radio_top {
     margin-top: 90px;
@@ -146,10 +155,13 @@
 .radio_top img {
     margin-left: 75%;
 }
-.about {
+.radio_top:hover {
+    cursor: pointer;
+
+}
+.section_top {
     margin-left: auto;
     margin-right: auto;
-    width: 2400px;
     height: 340px;
     background: linear-gradient(to top,#33253a,#745083);
 }
@@ -195,21 +207,23 @@
 .content__text p {
     margin-top: 19px;
     line-height: 20px;
-    font-family: "Open Sans ";
+    font-family: 'Open Sans';
     font-size: 16px;
-    font-weight: lighter;
+    font-weight: 300;
 }
 .content__text h3 {
     margin-top: 27px;
     text-align: right;
+    text-shadow: 0.5px 0.866px 0px rgba(15, 21, 24, 0.392);
 }
+
 .content__text a {
     text-decoration:none;
     color: #ffffff;
     font-size: 18px;
 }
 .content__text a:hover {
-    text-shadow: 0px 0px 21px rgba(255, 255, 255, 0.85);
+    text-shadow: 0px 0px 8px  rgba(255, 255, 255, 0.9);
 }
 .sprite__key,
 .sprite__think,
@@ -219,6 +233,7 @@
     display: block;
     overflow: hidden;
     height: 35px;
+    margin-top: 8px;
 }
 .sprite__key {
     width: 30px;
@@ -235,14 +250,14 @@
     height: 31px;
     background-position: -45px -5px;
 }
-.main {
+.section_middle {
     margin-left: auto;
     margin-right: auto;
-    width: 2400px;
-    height: 607px;
+    height: 486px;
     background-color: #f9f9f9;
+    border-bottom: 1px solid #e6e6e6;
 }
-.main__wrap_content {
+.section_middle__wrap_content {
     margin: 0 auto;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -257,37 +272,27 @@
     -ms-flex-line-pack: distribute;
     align-content: space-around;
     width: 960px;
-    height: 607px;
+    height: 100%;
 }
-.articles {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 470px;
-}
+
 .articles__left,
 .articles__right {
     height: 323px;
 }
 .articles__left {
-    width: 48%;
+    width: 45%;
 }
 .articles__right{
-    width: 52%;
+    width: 50%;
 }
 .articles__left {
     background: url("../img/bg_for_letter.png") center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+}
+.wrap__logos {
+    border: 1px solid #fefefe;
+    background-color: #f9f9f9;
 }
 .logos {
     margin: 0 auto;
@@ -305,6 +310,7 @@
     align-items: center;
     height: 120px;
     width: 100%;
+    width: 960px;
 }
 .logos_img {
     height: 65px;
@@ -354,15 +360,19 @@
     margin-top: -16px;
     margin-left: 50px;
     margin-right: 50px;
-    font-family: "Open Sans Light";
+    font-family: 'Open Sans';
     font-size: 16px;
+    font-weight: 300;
     line-height: 22px;
     color: #454545;
 }
 .radio {
     height: 21px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 55px;
+}
+.radio:hover {
+    cursor: pointer;
 }
 .articles__right__notes {
     display: -webkit-flex;
@@ -392,15 +402,17 @@
     text-align: center;
 }
 .announcement h5 {
-    font-family: "Open Sans ";
+    font-family: 'Open Sans';
     font-size: 16px;
     color: #454545;
-    font-weight: bolder;
+    font-weight: 800;
+    margin-bottom: 10px;
 }
 .announcement p {
-    font-family: "Open Sans Light";
+    font-family: 'Open Sans';
     font-size: 16px;
     color: #454545;
+    font-weight: 300;
 }
 .next {
     height: 20px;
@@ -411,8 +423,9 @@
     text-decoration: none;
     font-size: 18px;
     color: #454545;
+    text-shadow: 1px 1px 0px #ffffff;
 }
-.comments {
+.section_down {
     margin-left: auto;
     margin-right: auto;
     display: -webkit-flex;
@@ -428,10 +441,10 @@
     -ms-flex-align: center;
     align-items: center;
     background-color: #ececec;
-    width: 2400px;
+    border-top: 1px solid #d8d8d8;
     height: 396px;
 }
-.wrapp__comments__news {
+.wrapp__section_down__news {
     margin: 0 auto;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -447,13 +460,28 @@
     align-items: flex-start;
     width:960px ;
 }
-.comments__news {
+.section_down__news {
     width: 30%;
 }
 .sp__first--down {
     color: #454545;
     font-size: 48px;
+    text-shadow: 0px 1px 0px #ffffff;
 }
+.RECENT_COMMENTS {
+    font-size: 30px;
+    font-family: "League Gothic";
+    color: rgb(69, 69, 69);
+    line-height: 0.8;
+    text-align: left;
+    text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.392);
+    position: absolute;
+    left: 1057px;
+    top: 1914.977px;
+    z-index: 88;
+}
+
+
 .sp__second--down {
     background: #b9b9b9;
     -webkit-background-clip: text;  /* подробнее про background-clip */
@@ -462,35 +490,37 @@
 }
 .cm__left h6 {
     font-size: 16px;
-    font-family: "Georgia";
+    font-family: 'Georgia';
     color: rgb(197, 197, 197);
     font-style: italic;
 }
 .cm__left p {
     font-size: 16px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     color: rgb(120, 120, 120);
     line-height: 1.5;
     text-align: left;
     text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.392);
+    font-weight: 300;
 }
 .cm__center h2,
 .cm__right h2 {
     font-size: 30px;
     color: rgb(69, 69, 69);
+    text-shadow:1px 1px 0px #ffffff;
 }
 .cm__center p,
 .cm__right p {
     font-size: 16px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     color: rgb(120, 120, 120);
     line-height: 1.5;
+    font-weight: 300;
 }
 .footer {
     margin-left: auto;
     margin-right: auto;
-    background-image: url("../img/bg_footer.jpg");
-    width: 2400px;
+    background: url("../img/bg_footer.jpg") center;
     height: 114px;
 }
 .wrap__nav--footer {
@@ -501,15 +531,16 @@
     -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    -webkit-justify-content: space-around;
+    -webkit-justify-content: space-between;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: space-between;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
     width: 960px;
     height: 114px;
 }
+
 .nav__down {
     width: 595px;
 }
@@ -518,14 +549,15 @@
 }
 .des__first {
     font-size: 12px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     color: #ffffff;
+    font-weight: 300;
 }
 .des__second {
     font-size: 12px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     color: #ffffff;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 
