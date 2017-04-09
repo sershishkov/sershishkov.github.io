@@ -56,6 +56,7 @@
     }
     .articles__right{
         width: 52%;
+        padding-left: 19px;
     }
     .footer {
         height: 200px;

@@ -127,7 +127,7 @@ body {
 .article__top__content p {
     font-family: 'Open Sans';
     font-size: 18px;
-    color: #c7c6c9;
+    color: #ffffff;
     line-height: 24px;
     font-weight: 300;
 }
@@ -192,6 +192,7 @@ body {
 .content__text {
     width: 80%;
     color: #ffffff;
+
 }
 .content__text h1 {
     font-size: 30px;
@@ -199,15 +200,18 @@ body {
 .content__text p {
     margin-top: 10px;
     line-height: 24px;
-    text-shadow: 0.5px 0.866px 0px rgba(15, 21, 24, 0.392);
+    text-shadow: 1px 1px 0 #0f1518;
     font-family: 'Open Sans';
+    overflow: hidden;
+    text-overflow: clip;
     font-size: 16px;
     font-weight: 300;
+
 }
 .content__text h3 {
     margin-top: 27px;
     text-align: right;
-    text-shadow: 0.5px 0.866px 0px rgba(15, 21, 24, 0.392);
+    text-shadow: 1px 1px 0 #0f1518;
 }
 
 .content__text a {
@@ -275,6 +279,7 @@ body {
     width: 45%;
     padding-left: 50px;
     padding-right: 13px;
+
 }
 
 .articles__left {
@@ -302,7 +307,7 @@ body {
     height:51px ;
 }
 .avatar img {
-    margin-left: -63px;
+    margin-left: -77px;
 }
 .articles__left p {
     font-family: 'Open Sans';
@@ -310,6 +315,8 @@ body {
     font-weight: 300;
     line-height: 24px;
     color: #454545;
+    overflow: hidden;
+    text-overflow: clip;
 }
 .articles__right{
     width: 50%;
@@ -332,7 +339,6 @@ body {
 }
 .articles__right h1 {
     margin-top: 47px;
-
     font-size: 30px;
     text-transform: uppercase;
     color: #454545;
@@ -343,10 +349,17 @@ body {
 .img__circle {
     width: 50px;
 
-    margin-right: 13px;
     text-align: center;
 }
+.announcement {
+    width: 84%;
+    padding-left: 3%;
+    padding-right: 1%;
+}
 .announcement h5 {
+    overflow: hidden;
+    text-overflow: clip;
+    height: 1em;
     font-family: 'Open Sans';
     font-size: 16px;
     color: #454545;
@@ -357,6 +370,9 @@ body {
     font-family: 'Open Sans';
     font-size: 16px;
     color: #454545;
+    overflow: hidden;
+    text-overflow: clip;
+    height: 1em;
     font-weight: 300;
 }
 .next {
@@ -475,9 +491,7 @@ body {
     text-shadow: 0px 1px 0px #ffffff;
 }
 .sp__second--down {
-    background: #b9b9b9;
-    -webkit-background-clip: text;  /* подробнее про background-clip */
-    color: transparent;
+    color: #b9b9b9;
     font-size: 48px;
 }
 .cm__left h6 {
