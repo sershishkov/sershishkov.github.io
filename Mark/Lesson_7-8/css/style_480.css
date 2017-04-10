@@ -48,13 +48,15 @@
         background-color: #2d2533;
         border-bottom: 1px solid #edbfff;
     }
+
     .list__first:hover {
         border-radius: 16px 16px 0px 0px;
     }
     .navigation__list li:last-child:hover {
         border-radius:  0px 0px 16px 16px;
     }
-    .home{
+    .home {
+        padding: 6px;
         border-bottom: 1px solid #edbfff;
     }
     .presentation {
@@ -157,10 +159,7 @@
     }
     .articles__left,
     .articles__right {
-        width: 95%;
-    }
-    .articles__right {
-        padding-left: 0;
+        width: 99%;
     }
     .articles {
         height: 790px;

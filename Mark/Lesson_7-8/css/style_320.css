@@ -87,6 +87,7 @@
         background-color: transparent;
     }
     .home{
+        padding: 6px;
         border-bottom: 1px solid #edbfff;
     }
     .slider_l {
@@ -153,19 +154,13 @@
         -ms-flex-align: center;
         align-items: center;
     }
-    .articles {
 
-    }
     .articles__left,
     .articles__right {
         width: 95%;
         height: 49%;
     }
-    .articles__left {
 
-        padding-left: 40px;
-        padding-right: 13px;
-    }
     .articles__right {
         padding-left: 0;
     }
@@ -195,6 +190,7 @@
         font-size: 16px;
         line-height: 22px;
         color: #454545;
+        height: 53%;
     }
     .logos {
         margin-top: 0;
