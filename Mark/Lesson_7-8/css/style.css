@@ -352,10 +352,14 @@ body {
     font-size: 16px;
     color: #454545;
     font-weight: 800;
-    margin-bottom: 10px;
-    text-shadow: 1px 0px 0px #c3c3c3;
-    padding: 2px;
-    height: 1.2em;
+    margin-bottom: 2px;
+    text-shadow: 1px 1px 0px #ffffff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 11px;
+    height: 24px;
+    line-height: 1.2em;
+    border:1px solid red;
 }
 .announcement p {
     font-family: 'Open Sans';
@@ -364,8 +368,12 @@ body {
     overflow: hidden;
     text-overflow: clip;
     font-weight: 300;
-    padding: 1px;
-    height: 1.2em;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 11px;
+    height: 24px;
+    line-height: 1.2em;
+    border:1px solid blue;
 }
 .next {
     height: 20px;
