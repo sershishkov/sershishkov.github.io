@@ -359,7 +359,6 @@ body {
     padding-left: 11px;
     height: 24px;
     line-height: 1.2em;
-    border:1px solid red;
 }
 .announcement p {
     font-family: 'Open Sans';
@@ -373,7 +372,6 @@ body {
     padding-left: 11px;
     height: 24px;
     line-height: 1.2em;
-    border:1px solid blue;
 }
 .next {
     height: 20px;
