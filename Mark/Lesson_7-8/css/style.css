@@ -508,7 +508,7 @@ body {
     font-family: 'Georgia';
     color: rgb(197, 197, 197);
     font-style: italic;
-    text-shadow: 1px 1px 0px 0px #ffffff;
+    text-shadow: 1px 1px 0px  #ffffff;
 }
 .cm__left p {
     margin-top: 10px;
@@ -517,7 +517,7 @@ body {
     color: rgb(120, 120, 120);
     line-height: 1.5;
     text-align: left;
-    text-shadow: 1px 1px 0px 0px #ffffff;
+    text-shadow: 1px 1px 0px  #ffffff;
     font-weight: 300;
 }
 .cm__center h2,
@@ -534,7 +534,7 @@ body {
     color: rgb(120, 120, 120);
     line-height: 24px;
     font-weight: 300;
-    text-shadow: 1px 1px 0px 0px #ffffff;
+    text-shadow: 1px 1px 0px  #ffffff;
 }
 .footer {
     margin-left: auto;

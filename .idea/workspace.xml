@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f795a239-dbf1-44bc-b867-01e3d8f8a3bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_4/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_5/css/fonts.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_6/css/font.css" />
@@ -44,10 +43,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/Lesson_3/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/sershishkov.github.io" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mark/Lesson_7-8/css/style_320.css" afterPath="$PROJECT_DIR$/Mark/Lesson_7-8/css/style_320.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mark/Lesson_7-8/css/style_480.css" afterPath="$PROJECT_DIR$/Mark/Lesson_7-8/css/style_480.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mark/Lesson_9/css/style.css" afterPath="$PROJECT_DIR$/Mark/Lesson_9/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mark/Lesson_9/index.html" afterPath="$PROJECT_DIR$/Mark/Lesson_9/index.html" />
     </list>
     <ignored path="HomeWorkSh.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,8 +68,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Mark/Lesson_7-8/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="28">
-                  <caret line="143" column="60" lean-forward="true" selection-start-line="143" selection-start-column="60" selection-end-line="143" selection-end-column="60" />
+                <state relative-caret-position="170">
+                  <caret line="152" column="63" lean-forward="true" selection-start-line="152" selection-start-column="55" selection-end-line="152" selection-end-column="63" />
                   <folding />
                 </state>
               </provider>
@@ -83,12 +78,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Mark/Lesson_7-8/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-7280">
-                  <caret line="224" column="53" lean-forward="false" selection-start-line="224" selection-start-column="53" selection-end-line="224" selection-end-column="53" />
+                <state relative-caret-position="1283">
+                  <caret line="536" column="29" lean-forward="false" selection-start-line="536" selection-start-column="29" selection-end-line="536" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -257,7 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -327,6 +321,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -549,18 +544,19 @@
       <workItem from="1491971286921" duration="6648000" />
       <workItem from="1492102525273" duration="182000" />
       <workItem from="1492102928785" duration="3065000" />
-      <workItem from="1492325962657" duration="3023000" />
+      <workItem from="1492325962657" duration="3616000" />
+      <workItem from="1492344586226" duration="696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="554127000" />
+    <option name="totallyTimeSpent" value="555416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1223176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123390555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -754,13 +750,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mark/Lesson_9/css/bootstrap.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="0" column="84426" lean-forward="false" selection-start-line="0" selection-start-column="84417" selection-end-line="0" selection-end-column="84426" />
         </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mark/Lesson_7-8/css/font.css">
@@ -848,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,22 +851,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mark/Lesson_7-8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="152" column="63" lean-forward="true" selection-start-line="152" selection-start-column="55" selection-end-line="152" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mark/Lesson_7-8/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7280">
-          <caret line="224" column="53" lean-forward="false" selection-start-line="224" selection-start-column="53" selection-end-line="224" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mark/Lesson_7-8/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="143" column="60" lean-forward="true" selection-start-line="143" selection-start-column="60" selection-end-line="143" selection-end-column="60" />
+        <state relative-caret-position="1283">
+          <caret line="536" column="29" lean-forward="false" selection-start-line="536" selection-start-column="29" selection-end-line="536" selection-end-column="29" />
           <folding />
         </state>
       </provider>
