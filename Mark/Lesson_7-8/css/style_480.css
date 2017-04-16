@@ -48,7 +48,6 @@
         background-color: #2d2533;
         border-bottom: 1px solid #edbfff;
     }
-
     .list__first:hover {
         border-radius: 16px 16px 0px 0px;
     }
@@ -56,7 +55,7 @@
         border-radius:  0px 0px 16px 16px;
     }
     .home {
-        padding: 6px;
+        padding: 4px;
         border-bottom: 1px solid #edbfff;
     }
     .presentation {

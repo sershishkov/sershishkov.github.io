@@ -72,7 +72,7 @@ body {
     color: #ffffff;
     font-size: 24px;
     text-transform: uppercase;
-    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.157);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 .presentation {
     margin-top: 164px;
@@ -120,10 +120,12 @@ body {
 .article__top__content h1 {
     font-size: 60px;
     color: #ffffff;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
 .article__top__content h2 {
     font-size: 32px;
     color: #edbfff;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
 .article__top__content p {
     font-family: 'Open Sans';
@@ -131,6 +133,7 @@ body {
     color: #ffffff;
     line-height: 24px;
     font-weight: 300;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
 .article__top__img {
     width: 42%;
@@ -195,6 +198,7 @@ body {
 }
 .content__text h1 {
     font-size: 30px;
+    text-shadow: 1px 1px 0px #0f1518;
 }
 .content__text p {
     margin-top: 10px;
@@ -218,7 +222,7 @@ body {
     font-size: 18px;
 }
 .content__text a:hover {
-    text-shadow: 0px 0px 8px  rgba(255, 255, 255, 0.9);
+    text-shadow: 0px 0px 8px  rgba(255, 255, 255, 0.8);
 }
 .sprite__key,
 .sprite__think,
@@ -286,11 +290,13 @@ body {
     font-size: 30px;
     text-transform: uppercase;
     color: #454545;
+    text-shadow: 1px 1px 0px 0px  #ffffff;
 }
 .starts {
     font-size: 30px;
     text-transform: uppercase;
     color: #edbfff;
+    text-shadow: 1px 1px 0px 0px  #ffffff;
 }
 .avatar {
     margin-top: 35px;
@@ -312,6 +318,7 @@ body {
     color: #454545;
     overflow: hidden;
     text-overflow: clip;
+    text-shadow: 1px 1px 0px 0px  #ffffff;
 }
 .articles__right{
     width: 47%;
@@ -336,6 +343,7 @@ body {
     font-size: 30px;
     text-transform: uppercase;
     color: #454545;
+    text-shadow: 1px 1px 0px 0px  #ffffff;
 }
 .circle__first {
     margin-top: 13px;
@@ -372,6 +380,7 @@ body {
     padding-left: 11px;
     height: 24px;
     line-height: 1.2em;
+    text-shadow: 1px 1px 0px #ffffff;
 }
 .next {
     height: 20px;
@@ -491,6 +500,7 @@ body {
 .sp__second--down {
     color: #b9b9b9;
     font-size: 48px;
+    text-shadow: 0px 1px 0px #ffffff;
 }
 .cm__left h6 {
     margin-top: 10px;
@@ -554,19 +564,21 @@ body {
 }
 .nav__down a{
     font-size: 20px;
-    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 .des__first {
     font-size: 12px;
     font-family: 'Open Sans';
     color: #ffffff;
     font-weight: 300;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 .des__second {
     font-size: 12px;
     font-family: 'Open Sans';
     color: #ffffff;
     font-weight: 800;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 
