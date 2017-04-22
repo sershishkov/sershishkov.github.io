@@ -1,72 +1,67 @@
 @media (min-width: 768px) and (max-width: 959px) {
-    .section {
-        width: 768px;
+    .container {
+        min-width: 708px;
+        max-width: 899px;
     }
-    .header {
-        height: 789px;
-        border:1px solid transparent;
+    .wrapper__img {
+        height: 798px;
     }
-    .header__head {
-        margin-top: 70px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 728px;
+    .wrapper__gradient {
+        height: 342px;
+    }
+    .wrapper__news {
+        height: 486px;
+    }
+    .wrapper__company {
+        height: 120px;
+    }
+    .wrapper__gray {
+        height: 396px;
+    }
+    .wrapper__footer {
+        height: 200px;
+    }
+    .navbar--top {
+        display: block;
+        min-width: 708px;
+        max-width: 899px;
     }
     .logo {
         margin-left: 0;
     }
-    .navigation__list {
-        margin-top: 39px;
+    .menu {
+        margin-top: 38px;
+    }
+    .wrap__presentation {
+        margin-top: 80px;
     }
     .presentation {
-        margin-top: 80px;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
+        margin: 0 auto;
+        max-width: 959px;
+        min-width: 708px;
     }
-    .article__top {
-        width: 708px;
+    .section__presentation {
+        min-width: 708px;
+        max-width: 899px;
     }
-    .article__top__content h1 {
+    .article__presentation h1{
         font-size: 48px;
     }
-    .article__top__content h2 {
+    .article__presentation h2{
         font-size: 24px;
     }
-    .article__top__content p {
+    .article__presentation p{
         font-size: 16px;
+        line-height: 30px;
     }
-    .slider_l {
-        margin-right: 0;
+    .radio__presentation {
+        margin-top: 37px;
     }
-    .slider_r {
-        margin-left: 0;
-    }
-    .radio_top {
-        margin-top: 40px;
-    }
-    .announcement p {
-        width: 310px;
-    }
-    .libero {
-        display: none;
-    }
-    .articles__left {
-        width: 45%;
-    }
-    .articles__right{
-        width: 52%;
-
-    }
-    .footer {
-        height: 200px;
-        background-size: cover;
-    }
-    .wrap__nav--footer {
+    .section__footer {
         display: block;
         border: 1px solid transparent;
     }
-    .nav__down {
+    .menu--down {
         margin-top: 47px;
         margin-bottom: 40px;
     }
