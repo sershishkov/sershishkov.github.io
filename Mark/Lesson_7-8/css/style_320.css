@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 479px) {
+@media (min-width: 320px) and (max-width: 479px){
     .container {
         min-width: 260px;
         max-width: 419px;
@@ -76,13 +76,19 @@
     .presentation {
         margin: 0 auto;
         max-width: 479px;
-        min-width: 320px;
+        min-width: 315px;
     }
     .section__presentation {
         max-width: 419px;
-        min-width: 260px;
+        min-width: 228px;
+    }
+    .slider_l img,
+    .slider_r img{
+        width: 20px;
+        height: auto;
     }
     .article__presentation {
+        margin: 0 auto;
         width: 100%;
     }
     .article__presentation__img {
@@ -93,6 +99,7 @@
     }
     .article__presentation h2{
         font-size: 18px;
+        overflow: hidden;
     }
     .article__presentation p{
         display: none;
@@ -149,13 +156,19 @@
     }
     .section__company {
         display: flex;
-        flex-flow: column wrap;
+        flex-flow:row wrap;
+        justify-content: space-between;
+    }
+    .company__first,
+    .company__second {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-flow:column wrap;
         justify-content: space-around;
-        align-content: space-around;
+        align-items: center;
     }
-    .logos_img {
-        margin-bottom: 2rem;
-    }
+
     .section__footer {
         display: flex;
         flex-flow: column wrap;

@@ -359,12 +359,20 @@ a {
     text-shadow: 1px 1px 0px #ffffff;
 }
 .section__company {
-    padding: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.company__first,
+.company__second {
+    width: 50%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    align-content: center;
+    align-items: center;
 }
+
 .logos_img {
     height: 65px;
 }

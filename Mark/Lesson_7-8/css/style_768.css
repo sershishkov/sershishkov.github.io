@@ -44,6 +44,13 @@
         min-width: 708px;
         max-width: 899px;
     }
+    .article__presentation {
+        width: 70%;
+    }
+    .article__presentation__img {
+
+        margin-right: 3%;
+    }
     .article__presentation h1{
         font-size: 48px;
     }
@@ -62,6 +69,8 @@
         border: 1px solid transparent;
     }
     .menu--down {
+        padding-left: 5px;
+        padding-right: 5px;
         margin-top: 47px;
         margin-bottom: 40px;
     }
