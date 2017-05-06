@@ -1,10 +1,13 @@
 /* Created by shyshkov on 17.04.2017. */
-'use strict'
+'use strict';
 //Задание №1
 /*Написать функцию pow, аналогичную Math.pow,
 которая должна возводить указанное число в указанную степень.
  Указать число и степень пользователь должен через команду prompt.
  */
+ function isNumeric(n) {
+     return !isNaN(parseFloat(n)) && isFinite(n);
+ }
 function myPow(x, n) {
     var result = x;
     for (var i = 1; i < n; i++) {
@@ -12,9 +15,21 @@ function myPow(x, n) {
     }
     return result;
 }
-var base = +prompt('Введите значение основания', '');
-var y = +prompt('Введите целую степень,больше 0', '');
-var res = myPow(base,y);
+var base=0;
+while (!base) {
+    var temp = prompt('Введите корректное значение основания', '');
+        if ((isNumeric(temp))&&(temp!==0)){
+            base = temp;
+        }
+}
+var y=0;
+while (!y) {
+    temp = prompt('Введите корректное значение степени', '');
+    if (isNumeric(temp)){
+        y = temp > 0 ? parseInt(temp) : -parseInt(temp);
+    }
+}
+var res = myPow(base, y);
     alert(base+' в степени ' + y + ' будет: ' + res);
 
    // Задание №2
@@ -35,10 +50,10 @@ var names = [];
     for  ( var i = 0; i < 5 ; i++) {
         names[i]=prompt('Ведите имя №'+(i+1), '');
     }
-var user=prompt('Назовите свое имя', '');
-var flag=false;
+var user = prompt('Назовите свое имя', '');
+var flag = false;
     for  (var j = 0; j < 5; j++) {
-        if( names[j]==user ) {
+        if( names[j] === user ) {
             flag=true;
             break;
         }
@@ -48,6 +63,4 @@ if (flag) {
 } else {
     alert('Ошибка! Такого имени в списке нет');
 }
-
-
 
