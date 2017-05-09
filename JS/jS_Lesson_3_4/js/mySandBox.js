@@ -88,16 +88,29 @@
  reverseString("hello"); возвратит "olleh"
  reverseString("Howdy"); возвратит "ydwoH"
  reverseString("Greetings from Earth"); возвратит
- "htraE morf sgniteerG"
- Написать функцию findLongestWord(str) которая получает
+ "htraE morf sgniteerG"*/
+            // var myStr ;
+            // var reversStr = [] ;
+            //  myStr = prompt('Введите строку','');
+            //  var max = myStr.length;
+            //  var j = myStr.length-1;
+            //  for (var i=0; i < max ; i++ , j--)
+            //      {
+            //          reversStr[i] = myStr[j];
+            //      }
+            //      var joinStr = reversStr.join('');
+            //         alert(joinStr);
+
+ /*Написать функцию findLongestWord(str) которая получает
  строку и возвращает массив, первый елемент массива это
  самое длинное слово в этой строке, второй елемент массива это
  длина этого слова.
  findLongestWord("The quick brown fox jumped over the lazy dog")
  ; вернет ['jumped', 6]
  findLongestWord("Google do a roll"); вернет ['Google', 6]
- findLongestWord("May the force be with you"); вернет ['force', 5]
- Написать функцию factorialize(num) которая получает число
+ findLongestWord("May the force be with you"); вернет ['force', 5]*/
+
+ /*Написать функцию factorialize(num) которая получает число
  и возврашает факториал этого числа
  factorialize(5); вернет 120
  factorialize(10); вернет 3628800

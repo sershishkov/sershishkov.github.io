@@ -1,0 +1,75 @@
+.header {
+
+}
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 1rem;
+
+}
+.questList {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem;
+    width: 90%;
+}
+.container {
+
+}
+.row {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.myForm {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 1rem;
+}
+.questList li {
+    margin-left: 2rem;
+}
+.questList {
+    list-style-type: decimal;
+    font-size: 2rem;
+    margin: 2rem;
+}
+.ansList {
+    margin: 2rem;
+}
+.inputCheck  {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.myLabel {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.inputCheck,.myLabel {
+    cursor: pointer;
+}
+.wrapBat {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+
+}
+.batCheck {
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    background-color: #cfe2f3;
+    border:1px solid #28282a;
+}
