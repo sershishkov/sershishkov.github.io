@@ -1,0 +1,38 @@
+.row {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.timer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 400px;
+}
+.dataTime, .wrapMilSec {
+    font-size: 150px;
+    color: #008000;
+}
+.wrapMilSec {
+
+}
+.buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 100px;
+}
+.btn {
+    width: 30%;
+    height: 80%;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
