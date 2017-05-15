@@ -65,11 +65,8 @@
     align-items: center;
     padding: 2rem;
     width: 100%;
-
 }
 .batCheck {
     padding: 1rem 3rem;
     font-size: 2rem;
-    background-color: #cfe2f3;
-    border:1px solid #28282a;
 }

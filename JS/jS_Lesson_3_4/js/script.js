@@ -15,8 +15,8 @@ var myForm = document.createElement('form');
 /////////////////////////////////////////////////////
 var ol = document.createElement('ol');
     ol.className = 'questList';
-var maxQuest = 3;
-var maxAn   =  3;
+var maxQuest = +prompt('Введите количество вопросов','');
+var maxAn   =  +prompt('Введите количество ответов','');
 for ( var i = 1;i <= maxQuest ; i++ ){
     var ulAnswer = document.createElement('ul');
         ulAnswer.className = 'ansList';
@@ -47,7 +47,7 @@ var divWrapBat = document.createElement('div');
     divWrapBat.className = "wrapBat";
 var button = document.createElement('input');
     button.setAttribute('type','button');
-    button.className = "batCheck";
+    button.className = "batCheck btn btn-primary btn-lg";
     button.setAttribute('value','Проверить мои результаты');
 
 /////////////////////////////////////////////////////
