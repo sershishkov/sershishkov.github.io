@@ -1,0 +1,88 @@
+.row {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.wrapMenu {
+    width: 500px;
+    height: 500px;
+    padding: 1rem;
+    overflow: auto;
+    border: 1px solid #c5c5c5;
+}
+.header {
+    height: 60px;
+    background-color: #e9e9e9;
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid #c5c5c5;
+}
+.myMenu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+}
+.myMenu li {
+    margin-left: 0.25rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 1px solid #c5c5c5;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border-bottom: none;
+}
+.active {
+    background-color: #007fff;
+    color:#ffffff;
+}
+.notice {
+    background-color: #f6f6f6;
+    color: #000000;
+}
+
+.myMenu {
+
+}
+.article {
+    padding: 3rem 1rem 2rem 1rem;
+    border: 1px solid #c5c5c5;
+    border-top: none;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.wrapForm {
+    padding: 2rem ;
+    position: relative;
+ }
+.wrapInput{
+    padding: 1rem ;
+    position: relative;
+    width: 500px;
+
+}
+.myTip {
+    position: absolute;
+    top:-20px;
+    left: 290px;
+    padding: 1rem;
+    width: 200px;
+    background-color: yellow;
+    border: 1px solid blue;
+    border-radius: 5px;
+    opacity: 0;
+
+}
+.wrapBtn {
+    padding: 2rem ;
+
+}
+input{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
+}

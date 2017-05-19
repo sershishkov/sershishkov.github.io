@@ -1,70 +1,47 @@
 
 
 'use strict';
-// function printNumbersInterval() {
-//     var i = 1;
-//     var timerId = setInterval(function() {
-//         console.log(i);
-//         if (i == 20) clearInterval(timerId);
-//         i++;
-//     }, 100);
-// }
-//
-// // вызов
-// printNumbersInterval();
-// //////////////////////////////////////////////////////////
-// console.log('//////////////////////////////////////////////////////////');
-// function printNumbersTimeout20_100() {
-//     var i = 1;
-//     var timerId = setTimeout(function go() {
-//         console.log(i);
-//         if (i < 20) setTimeout(go, 100);
-//         i++;
-//     }, 100);
-// }
-//
-// // вызов
-// printNumbersTimeout20_100();
-////////////////////////////////////////////////////////////////////////
-// setTimeout(function() {
-//     alert( i );
-// }, 100);
-//
-// var i;
-//
-// function hardWork() {
-//     // время выполнения этого кода >100 мс, сам код неважен
-//     for (i = 0; i < 1e8; i++) hardWork[i % 2] = i;
-// }
-//
-// hardWork();
-/////////////////////////////////////////////////////////////////////////////
-// var i;
-// var timer = setInterval(function() { // планируем setInterval каждые 10 мс
-//     i++;
-// }, 10);
-//
-// setTimeout(function() { // через 50 мс - отмена setInterval
-//     clearInterval(timer);
-//     alert( i ); // (*)
-// }, 50);
-//
-// // и запускаем тяжёлую функцию
-// function f() {
-//     // точное время выполнения не играет роли
-//     // здесь оно заведомо больше 100 мс
-//     for (i = 0; i < 1e8; i++) f[i % 2] = i;
-// }
-//
-// f();
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// function sumArgs() {
-//     // скопируем reduce из массива
-//     arguments.reduce = [].reduce;
-//     return arguments.reduce(function(a, b) {
-//         return a + b;
-//     });
-// }
-// alert( sumArgs(4, 5, 6) ); // 15
-///////////////////////////////////////////////////////////////////
 
+// // Учимся рулить
+// // Мы уже успели познакомиться с методом «.click()», в действительности этот
+// // метод представляет из себя обёртку для вызова «.on()» и «.trigger()»:
+//
+// if (arguments.length > 0) {
+//     this.on("click", null, data, fn ) :
+// } else {
+//     this.trigger("click");
+// }
+//
+// // Ой, код я чуть-чуть изменил — для читаемости, если же любопытство
+// // восторжествует, то ищите в исходном коде по строке «dblclick»
+// //
+// // Ну так давайте же попробуем без этих обёрток:
+//
+// // вешаем обработчик
+//     $('.class').on('click', function(){
+// // что-то делаем
+//     });
+// // вызываем обработчик
+// $('.class').trigger('click');
+// // отключаем обработчик
+// $('.class').off('click');
+//
+// Можно повесить обработчик событий практически на любой объект:
+
+// проще некуда
+    var obj = {
+        test:function() {
+            console.log('obj.test');
+        }
+    }
+
+// создаём обработчик произвольного события someEvent
+$(obj).on('someEvent', function(){
+    console.log('obj.someEvent');
+    this.test();
+});
+
+// инициируем событие someEvent $(obj).trigger('someEvent');
+
+// полюбопытствуем
+console.log(obj);

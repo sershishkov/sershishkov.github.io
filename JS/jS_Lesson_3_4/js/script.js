@@ -26,7 +26,8 @@ test = {
     createMyHeader: function () {
         var h1 = document.createElement('h1');
             h1.className = "header";
-            h1.innerHTML = this.data.title;
+            //h1.innerHTML = this.data.title;
+            h1.appendChild(document.createTextNode(this.data.title));
         return h1;
     },
     createMyList: function () {
@@ -47,14 +48,16 @@ test = {
                     ansLi.className = 'ansLi';
                     input.setAttribute( 'id', myId );
                     label.setAttribute( 'for', myId );
-                    label.innerHTML = textLabel;
+                    //label.innerHTML = textLabel;
+                    label.appendChild(document.createTextNode(textLabel));
                     ansLi.appendChild(input);
                     ansLi.appendChild(label);
                     ulAnswer.appendChild(ansLi);
             }
             var questionLi = document.createElement('li');
                 questionLi.className = 'questLi';
-                questionLi.innerHTML = this.data.questions[keyQ].title;
+                //questionLi.innerHTML = this.data.questions[keyQ].title;
+                questionLi.appendChild(document.createTextNode(this.data.questions[keyQ].title));
                 questionLi.appendChild(ulAnswer);
                 ol.appendChild(questionLi);
         }
