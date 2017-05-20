@@ -143,12 +143,21 @@ for (var key in myForm.data){
         var $parent = $(this).parent();
             $myTip = $parent.find('.myTip');
             $myTip.animate({'opacity':'1'},2000);
+        return false;
         }, function () {
             $myTip.animate({'opacity':'0'},2000);
+        return false;
         }
     );
+    var $allTips =$($divRow2).find('.myTip');
     $($button).on('click', function(){
-       var $allTips =$($divRow2).find('.myTip');
-            $allTips.animate({'opacity':'1'},3000).animate({'opacity':'0'},3000);
+        if($(this).text()==='Show Help'){
+            $allTips.animate({'opacity':'1'},400);
+            $(this).text('Hide help');
+        }else {
+            $allTips.animate({'opacity':'0'},400);
+            $(this).text('Show Help');
+        }
+        return false;
     });
 });
