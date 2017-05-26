@@ -8,28 +8,89 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/chosen.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aero.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src=" http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js" media="screen" ></script>
+    <script src="js/chosen.min.css"></script>
+    <script src="js/chosen.jquery.js"></script>
+    <!--<script src="js/prettyCheckable.min.js"></script>-->
+    <!--<script src="js/icheck.min.js"></script>-->
+
+
 
 </head>
 <body>
-<div class="menuItem expanded">
-    <div class="button">
-        Нажми меня
+<div class="container">
+    <div class="row">
+        <h1 >Карусель</h1>
+        <div  id="data">
+            <ul class="list">
+                <li><a class="grouped_elements" rel="group1" href="img/01_big.JPG"><img src="img/01_big.JPG" width="100px" alt=""/></a></li>
+                <li><a class="grouped_elements" rel="group1" href="img/02_big.JPG"><img src="img/02_big.JPG" width="100px" alt=""/></a></li>
+                <li><a class="grouped_elements" rel="group1" href="img/03_big.JPG"><img src="img/03_big.JPG" width="100px" alt=""/></a></li>
+                <li><a class="grouped_elements" rel="group1" href="img/04_big.JPG"><img src="img/04_big.JPG" width="100px" alt=""/></a></li>
+                <li><a class="grouped_elements" rel="group1" href="img/05_big.JPG"><img src="img/05_big.JPG" width="100px" alt=""/></a></li>
+                <li><a class="grouped_elements" rel="group1" href="img/06_big.JPG"><img src="img/06_big.JPG" width="100px" alt=""/></a></li>
+                <li><a class="grouped_elements" rel="group1" href="img/07_big.JPG"><img src="img/07_big.JPG" width="100px" alt=""/></a></li>
+                <li><a class="grouped_elements" rel="group1" href="img/08_big.JPG"><img src="img/08_big.JPG" width="100px" alt=""/></a></li>
+                <li><a class="grouped_elements" rel="group1" href="img/09_big.JPG"><img src="img/09_big.JPG" width="100px" alt=""/></a></li>
+                <li><a class="grouped_elements" rel="group1" href="img/10_big.JPG"><img src="img/10_big.JPG" width="100px" alt=""/></a></li>
+            </ul>
+        </div>
     </div>
-    <div class="panel">
-        <ul>
-            <li>Элемент меню 1</li>
-            <li> Элемент меню 2</li>
-            <li> Элемент меню 3</li>
-        </ul>
+    <h1 >Селект с плагином</h1>
+    <div class="row row2">
+
+
     </div>
+    <div class="wrapChJS">
+        <h1 >Чек боксы плагином jQuery</h1>
+        <form action="#" id="formJs" class="myFormCheck">
+            <label for="ch0" class="icheckbox labelChJQ" style="display: none">
+                <input type="checkbox" id="ch0" class="icheckbox_square-aero">
+                Чекбокс №0
+            </label>
+
+            <label for="ch1" class="icheckbox labelChJQ">
+                <input type="checkbox" id="ch1" class="icheckbox_square-aero">
+                Чекбокс №1
+            </label>
+            <label for="ch2" class="icheckbox labelChJQ">
+                <input type="checkbox" id="ch2" class="icheckbox_square-aero">
+                Чекбокс №2
+            </label>
+            <label for="ch3" class="icheckbox labelChJQ">
+               <input type="checkbox" id="ch3" class="icheckbox_square-aero disabled">
+                Чекбокс №3
+            </label>
+
+
+        </form>
+    </div>
+    <div class="wrapChCss">
+        <h1 >Чек боксы при помощи CSS</h1>
+        <form action="#" id="formCss" class="myFormCheck">
+            <input type="checkbox" id="ch4" class="chCss">
+            <label for="ch4">Чекбокс №4</label>
+            <input type="checkbox" id="ch5" class="chCss">
+            <label for="ch5">Чекбокс №5</label>
+            <input type="checkbox" id="ch6" class="chCss">
+            <label for="ch6">Чекбокс №6</label>
+        </form>
+    </div>
+
 </div>
 
 
-<!--<script src="js/script.js " async></script>-->
-<script src="js/mySandBox.js" async></script>
 
-</body>
+<script src="js/script.js " async></script>
+<!--<script src="js/mySandBox.js" async></script>-->
+
+ </body>
 </html>

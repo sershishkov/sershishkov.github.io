@@ -1,0 +1,17 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-js_checkbox_checked {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -5px;
+}
+
+.sprite-js_checkbox_unchecked {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -35px;
+}

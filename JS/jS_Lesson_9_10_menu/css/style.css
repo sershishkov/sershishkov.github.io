@@ -1,0 +1,83 @@
+h1 {
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+.menu0 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+}
+
+ li:hover {
+    cursor: pointer;
+}
+.menu1,
+.menu2,
+.menu3 {
+
+
+    display: none;
+}
+.active {
+
+    opacity: 1;
+}
+.menu0 li,
+.menu1 li,
+.menu2 li,
+.menu3 li {
+    padding: 2rem;
+    background-color: red;
+    width: 20rem;
+}
+
+.menu1 li,
+.menu2 li,
+.menu3 li {
+    border-bottom: 1px solid rebeccapurple;
+}
+li a:hover  {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+.with_sub_menu0,
+.with_sub_menu1,
+.with_sub_menu2 {
+    position: relative;
+
+}
+
+.menu1{
+    position: absolute;
+    left: -0.1rem;
+    top: 6rem;
+}
+
+.menu2 {
+    position: absolute;
+    top:-0.06rem;
+    left: 20rem;
+}
+.menu3 {
+    position: absolute;
+    top:-0.06rem;
+    left: 20rem;
+}
+h2 {
+    background-color:#0CF;
+    outline: 3px dashed red;
+}
+.myClassAfter:after {
+    content: url("../img/triangle.png");
+    margin-left: 6rem;
+}
