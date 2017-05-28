@@ -58,26 +58,26 @@ $divWrapMenu.append($myNav);
 
 $(liWithMenu0).hover(
     function () {
-        ul1.slideDown(400);
+        ul1.slideDown(2000);
     },
     function () {
-         ul1.slideUp(400);
+         ul1.slideUp(2000);
     }
 )
     $(liWithMenu1).hover(
         function () {
-            ul2.slideDown(400);
+            ul2.slideDown(2000);
         },
         function () {
-            ul2.slideUp(400);
+            ul2.slideUp(2000);
         }
     )
     $(liWithMenu2).hover(
         function () {
-            ul3.slideDown(400);
+            ul3.slideDown(2000);
         },
         function () {
-            ul3.slideUp(400);
+            ul3.slideUp(2000);
         }
     )
 ////////////////////////////////////////////////////////////////////////////
