@@ -11,15 +11,64 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
-
-
-
-
+    <script src="js/slider.js"></script>
+    <script src="js/template.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>-->
+    <script src="js/lodash.js"></script>-->
 </head>
 <body>
 <div class="container">
+    <h1 class="headers">Карусель Плагин</h1>
+    <div class="containerCorousel">
+        <div class="carousel-arrow-left"><span>Влево</span></div>
+        <div class="carousel-hider">
+            <ul class="carousel-list">
+                <li class="carousel-element"><img src="img/01_big.jpg" ><p>Описание 1</p></li>
+                <li class="carousel-element"><img src="img/02_big.jpg" ><p>Описание 2</p></li>
+                <li class="carousel-element"><img src="img/03_big.jpg" ><p>Описание 3</p></li>
+                <li class="carousel-element"><img src="img/04_big.jpg" ><p>Описание 4</p></li>
+                <li class="carousel-element"><img src="img/05_big.jpg" ><p>Описание 5</p></li>
+                <li class="carousel-element"><img src="img/06_big.jpg" ><p>Описание 6</p></li>
+                <li class="carousel-element"><img src="img/07_big.jpg" ><p>Описание 7</p></li>
+                <li class="carousel-element"><img src="img/08_big.jpg" ><p>Описание 8</p></li>
+                <li class="carousel-element"><img src="img/09_big.jpg" ><p>Описание 9</p></li>
+                <li class="carousel-element"><img src="img/10_big.jpg" ><p>Описание 10</p></li>
+                <li class="carousel-element"><img src="img/02_big.jpg" ><p>Описание 11</p></li>
+                <li class="carousel-element"><img src="img/03_big.jpg" ><p>Описание 12</p></li>
+            </ul>
+        </div>
+        <div class="carousel-arrow-right"><span>Вправо</span></div>
+    </div>
 
+    <h1 class="headers">Шаблон Резига</h1>
+    <div class=" wrapTemplate">
+        <script type="text/template" id="test">
+            <%for ( var i=0;i < data.length ;i++){%>
+                <div class="art">
+                    <h1><%= data[i].name %></h1>
+                    <h2><%= data[i].lastName %></h2>
+                    <h3><%= data[i].age %></h3>
+                    <p><%= data[i].content %></p>
+                </div>
+            <%};%>
+        </script>
+    </div>
 
+    <h1 class="headers">Шаблон Lodash</h1>
+    <div class="wrapTemplateLd">
+        <script type="text/template" id="testLd">
+            <%for ( var i = 0;i < ldata.length ; i++){%>
+            <div class="wrapfruit">
+                <h1><%= ldata[i].title %></h1>
+                    <ul class="listFruit">
+                        <%for ( var j=0 ; j < ldata[i].items.length ;j++){%>
+                        <li class="listItem"><%= ldata[i].items[j] %></li>
+                    </ul>
+                <%};%>
+            </div>
+            <%};%>
+        </script>
+    </div>
 </div>
 
 
