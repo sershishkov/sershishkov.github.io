@@ -46,8 +46,11 @@ var html = $('#test').html();
     ];
 
     var compil = _.template($('#testLd').html());
+    // alert(compil);
     var contentLd = compil({'ldata':products});
+    // alert(contentLd);
     $('.wrapTemplateLd').append(contentLd);
+
 
 });
 
