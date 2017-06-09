@@ -10,28 +10,64 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <!--<script src="js/jquery-3.2.1.min.js"></script>   -->
     <!--<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>-->
     <!--<script src="js/lodash.js"></script>-->
 
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>-->
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>-->
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>-->
 
     <script src="js/script.js " async></script>
     <!--<script src="js/mySandBox.js" async></script>-->
 </head>
 <body>
-<div class="container">
-    <<input placeholder="Enter ANY keyword" class="searchInput"/>
-    <div class="loading">Loading...</div>
-    <div class="wrapper"></div>
+    <div class="container">
+        <form action="#" class="myForm">
+            <input type="text" id="text1" placeholder="Enter: rose or black or yellow ">
+            <input type="button" id="but1" value="Поиск" class="btn btn-primary">
+        </form>
+         <div id="result"></div>
+        <div class="wrapTest">
+            <div class="wrapButCreatTest">
+                <input type="button" id="butCreatTest" value="Создать тест" class="btn btn-primary">
+            </div>
+            <div id="wrapFormCreate" class="wrapModalHide">
+                    <form action="#" class="formCreateTest">
+                        <div class="wrapsInp">
+                            <input type="text" id="inpTitle" placeholder="Введите тему теста">
+                        </div>
+                        <div class="wrapsInp">
+                            <input type="text" id="inpQuestion" placeholder="Введите вопрос">
+                        </div>
+                        <div class="wrapsInp">
+                        <input type="text" class="inputAnswers" placeholder="Введите вариант ответа №1">
+                            <input type="checkbox" class="chRight?" id="ch1"><label for="ch1">Правильный?</label>
+                        </div>
+                        <div class="wrapsInp">
+                            <input type="text" class="inputAnswers" placeholder="Введите вариант ответа №2">
+                            <input type="checkbox" class="chRight?" id="ch2"><label for="ch2">Правильный?</label>
+                        </div>
+                        <div class="wrapsInp">
+                            <input type="text" class="inputAnswers" placeholder="Введите вариант ответа №3">
+                            <input type="checkbox" class="chRight?" id="ch3"><label for="ch3">Правильный?</label>
+                        </div>
+                        <div class="wrapsInp">
+                            <input type="text" class="inputAnswers" placeholder="Введите вариант ответа №4">
+                            <input type="checkbox" class="chRight?" id="ch4"><label for="ch4">Правильный?</label>
+                        </div>
+                        <div class="wrapsInp">
+                            <input type="text" class="inputAnswers" placeholder="Введите вариант ответа №5">
+                            <input type="checkbox" class="chRight?" id="ch5"><label for="ch5">Правильный?</label>
+                        </div>
+                        <div class="wrapsInp">
+                            <input type="button" id="butSaveTest" value="Сохранить" class="btn btn-primary">
+                        </div>
+                    </form>
+            </div>
+            <div class="wrapsResult">
+                <input type="button" id="butResultTest" value="Показать результаты" class="btn btn-primary">
+            </div>
 
-
-</div>
-
-
-
-
+        </div>
+    </div>
 </body>
 </html>
