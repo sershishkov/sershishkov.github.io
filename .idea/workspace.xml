@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f795a239-dbf1-44bc-b867-01e3d8f8a3bf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/gulpfile.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_4/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_5/css/fonts.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_6/css/font.css" />
@@ -15,9 +16,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_7-8/css/style_480.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_7-8/css/style_768.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_7-8/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/jS_Lesson_15_16/css/styleS.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/jS_Lesson_15_16/css/styleS.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/jS_Lesson_15_16/css/styleS.sass" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/DZ.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/copyright/profiles_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/deployment.xml" afterPath="" />
@@ -43,10 +41,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/Lesson_3/img/backround.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/Lesson_3/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/sershishkov.github.io" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/HomeWorkSh.iml" afterPath="$PROJECT_DIR$/.idea/HomeWorkSh.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_15_16/css/style.css" afterPath="$PROJECT_DIR$/JS/jS_Lesson_15_16/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_15_16/index.html" afterPath="$PROJECT_DIR$/JS/jS_Lesson_15_16/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_15_16/js/script.js" afterPath="$PROJECT_DIR$/JS/jS_Lesson_15_16/js/script.js" />
     </list>
     <ignored path="HomeWorkSh.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,46 +72,38 @@
     <favorites_list name="HomeWorkSh" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.19614711">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_15_16/js/script.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1849">
-                  <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_15_16/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1225">
-                  <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_15_16/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="737">
-                  <caret line="67" column="18" lean-forward="false" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script_1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/js/src/script_1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script_2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/js/src/script_2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,14 +111,13 @@
         <option value="HTML File" />
         <option value="SCSS File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Sass File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>articles__right__notes</find>
       <find>hov</find>
       <find>section_middle__wrap_content</find>
       <find>articles__left</find>
@@ -159,6 +147,7 @@
       <find>src</find>
       <find>checkbox</find>
       <find>oda</find>
+      <find>devDependencies</find>
     </findStrings>
     <replaceStrings>
       <replace>chCss</replace>
@@ -170,24 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Mark/Lesson_7-8/css/style_768.css" />
-        <option value="$PROJECT_DIR$/Mark/Lesson_7-8/css/style_480.css" />
-        <option value="$PROJECT_DIR$/Mark/Lesson_7-8/css/style_320.css" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_1_2/index.html" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_3_4/js/sandbox.js" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_1_2/js/script.js" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_5_6/css/style.css" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_5_6/index.html" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_5_6/js/mySandBox.js" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_5_6/js/script.js" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_3_4/css/style.css" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_3_4/js/mySandBox.js" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_3_4/index.html" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_7_8/js/mySandBox.js" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_3_4/js/script.js" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_7_8/css/style.css" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_9_10/js/mySandBox.js" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_7_8/js/script.js" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_7_8/index.html" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_9_10/css/jquery.fancybox-1.3.4.css" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_9_10/css/chosen.css" />
@@ -221,6 +192,24 @@
         <option value="$PROJECT_DIR$/JS/jS_Lesson_15_16/js/script.js" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_15_16/css/style.css" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_15_16/index.html" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18/css/style.css" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18/js/script.js" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18/js/script_1.js" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18/js/script_2.js" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18/js/dist/script.main.min.js" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18/css/src/style.css" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18/gruntfile.js" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18/index.html" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/package-lock.json" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/gulpfile.js" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/css/src/style.css" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/css/src/style.css" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/gruntfile.js" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/index.html" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/index.html" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/js/src/script_1.js" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/js/src/script_2.js" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/js/src/script_1.js" />
       </list>
     </option>
   </component>
@@ -240,6 +229,10 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpServers">
     <servers />
@@ -290,7 +283,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -331,7 +323,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jS_Lesson_13_14" />
+              <option name="myItemId" value="jS_Lesson_17_18_grunt" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,7 +341,33 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jS_Lesson_13_14" />
+              <option name="myItemId" value="jS_Lesson_17_18_grunt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorkSh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeWorkSh" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jS_Lesson_17_18_grunt" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -357,30 +375,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeWorkSh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HomeWorkSh" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jS_Lesson_13_14" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -699,12 +696,17 @@
       <workItem from="1496936267313" duration="9290000" />
       <workItem from="1496993688961" duration="599000" />
       <workItem from="1496995146567" duration="11331000" />
-      <workItem from="1497018399172" duration="9197000" />
+      <workItem from="1497018399172" duration="10223000" />
+      <workItem from="1497078454822" duration="203000" />
+      <workItem from="1497099201515" duration="961000" />
+      <workItem from="1497269788314" duration="13714000" />
+      <workItem from="1497288565258" duration="2888000" />
+      <workItem from="1497346802461" duration="7655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1157606000" />
+    <option name="totallyTimeSpent" value="1184053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -719,7 +721,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -759,81 +761,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_9_10/js/jquery.checkbox.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_9_10/js/jquery.formstyler.min.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_9_10/css/jquery.formstyler.css" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_9_10/css/prettyCheckable.css" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_9_10/css/prettyCheckable.scss" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_9_10/css/aero.css" />
-    <entry file="file://$PROJECT_DIR$/Mark/Lesson_4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_7_8/index.html" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_7_8/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_9_10_menu/js/jquery.color.js" />
-    <entry file="file://$PROJECT_DIR$/Mark/Lesson_4/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="121" column="21" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="121" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_9_10/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_9_10/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_9_10_menu/index.html" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_9_10/index.html" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_9_10_menu/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_11_12/js/template.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_1_2/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_1_2/index.html" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_11_12/js/lodash.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7701">
-          <caret line="17086" column="14" lean-forward="false" selection-start-line="17086" selection-start-column="14" selection-end-line="17086" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_11_12/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_3_4/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_3_4/index.html" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_11_12/js/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_9_10_menu/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_13_14/js/lodash.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson14/index.html" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_13__14/index.html" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_13__14/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_13___14/js/lodash.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_13___14/index.html" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_13___14/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_11_12/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="73" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_13_14/js/slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -916,30 +843,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3150">
           <caret line="130" column="65" lean-forward="false" selection-start-line="123" selection-start-column="2" selection-end-line="130" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_15_16/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_15_16/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1849">
+        <state relative-caret-position="17">
           <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/js/mySandBox.js" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/js/script_2.js" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/js/script_1.js" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/js/script.main.js" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/js/dist/script.main.js" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_15_16/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="76" column="1" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/css/src/style.css" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/css/src/style-min.css" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/js/dist/script.main.min.js" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/css/dist/style.main.min.css" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/css/dist/style-min.main.min.css" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/css/dist/style-min.main.css" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/css/dist/style.main.css" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/gruntfile.js" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18/index.html" />
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16786">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/js/dist/main.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/css/dist/main.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-924">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/css/src/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/js/dist/script.main.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/css/src/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_15_16/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="67" column="18" lean-forward="false" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        <state relative-caret-position="187">
+          <caret line="11" column="92" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/js/src/script_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/js/src/script_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="92" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/js/src/script_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/js/src/script_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_17_18_grunt/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
