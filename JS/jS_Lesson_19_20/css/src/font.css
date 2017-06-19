@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../font/Ubuntu-Light.eot");
+  src: url("../../font/Ubuntu-Light.eot?#iefix") format("embedded-opentype"), url("../../font/Ubuntu-Light.woff") format("woff"), url("../../font/Ubuntu-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../font/Ubuntu.eot");
+  src: url("../../font/Ubuntu.eot?#iefix") format("embedded-opentype"), url("../../font/Ubuntu.woff") format("woff"), url("../../font/Ubuntu.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Ubuntu Condensed';
+  src: url("../../font/UbuntuCondensed-Regular.eot");
+  src: url("../../font/UbuntuCondensed-Regular.eot?#iefix") format("embedded-opentype"), url("../../font/UbuntuCondensed-Regular.woff") format("woff"), url("../../font/UbuntuCondensed-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../font/Ubuntu-Medium.eot");
+  src: url("../../font/Ubuntu-Medium.eot?#iefix") format("embedded-opentype"), url("../../font/Ubuntu-Medium.woff") format("woff"), url("../../font/Ubuntu-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+/*# sourceMappingURL=font.css.map */
