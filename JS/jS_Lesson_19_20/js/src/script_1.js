@@ -296,7 +296,7 @@ $(function() {
     //2. Массив имен (поле name) людей, отсортированных в зависимости
     // от количества их друзей (friends);
     var allNames=_.map(myData, function(item) {
-       var temp={};
+       var temp ={};
        temp.name = item.name;
        temp.friends=item.friends.length;
         return temp;
