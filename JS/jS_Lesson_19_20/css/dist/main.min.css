@@ -808,7 +808,7 @@ table {
 }
 
 .nav-header ul li a {
-  font-family: 'Ubuntu Condensed';
+  font-family: 'Ubuntu Condensed',serif;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
@@ -842,6 +842,11 @@ table {
   width: 100%;
   height: 500px;
   overflow: hidden;
+}
+
+.jcarousel img {
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .articles {
@@ -1086,6 +1091,8 @@ table {
 .main-header div figure div a img {
   width: 258px;
   height: 258px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .main-header div figure figcaption {
@@ -1162,6 +1169,8 @@ table {
 .photo img {
   width: 150px;
   height: 150px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .photo div {
@@ -1234,84 +1243,60 @@ table {
   color: #8a8a8a;
 }
 
-.chaptersNews {
-  margin-bottom: 5px;
+#accordion {
   width: 100%;
-  height: 38px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  height: 320px;
+  overflow: auto;
 }
 
-.chaptersNews h2,
-.chaptersNews h3 {
-  height: 38px;
+button.accordion {
   background-color: #fff;
-  color: #2a2d32;
+  color: #000;
+  cursor: pointer;
+  padding-left: 50px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 37px;
+  text-align: left;
+  border: 0;
+  outline: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
   font-weight: bold;
-  font-size: 13px;
   text-transform: uppercase;
 }
 
-.chaptersNews h2 {
-  width: 38px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+button.accordion:before {
+  content: '\002B';
+  color: #000;
+  float: left;
+  margin-left: -30px;
 }
 
-.chaptersNews h3 {
-  margin-left: 2px;
-  width: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-left: 12px;
+button.accordion.active:before {
+  content: "\2212";
+  color: #fff;
 }
 
-.chapterText {
-  margin-top: 30px;
-  margin-bottom: 45px;
-  font-size: 13px;
-  font-family: Arial,sans-serif;
-  line-height: 20px;
-  color: #8a8a8a;
-}
-
-.chapterYellow h2,
-.chapterYellow h3 {
+button.accordion.active {
   background-color: #f4b60d;
   color: #fff;
+}
+
+div.panel {
+  background-color: #fff;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height .2s ease-out;
+  transition: max-height .2s ease-out;
+}
+
+div.panel p {
+  margin: 25px 13px 25px 36px;
+  color: #8a8a8a;
+  font-family: Arial,serif;
+  font-size: 13px;
+  line-height: 20px;
 }
 
 .main-footer {

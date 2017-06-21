@@ -95,7 +95,7 @@ $colorLight:#ffffff;
         background-color: #248cec;
       }
       a {
-        font-family: 'Ubuntu Condensed';
+        font-family: 'Ubuntu Condensed', serif;
         text-decoration: none;
         text-transform: uppercase;
         color: #FFFFFF;
@@ -130,6 +130,11 @@ $colorLight:#ffffff;
   width: 100%;
   height: 500px;
   overflow: hidden;
+}
+.jcarousel {
+  img {
+    object-fit: cover;
+  }
 }
 .articles {
   height: 340px;
@@ -271,6 +276,7 @@ $colorLight:#ffffff;
           img {
             width: 258px;
             height: 258px;
+            object-fit: cover;
             }
           }
         }
@@ -328,6 +334,7 @@ $colorLight:#ffffff;
   img {
     width: 150px;
     height: 150px;
+    object-fit: cover;
   }
   div {
     position: absolute;
@@ -384,53 +391,64 @@ $colorLight:#ffffff;
     color: #8a8a8a;
   }
 }
-.chaptersNews {
+/*****************************************************************************/
+/* Style the buttons that are used to open and close the accordion panel */
+#accordion {
+  width: 100%;
+  height: 320px;
+  overflow: auto;
+}
+button.accordion {
+  background-color: #FFFFFF;
+  color: #000000;
+  cursor: pointer;
+  padding-left: 50px;
   margin-bottom: 5px;
   width: 100%;
-  height: 38px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: center;
-  h2 ,h3 {
-    height: 38px;
-    background-color: #FFFFFF;
-    color: #2a2d32;
-    font-weight: bold;
+  height: 37px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+button.accordion:before {
+  content: '\002B';
+  color: #000000;
+  float: left;
+  margin-left: -30px;
+}
+
+button.accordion.active:before {
+  content: "\2212";
+  color: #FFFFFF;
+}
+
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active {
+  background-color: #f4b60d;
+  color: #FFFFFF;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+  background-color: #FFFFFF;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  p {
+    margin: 25px 13px 25px 36px;
+    color: #8a8a8a;
+    font-family: Arial, serif;
     font-size: 13px;
-    text-transform: uppercase;
-  }
-    h2 {
-      width: 38px;
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      align-items: center;
-    }
-    h3 {
-      margin-left: 2px;
-      width: 90%;
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: flex-start;
-      align-items: center;
-      padding-left: 12px;
-    }
-}
-.chapterText {
-  margin-top: 30px;
-  margin-bottom: 45px;
-  font-size: 13px;
-  font-family: Arial, sans-serif;
-  line-height: 20px;
-  color: #8a8a8a;
-}
-.chapterYellow  {
-  h2,h3{
-    background-color: #f4b60d;
-    color: #FFFFFF;
+    line-height: 20px;
   }
 }
+/****************************************************/
 .main-footer {
   height: 240px;
   background-color: $colorLight;
@@ -521,8 +539,6 @@ $colorLight:#ffffff;
     }
   }
 }
-
-
 
 
 

@@ -3,6 +3,22 @@
 
 $(function() {
     $('.jcarousel').jcarousel();
+////////////////////////////////////////////////////////////////////////////
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        }
+    }
+
     //////////////////////////////////////////////////
    var myData =  [
         {
@@ -285,7 +301,7 @@ $(function() {
     // алфавиту;
 
     var allSkils=_.map(myData, function(item) {
-        return item.skills;
+        return _.lowerCase(item.skills);
     });
     var flatt = _.flatten(allSkils);
     var uniq=_.union(flatt);
