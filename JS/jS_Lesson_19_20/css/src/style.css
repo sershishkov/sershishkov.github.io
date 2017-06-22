@@ -323,57 +323,6 @@
     line-height: 20px;
     color: #8a8a8a; }
 
-/*****************************************************************************/
-/* Style the buttons that are used to open and close the accordion panel */
-#accordion {
-  width: 100%;
-  height: 320px;
-  overflow: auto; }
-
-button.accordion {
-  background-color: #FFFFFF;
-  color: #000000;
-  cursor: pointer;
-  padding-left: 50px;
-  margin-bottom: 5px;
-  width: 100%;
-  height: 37px;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  font-weight: bold;
-  text-transform: uppercase; }
-
-button.accordion:before {
-  content: '\002B';
-  color: #000000;
-  float: left;
-  margin-left: -30px; }
-
-button.accordion.active:before {
-  content: "\2212";
-  color: #FFFFFF; }
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active {
-  background-color: #f4b60d;
-  color: #FFFFFF; }
-
-/* Style the accordion panel. Note: hidden by default */
-div.panel {
-  background-color: #FFFFFF;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out; }
-  div.panel p {
-    margin: 25px 13px 25px 36px;
-    color: #8a8a8a;
-    font-family: Arial, serif;
-    font-size: 13px;
-    line-height: 20px; }
-
-/****************************************************/
 .main-footer {
   height: 240px;
   background-color: #ffffff; }
