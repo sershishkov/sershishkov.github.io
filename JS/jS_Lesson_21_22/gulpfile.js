@@ -9,13 +9,19 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     concatCss = require('gulp-concat-css'),
     prefixer = require('gulp-autoprefixer'),
-    uglifycss = require('gulp-uglifycss');
+    uglifycss = require('gulp-uglifycss'),
+    babel = require('gulp-babel'),
+	jasmine = require('gulp-jasmine');
 
 ///////////////////////////////////////////////////////////
+
 gulp.task('js', function () {
     gulp.src('js/src/*.js')
         .pipe(jshint())
         .pipe(jshint.reporter('default'))
+	    .pipe(babel({
+		    presets: ['es2015']
+	    }))
         .pipe(sourcemaps.init()) //Инициализируем sourcemap
         .pipe(uglify()) //Сожмем наш js
         .pipe(concat("main.min.js"))//
@@ -36,22 +42,12 @@ gulp.task('css', function () {
         .pipe(concatCss("main.min.css"))
         .pipe(gulp.dest('css/dist'));
 });
+// gulp.task('testJasmine', () =>
+// 	gulp.src('spec/test.js')
+// 	// gulp-jasmine works on filepaths so you can't have any plugins before it
+// 		.pipe(jasmine())
+// );
 
-//////////////////////////////////////////////////////////
-//     gulp.task('stream', function () {
-//     // Endless stream mode
-//     return watch('css/**/*.css', { ignoreInitial: false })
-//         .pipe(gulp.dest('build'));
-// });
-//
-// gulp.task('callback', function () {
-//     // Callback mode, useful if any plugin in the pipeline depends on the `end`/`flush` event
-//     return watch('css/**/*.css', function () {
-//         gulp.src('css/**/*.css')
-//             .pipe(gulp.dest('build'));
-//     });
-// });
-//////////////////////////////////////////////////////////////
 
 gulp.task('default',['js','css']);
 gulp.task('watch', function() {
