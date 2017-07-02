@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../JS/jS_Lesson_23_24/js/src/script_1.js"],"names":["$"],"mappings":"AAAA;;AAGAA,EAAE,YAAW,CAEZ,CAFD","file":"script_1.js","sourcesContent":["'use strict';\r\n\r\n\r\n$(function() {\r\n\r\n});"]}

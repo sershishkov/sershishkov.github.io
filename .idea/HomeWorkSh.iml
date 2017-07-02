@@ -8,5 +8,6 @@
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="module" module-name="SandBox" />
     <orderEntry type="library" name="react-DefinitelyTyped" level="application" />
+    <orderEntry type="module" module-name="InventoryWebApp" />
   </component>
 </module>

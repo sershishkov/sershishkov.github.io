@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item-list {
+  li{
+    text-align: left;
+    font-size: 24px;
+    color: green;
+    width: 250px;
+    height: 40px;
+    position: relative;
+    //outline: 1px solid red;
+    span {
+      position: absolute;
+      top:0px;
+      left: 200px;
+      text-align: center;
+      vertical-align: baseline;
+      font-size: 20px;
+      color: red;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+}
+.controlls {
+  text-align: center;
+  //outline: 1px solid red;
+}
+
+
+
+
+
+h1 {
+  font-size: 33px;
+  color: red;
+}

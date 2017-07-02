@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Mark" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Mark/Lesson_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../SandBox" vcs="Git" />
   </component>
 </project>
