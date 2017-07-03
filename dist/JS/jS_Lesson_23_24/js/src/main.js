@@ -1,20 +1,23 @@
 'use strict';
 
 require.config = {
-	baseUrl: 'js/src/',
+	baseUrl: 'js/src',
 	paths: {
-		'jquery': 'js/src/jquery.js',
-		'lodash': 'js/src/lodash.js'
+		jquery: 'jquery',
+		lodash: 'lodash',
+		data_script: 'data_script',
+		view_script: 'view_script',
+		control_script: 'control_script'
 	}
 
 };
-require(["data_script", "view_script", "control_script", "jquery", "lodash"], function (data_script, view_script, control_script, $) {
-	var firstToDoList = ['test 1', 'test 2', 'test 3'];
-	var model = new data_script(firstToDoList);
-	var view = new view_script(model);
-	var controller = new control_script(model, view);
+require(["jquery", "lodash", "data_script", "view_script", "control_script"], function ($, lodash, data_script, view_script, control_script) {
+	$(function () {
+		var model = new data_script();
+		model.initData();
+		var view = new view_script(model);
+		var controller = new control_script(model, view);
+		alert(controller);
+	});
 });
-// $(function () {
-//
-// });
 //# sourceMappingURL=main.js.map

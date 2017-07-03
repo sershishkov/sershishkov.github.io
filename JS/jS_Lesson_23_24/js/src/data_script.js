@@ -2,10 +2,15 @@
 define(
 	"data_script",
 		[],
-	function Model(data) {
-		alert('data_script');
+	function () {
+		// alert("data_script");
 		let self = this;
-		self.data = data;
+		self.initData = function () {
+			alert("Внутри init ");
+			self.data = ['test 1','test 2','test 3'];
+		};
+
+		// alert(self.data);
 		self.addItem = function (item) {
 			if (item.length === 0){
 				return;

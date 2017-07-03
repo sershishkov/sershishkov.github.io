@@ -1,30 +1,36 @@
 'use strict';
 
 require.config = {
-	baseUrl: 'js/src/',
+	baseUrl: 'js/src',
 	paths:{
-		'jquery': 'js/src/jquery.js',
-		'lodash': 'js/src/lodash.js'
+		jquery: 'jquery',
+		lodash: 'lodash',
+		data_script: 'data_script',
+		view_script:'view_script',
+		control_script:'control_script'
 	}
 
 };
 require([
+		"jquery",
+		"lodash",
 		"data_script",
 		 "view_script",
 		 "control_script"
-		,
-		"jquery"
-		,
-		"lodash"
 	],
-	function(data_script,view_script,control_script,$){
-		let firstToDoList = ['test 1','test 2','test 3'];
-		let model = new data_script(firstToDoList);
+
+
+	function($,lodash,data_script,view_script,control_script){
+	$(function () {
+		let model = new data_script();
+		model.initData();
 		let view = new view_script(model);
 		let controller = new control_script(model,view);
+		alert (controller);
+	});
+
+
 
 	});
-// $(function () {
-//
-// });
+
 

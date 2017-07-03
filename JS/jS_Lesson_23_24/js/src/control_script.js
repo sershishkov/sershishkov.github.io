@@ -1,8 +1,9 @@
 'use strict';
 define(
 	"control_script",
-	["data_script","view_script",'jquery'],
-	function Controller(model,view,$) {
+	['jquery',"data_script","view_script"],
+	function ($,model,view) {
+		alert("control_script");
 		$('.item-add').on('click',addItem);
 		$('.item-list').on('click','.item-delete',removeItem);
 		function addItem() {

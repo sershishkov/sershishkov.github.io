@@ -1,8 +1,9 @@
 'use strict';
 define(
 	"view_script",
-	 ["data_script",'jquery','lodash'],
-	function View(model,$,lodash) {
+	 ['jquery','lodash',"data_script"],
+	function ($,lodash,model) {
+		alert("view_script ");
 		let self = this;
 		function init() {
 			let wrapper = _.template($('#wrapper-template').html());
@@ -17,6 +18,7 @@ define(
 		};
 		init();
 		return model;
+
 	}
 
 );
