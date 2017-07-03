@@ -1,9 +1,8 @@
 'use strict';
 define(
 	"control_script",
-	['jquery','lodash'],
-	function (model,view) {
-		alert("control");
+	["data_script","view_script",'jquery'],
+	function Controller(model,view,$) {
 		$('.item-add').on('click',addItem);
 		$('.item-list').on('click','.item-delete',removeItem);
 		function addItem() {
@@ -17,7 +16,7 @@ define(
 			model.removeItem(item);
 			view.renderList(model.data);
 		}
-		// return model;
+		return model;
 	}
 
 );

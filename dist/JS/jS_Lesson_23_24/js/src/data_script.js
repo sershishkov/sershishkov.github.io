@@ -1,6 +1,7 @@
 'use strict';
 
-define("data_script", [], function (data) {
+define("data_script", [], function Model(data) {
+	alert('data_script');
 	var self = this;
 	self.data = data;
 	self.addItem = function (item) {
@@ -18,6 +19,6 @@ define("data_script", [], function (data) {
 		self.data.splice(index, 1);
 		return self.data;
 	};
-	// return self.data;
+	return self;
 });
 //# sourceMappingURL=data_script.js.map

@@ -1,24 +1,20 @@
 'use strict';
 
 require.config = {
+	baseUrl: 'js/src/',
 	paths:{
-		'jquery': 'js/src/jquery-3.2.1.min.js',
+		'jquery': 'js/src/jquery.js',
 		'lodash': 'js/src/lodash.js'
-	},
-	shim: {
-		'jquery': {
-			exports: 'jQuery',
-		},
-		'lodash': {
-			exports: 'lodash',
-		}
 	}
+
 };
 require([
 		"data_script",
 		 "view_script",
-		 "control_script",
-		"jquery",
+		 "control_script"
+		,
+		"jquery"
+		,
 		"lodash"
 	],
 	function(data_script,view_script,control_script,$){

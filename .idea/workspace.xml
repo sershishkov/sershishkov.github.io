@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f795a239-dbf1-44bc-b867-01e3d8f8a3bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/jS_Lesson_23_24/css/src/main.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_4/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_5/css/fonts.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_6/css/font.css" />
@@ -16,11 +15,10 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_7-8/css/style_480.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_7-8/css/style_768.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mark/Lesson_7-8/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/js/src/script1.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SandBox/js/react/browser.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SandBox/package.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SandBox/server.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/jquery-3.2.1.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/DZ.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/copyright/profiles_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/deployment.xml" afterPath="" />
@@ -62,19 +60,23 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SandBox/js/jquery-3.2.1.min.map" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SandBox/js/lodash.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SandBox/js/mySandBox.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/HomeWorkSh.iml" afterPath="$PROJECT_DIR$/.idea/HomeWorkSh.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp-uglify/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp-uglify/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/.gitignore" afterPath="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/index.html" afterPath="$PROJECT_DIR$/JS/jS_Lesson_23_24/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/control_script.js" afterPath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/control_script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/data_script.js" afterPath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/data_script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/main.js" afterPath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/view_script.js" afterPath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/view_script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/package-lock.json" afterPath="$PROJECT_DIR$/JS/jS_Lesson_23_24/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/control_script.js" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/control_script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/control_script.js.map" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/control_script.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/data_script.js" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/data_script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/data_script.js.map" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/data_script.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/main.js" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/main.js.map" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/view_script.js" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/view_script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/view_script.js.map" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/view_script.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/index.html" afterPath="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SandBox/index.html" afterPath="$PROJECT_DIR$/../SandBox/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SandBox/js/script.js" afterPath="$PROJECT_DIR$/../SandBox/js/script.js" />
     </list>
@@ -105,7 +107,66 @@
     <favorites_list name="HomeWorkSh" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <splitter split-orientation="horizontal" split-proportion="0.57449496">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="325">
+                  <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="data_script.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/data_script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="view_script.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/view_script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="116">
+                  <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="control_script.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/control_script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="726">
+                  <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -165,7 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../SandBox/index.html" />
         <option value="$PROJECT_DIR$/../SandBox/js/script.js" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_19_20/css/src/style.css" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_19_20/css/src/reset.scss" />
@@ -198,9 +258,6 @@
         <option value="$PROJECT_DIR$/JS/jS_Lesson_21_22/spec/spec.js" />
         <option value="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/ndex.html" />
         <option value="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/css/src/font.scss" />
-        <option value="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/css/src/style.scss" />
-        <option value="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/js/src/script1.js" />
-        <option value="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/gulpfile.js" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/script_1.js" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/css/src/font.scss" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/css/dist/main.css" />
@@ -210,12 +267,16 @@
         <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/view_script.js" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/control_script.js" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/dist/script1.js" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/main.js" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/css/src/style.scss" />
+        <option value="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/gulpfile.js" />
+        <option value="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/js/src/script1.js" />
+        <option value="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/css/src/style.scss" />
+        <option value="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/index.html" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/control_script.js" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/view_script.js" />
-        <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/data_script.js" />
         <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/index.html" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/data_script.js" />
+        <option value="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/main.js" />
       </list>
     </option>
   </component>
@@ -241,6 +302,7 @@
     <handled-path value="$PROJECT_DIR$/JS/jS_Lesson_17_18_gulp/node_modules" />
     <handled-path value="$PROJECT_DIR$/JS/jS_Lesson_19_20/node_modules" />
     <handled-path value="$PROJECT_DIR$/JS/jS_Lesson_21_22/node_modules" />
+    <handled-path value="$PROJECT_DIR$/JS/jS_Lesson_23_24/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/node_modules" />
     <handled-path value="$PROJECT_DIR$/../SandBox/node_modules" />
@@ -366,6 +428,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -464,11 +527,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/node_modules/.bin/babel.cmd" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -485,12 +547,13 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\NEREY\SOFT\9_GoIT\1GoIT_FrontEnd#9\HomeWorkSh\JS\jS_Lesson_23_24\css\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NEREY\SOFT\9_GoIT\1GoIT_FrontEnd#9\Inventary_Progect\InventoryWebApp\js\src" />
       <recent name="D:\NEREY\SOFT\9_GoIT\1GoIT_FrontEnd#9\Inventary_Progect\InventoryWebApp" />
       <recent name="D:\NEREY\SOFT\9_GoIT\1GoIT_FrontEnd#9\HomeWorkSh\JS\jS_Lesson_19_20\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\NEREY\SOFT\9_GoIT\1GoIT_FrontEnd#9\HomeWorkSh\JS\jS_Lesson_23_24\css\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -838,12 +901,17 @@
       <workItem from="1498720284069" duration="69000" />
       <workItem from="1498838573531" duration="10230000" />
       <workItem from="1498894030533" duration="30234000" />
-      <workItem from="1498974022205" duration="21024000" />
+      <workItem from="1498974022205" duration="22972000" />
+      <workItem from="1498997738935" duration="176000" />
+      <workItem from="1498997932780" duration="6243000" />
+      <workItem from="1499009269066" duration="11743000" />
+      <workItem from="1499071402863" duration="6566000" />
+      <workItem from="1499082524004" duration="6993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1429446000" />
+    <option name="totallyTimeSpent" value="1463115000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -855,9 +923,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -900,111 +969,102 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_19_20/myData.json" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_19_20/js/myData.jsondata.json" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_19_20/js/myData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_19_20/js/src/script_1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="58" column="28" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_13_14/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_21_22/js/dist/main.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="0" column="1975" lean-forward="false" selection-start-line="0" selection-start-column="1975" selection-end-line="0" selection-end-column="1975" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_21_22/css/src/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_21_22/js/spec/test.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_21_22/spec/test.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_3_4/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1287">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_1_2/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_21_22/js/src/script_1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1053">
-          <caret line="102" column="32" lean-forward="false" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_21_22/spec/support/jasmine.json">
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_21_22/js/dist/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_19_20/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_21_22/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_21_22/package.json">
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/resources/postgres.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_21_22/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/resources/validation.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/img/Шишков Сергей.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/controller/OwnerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/dao/AbstractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/dao/JpaGenericDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/dao/OwnerDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/dao/OwnerDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/dao/ProductDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/dao/ProductDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/dao/UserDAO.java">
@@ -1014,174 +1074,254 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/ndex.html" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/script_1.js" />
-    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/css/src/font.scss">
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/dao/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/model/NamedEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/model/Owner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/model/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/service/OwnerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/service/OwnerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/validator/ProductValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/validator/UserValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/validator/OwnerValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/service/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/service/SecurityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/service/SecurityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/service/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/java/mykhailok/inventory/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/webapp/WEB-INF/views/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/webapp/WEB-INF/views/userData.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/webapp/WEB-INF/views/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/webapp/WEB-INF/views/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/webapp/WEB-INF/views/productData.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/webapp/WEB-INF/views/product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/src/main/webapp/WEB-INF/views/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/css/src/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-3709">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/js/src/script1.js">
+    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="669">
+          <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/require.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-605">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_21_22/spec/spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_21_22/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="58" column="2" lean-forward="false" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/util.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/css/src/font.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/require.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_11_12/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_13_14/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="57" column="14" lean-forward="false" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_13_14/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="163" column="46" lean-forward="false" selection-start-line="163" selection-start-column="46" selection-end-line="163" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/view_script.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/script1.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/control_script.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/data_script.js" />
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/css/src/reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/css/src/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/view_script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/data_script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/control_script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/css/src/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/jquery-3.2.1.min.js" />
     <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/dist/script1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        <state relative-caret-position="841">
+          <caret line="60" column="48" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="60" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="272">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/data_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/view_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/control_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>

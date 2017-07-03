@@ -4,6 +4,7 @@
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/main.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/dist/script1.js" />
+        <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/jquery.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/data_script.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_21_22/spec/spec.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/require.js" />
@@ -13,12 +14,13 @@
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/view_script.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/data_script.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_21_22/js/dist/main.min.js" />
+        <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/gulpfile.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_21_22/gulpfile.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_21_22/js/src/script_1.js" />
-        <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/gulpfile.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/script_1.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/dist/jquery-3.2.1.min.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/dist/lodash.js" />
+        <item url="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/dist/js/src/script1.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/lodash.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/script_1.js" />
         <item url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_21_22/js/spec/test.js" />
@@ -36,6 +38,7 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/main.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/dist/script1.js" />
+      <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/jquery.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/data_script.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_21_22/spec/spec.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/require.js" />
@@ -45,12 +48,13 @@
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/view_script.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/data_script.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_21_22/js/dist/main.min.js" />
+      <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/gulpfile.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_21_22/gulpfile.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_21_22/js/src/script_1.js" />
-      <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/gulpfile.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/script_1.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/dist/jquery-3.2.1.min.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/dist/lodash.js" />
+      <root url="file://$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/dist/js/src/script1.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/lodash.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/script_1.js" />
       <root url="file://$PROJECT_DIR$/dist/JS/jS_Lesson_21_22/js/spec/test.js" />

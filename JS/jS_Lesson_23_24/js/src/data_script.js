@@ -2,7 +2,8 @@
 define(
 	"data_script",
 		[],
-	function  (data) {
+	function Model(data) {
+		alert('data_script');
 		let self = this;
 		self.data = data;
 		self.addItem = function (item) {
@@ -20,7 +21,7 @@ define(
 			self.data.splice(index,1);
 			return self.data;
 		};
-		// return self.data;
+		return self;
 	}
 
 );

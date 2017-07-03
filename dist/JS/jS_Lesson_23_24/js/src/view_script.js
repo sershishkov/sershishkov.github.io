@@ -1,7 +1,6 @@
 'use strict';
 
-define("view_script", ['jquery', 'lodash'], function (model) {
-	alert('view');
+define("view_script", ["data_script", 'jquery', 'lodash'], function View(model, $, lodash) {
 	var self = this;
 	function init() {
 		var wrapper = _.template($('#wrapper-template').html());
@@ -15,6 +14,6 @@ define("view_script", ['jquery', 'lodash'], function (model) {
 		$('.item-list').html(content);
 	};
 	init();
-	// return model;
+	return model;
 });
 //# sourceMappingURL=view_script.js.map
