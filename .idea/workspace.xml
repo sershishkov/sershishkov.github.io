@@ -18,7 +18,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SandBox/js/react/browser.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SandBox/package.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SandBox/server.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/jquery-3.2.1.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/DZ.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/copyright/profiles_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mark/DZ/.idea/deployment.xml" afterPath="" />
@@ -60,22 +59,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SandBox/js/jquery-3.2.1.min.map" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SandBox/js/lodash.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SandBox/js/mySandBox.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/index.html" afterPath="$PROJECT_DIR$/JS/jS_Lesson_23_24/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/control_script.js" afterPath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/control_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/data_script.js" afterPath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/data_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/main.js" afterPath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/view_script.js" afterPath="$PROJECT_DIR$/JS/jS_Lesson_23_24/js/src/view_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/jS_Lesson_23_24/package-lock.json" afterPath="$PROJECT_DIR$/JS/jS_Lesson_23_24/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/control_script.js" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/control_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/control_script.js.map" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/control_script.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/data_script.js" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/data_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/data_script.js.map" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/data_script.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/main.js" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/main.js.map" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/view_script.js" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/view_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/view_script.js.map" afterPath="$PROJECT_DIR$/dist/JS/jS_Lesson_23_24/js/src/view_script.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/index.html" afterPath="$PROJECT_DIR$/../Inventary_Progect/InventoryWebApp/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SandBox/index.html" afterPath="$PROJECT_DIR$/../SandBox/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SandBox/js/script.js" afterPath="$PROJECT_DIR$/../SandBox/js/script.js" />
@@ -906,12 +889,12 @@
       <workItem from="1498997932780" duration="6243000" />
       <workItem from="1499009269066" duration="11743000" />
       <workItem from="1499071402863" duration="6566000" />
-      <workItem from="1499082524004" duration="6993000" />
+      <workItem from="1499082524004" duration="7587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1463115000" />
+    <option name="totallyTimeSpent" value="1463709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -923,7 +906,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
