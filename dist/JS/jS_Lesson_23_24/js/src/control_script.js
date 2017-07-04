@@ -1,8 +1,6 @@
 'use strict';
 
-define("control_script", ['jquery', "data_script", "view_script"], function ($, model, view) {
-	var self = this;
-	alert("control_script");
+function Controller(model, view) {
 	$('.item-add').on('click', addItem);
 	$('.item-list').on('click', '.item-delete', removeItem);
 	function addItem() {
@@ -16,6 +14,5 @@ define("control_script", ['jquery', "data_script", "view_script"], function ($, 
 		model.removeItem(item);
 		view.renderList(model.data);
 	}
-	return self;
-});
+}
 //# sourceMappingURL=control_script.js.map
