@@ -3,6 +3,7 @@ define(
 	"control_script",
 	['jquery',"data_script","view_script"],
 	function ($,model,view) {
+		let self = this;
 		alert("control_script");
 		$('.item-add').on('click',addItem);
 		$('.item-list').on('click','.item-delete',removeItem);
@@ -17,7 +18,7 @@ define(
 			model.removeItem(item);
 			view.renderList(model.data);
 		}
-		return model;
+		return self;
 	}
 
 );

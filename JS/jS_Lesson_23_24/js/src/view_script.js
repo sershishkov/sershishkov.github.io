@@ -17,7 +17,7 @@ define(
 			$('.item-list').html(content);
 		};
 		init();
-		return model;
+		return self;
 
 	}
 

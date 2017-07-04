@@ -11,15 +11,14 @@ require.config = {
 	}
 
 };
-require([
+require(
+	[
 		"jquery",
 		"lodash",
 		"data_script",
-		 "view_script",
-		 "control_script"
+		"view_script",
+		"control_script"
 	],
-
-
 	function($,lodash,data_script,view_script,control_script){
 	$(function () {
 		let model = new data_script();

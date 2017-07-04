@@ -15,6 +15,6 @@ define("view_script", ['jquery', 'lodash', "data_script"], function ($, lodash, 
 		$('.item-list').html(content);
 	};
 	init();
-	return model;
+	return self;
 });
 //# sourceMappingURL=view_script.js.map

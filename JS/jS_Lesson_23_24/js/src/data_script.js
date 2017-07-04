@@ -6,7 +6,7 @@ define(
 		// alert("data_script");
 		let self = this;
 		self.initData = function () {
-			alert("Внутри init ");
+			// alert("Внутри init ");
 			self.data = ['test 1','test 2','test 3'];
 		};
 
