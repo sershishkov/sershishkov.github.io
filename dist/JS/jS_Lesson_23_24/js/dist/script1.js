@@ -30,7 +30,6 @@ function View(model) {
 		$('body').append(wrapper);
 		self.renderList(model.data);
 	}
-
 	self.renderList = function (data) {
 		var List = _.template($('#list-template').html());
 		var content = List({ 'data': data });
@@ -38,6 +37,7 @@ function View(model) {
 	};
 	init();
 }
+
 ////////////////////////////////////////////////////////////////
 function Controller(model, view) {
 	$('.item-add').on('click', addItem);

@@ -1,0 +1,11 @@
+@media (min-width: 480px) and (max-width: 767px) {
+  .container {
+    max-width: 767px;
+    min-width: 480px; }
+
+  .baseWrapper {
+    margin: 0 auto;
+    max-width: 748px;
+    min-width: 460px; } }
+
+/*# sourceMappingURL=style_tablet.css.map */

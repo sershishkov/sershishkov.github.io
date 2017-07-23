@@ -1,0 +1,23 @@
+
+  .container {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 768px;
+    font-family: 'Roboto', serif;
+    outline: 1px solid red;
+  }
+  .header{
+    margin: 0 auto;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+background-image: url("../img/backroundHeader.png");
+  }
+  .baseWrapper{
+    margin: 0 auto;
+    height: 100%;
+    max-width: 940px;
+    min-width: 749px;
+    outline: 1px solid green;
+    text-align: center;
+  }

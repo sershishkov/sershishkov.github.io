@@ -1,0 +1,11 @@
+@media (min-width: 320px) and (max-width: 479px) {
+  .container {
+    max-width: 479px;
+    min-width: 320px; }
+
+  .baseWrapper {
+    margin: 0 auto;
+    max-width: 459px;
+    min-width: 300px; } }
+
+/*# sourceMappingURL=style_mobile.css.map */
