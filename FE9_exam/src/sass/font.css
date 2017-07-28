@@ -82,5 +82,11 @@
   src: url("../fonts/Roboto-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-MediumItalic.woff") format("woff"), url("../fonts/Roboto-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic; }
+@font-face {
+  font-family: 'fontello';
+  src: url("../fonts/fontello.eot?11102210");
+  src: url("../fonts/fontello.eot?11102210#iefix") format("embedded-opentype"), url("../fonts/fontello.woff2?11102210") format("woff2"), url("../fonts/fontello.woff?11102210") format("woff"), url("../fonts/fontello.ttf?11102210") format("truetype"), url("../fonts/fontello.svg?11102210#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 /*# sourceMappingURL=font.css.map */

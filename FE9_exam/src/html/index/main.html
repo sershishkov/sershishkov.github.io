@@ -1,3 +1,113 @@
 <main class="main">
-	<h1>maingg</h1>
+	<div class="box-main inner">
+		<section class="galary">
+			<h5>How Urlaubsglück works?</h5>
+			<div class="wrapSlider">
+				<div class="containerSlider">
+						<ul id="listLL">
+							<script type="text/template" id="slide-template-LL">
+								<% for (let i = 0;i < data.length ; i++){ %>
+								<li  class="<%= 'slide slideLL '+ ((i==0)?'showing':'') %>" >
+									<img src="<%= data[i].src %>" >
+									<article class="article">
+										<h2><button class="btnStep"> <%= 'step' +(i+1) %> </button></h2>
+										<h1><%= data[i].title %></h1>
+										<p><%= data[i].text %></p>
+									</article>
+								</li>
+								<%};%>
+							</script>
+						</ul>
+						<div class="btnsControll">
+							<button class="controls controls-L controlsLL" id="previousLL"><i class="icon-left-open-big"></i></button>
+
+							<button class="controls controls-R controlsLL" id="nextLL"><i class="icon-right-open-big"></i></button>
+						</div>
+				</div>
+				<div class="containerSlider">
+					<ul id="listMM">
+						<script type="text/template" id="slide-template-MM">
+							<% for (let i = 0;i < data.length ; i++){ %>
+							<li  class="<%= 'slide slideMM '+ ((i==1)?'showing':'') %>" >
+								<img src="<%= data[i].src %>" >
+								<article class="article">
+									<h2><button class="btnStep"> <%= 'step' +(i+1) %> </button></h2>
+									<h1><%= data[i].title %></h1>
+									<p><%= data[i].text %></p>
+								</article>
+							</li>
+							<%};%>
+						</script>
+					</ul>
+					<div class="btnsControll">
+						<button class="controls controls-L controlsMM" id="previousMM"><i class="icon-left-open-big"></i></button>
+
+						<button class="controls controls-R controlsMM" id="nextMM"><i class="icon-right-open-big"></i></button>
+					</div>
+				</div>
+				<div class="containerSlider">
+					<ul id="listRR">
+						<script type="text/template" id="slide-template-RR">
+							<% for (let i = 0;i < data.length ; i++){ %>
+							<li  class="<%= 'slide slideRR '+ ((i==2)?'showing':'') %>" >
+								<img src="<%= data[i].src %>" >
+								<article class="article">
+									<h2><button class="btnStep"> <%= 'step' +(i+1) %> </button></h2>
+									<h1><%= data[i].title %></h1>
+									<p><%= data[i].text %></p>
+								</article>
+							</li>
+							<%};%>
+						</script>
+					</ul>
+					<div class="btnsControll">
+						<button class="controls controls-L controlsRR" id="previousRR"><i class="icon-left-open-big"></i></button>
+
+						<button class="controls controls-R controlsRR" id="nextRR"><i class="icon-right-open-big"></i></button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="socials">
+			<h5>Meet a partner for your best holiday</h5>
+			<div class="wrapFigure">
+				<figure>
+					<div><a href="#"><img  src="img/fotoPartner_1.png"/><i class="icon-paper-plane"></i></a></div>
+
+					<figcaption class="figCapt"> Bradley Hunter </figcaption>
+					<h6>Based in Chicago. I love playing tennis and loud music.</h6>
+				</figure>
+				<figure>
+					<div><a href="#"><img  src="img/fotoPartner_4.png"/><i class="icon-beaker"></i></a></div>
+
+					<figcaption class="figCapt"> Heather Walker </figcaption>
+					<h6>I'm a happy person that loves cats and climbing on mountains. </h6>
+				</figure>
+				<figure>
+					<div><a href="#"><img  src="img/fotoPartner_2.png"/><i class="icon-monitor"></i></a></div>
+
+					<figcaption class="figCapt"> Lucas Marsha </figcaption>
+					<h6> get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</h6>
+				</figure>
+				<figure>
+					<div><a href="#"><img  src="img/fotoPartner_3.png"/><i class="icon-coffee"></i></a></div>
+
+					<figcaption class="figCapt"> Bradley Hunter </figcaption>
+					<h6>Based in Chicago. I love playing tennis and loud music.</h6>
+				</figure>
+			</div>
+			<h3><button class="btnSee">See other partners</button></h3>
+		</section>
+		<section class="interests">
+			<h5>Discover holiday activity ideas</h5>
+			<div id="grid" ></div>
+			<h5>Discover holiday activity ideas</h5>
+			<h6>Hi! What are your holiday interests?</h6>
+			<form action="#" class="myForm">
+				<input  type = " text " id="textApi" placeholder="Enter your interests">
+				<input type="button" id="butSearch" value="Search partners" >
+			</form>
+
+		</section>
+	</div>
 </main>
