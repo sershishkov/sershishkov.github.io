@@ -2,9 +2,6 @@
   .container {
     max-width: 767px; }
 
-  .header {
-    height: 700px; }
-
   .inner {
     max-width: 748px; }
 
@@ -24,30 +21,29 @@
       margin-top: 40px;
       font-size: 40px; }
 
-  .controls-L {
-    text-align: left; }
-
-  .controls-R {
-    text-align: right; }
-
   .galary {
     height: 654px; }
 
-  .socials {
-    height: 824px; }
-    .socials .wrapFigure {
-      width: 100%;
-      height: 530px; }
-      .socials .wrapFigure figure {
-        width: 48%;
-        height: 48%; }
+  .socials .wrapFigure {
+    width: 100%;
+    height: 530px; }
+    .socials .wrapFigure figure {
+      width: 48%;
+      height: 48%; }
+
+  .interests #grid {
+    column-count: 3; }
+  .interests form {
+    margin-top: 20px; }
+    .interests form #textApi {
+      margin-right: 3px; }
 
   .box-footer .slogan {
     width: 23%; }
   .box-footer .nav-footer {
-    width: 45%;
-    justify-content: center; }
+    width: 40%;
+    justify-content: space-around; }
     .box-footer .nav-footer ul {
-      margin-right: 5%; } }
+      margin-right: 0; } }
 
 /*# sourceMappingURL=style_tablet.css.map */

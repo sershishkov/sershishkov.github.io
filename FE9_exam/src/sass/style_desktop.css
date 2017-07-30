@@ -1,15 +1,15 @@
 .container {
   margin: 0 auto;
   max-width: 1440px;
-  font-family: 'Roboto', serif;
-  padding: 1px; }
+  font-family: 'Montserrat', serif;
+  font-weight: bold; }
 
 .header {
   margin: 0 auto;
   width: 100%;
+  height: 700px;
   background-size: cover;
-  background-image: url("../img/backroundHeader.png");
-  height: 700px; }
+  background-image: url("../img/backroundHeader.png"); }
 
 .inner {
   margin: 0 auto;
@@ -23,25 +23,24 @@
   justify-content: flex-start;
   align-items: center; }
   .box-header nav {
+    margin-top: 40px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    height: 100px; }
+    width: 100%; }
     .box-header nav h1 {
-      width: 40%;
-      height: 100%;
       display: flex;
       flex-flow: row wrap;
       justify-content: flex-start;
-      align-items: center; }
+      align-items: center;
+      width: 180px;
+      height: 100%; }
       .box-header nav h1 a {
         text-decoration: none;
-        font-family: Montserrat, serif;
-        font-weight: bold;
         font-size: 20px;
-        color: #ffffff; }
+        color: #ffffff;
+        letter-spacing: 1px; }
     .box-header nav .box-signUp {
       display: flex;
       flex-flow: row wrap;
@@ -50,12 +49,10 @@
       width: 40%;
       height: 100%; }
       .box-header nav .box-signUp .btnSignUp {
-        font-family: Montserrat, serif;
-        font-weight: bold;
         font-size: 14px;
         color: #ffffff;
         border: 2px solid transparent;
-        width: 90px;
+        width: 88px;
         height: 35px;
         border-radius: 20px;
         background-color: transparent;
@@ -64,23 +61,22 @@
           border: 2px solid #ffffff;
           cursor: pointer; }
   .box-header .box-findPartner {
-    margin-top: 100px;
+    margin-top: 147px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     width: 100%; }
     .box-header .box-findPartner h1 {
+      margin-bottom: 12px;
       width: 100%;
       text-transform: uppercase;
       text-align: center;
-      font-family: Montserrat, serif;
-      font-weight: bold;
       font-size: 52px;
       color: #ffffff; }
     .box-header .box-findPartner h6 {
       width: 100%;
-      margin-top: 25px;
+      margin-top: 17px;
       text-align: center;
       font-family: Roboto, serif;
       font-weight: 300;
@@ -89,17 +85,15 @@
     .box-header .box-findPartner h2 {
       width: 100%;
       text-align: center;
-      margin-top: 50px; }
+      margin-top: 38px; }
       .box-header .box-findPartner h2 button {
         width: 224px;
         height: 38px;
-        background-color: #ff4e50;
-        font-family: Montserrat, serif;
-        font-weight: bold;
         font-size: 14px;
         color: #ffffff;
         border-radius: 20px;
-        outline-style: none; }
+        outline-style: none;
+        background-color: #ff4e50; }
         .box-header .box-findPartner h2 button:hover {
           cursor: pointer; }
 
@@ -160,23 +154,21 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: 652px; }
+  height: 644px; }
   .galary h5 {
     margin-top: 98px;
     width: 100%;
     text-align: center;
-    font-family: Montserrat, serif;
-    font-weight: bold;
     font-size: 22px;
     color: #333333; }
   .galary .wrapSlider {
     margin-top: 35px;
-    width: 100%;
-    height: 400px;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    width: 100%;
+    height: 400px; }
     .galary .wrapSlider .containerSlider {
       position: relative;
       width: 32%;
@@ -209,7 +201,6 @@
               outline: none;
               border-radius: 10px;
               background-color: #ff4e50;
-              font-family: Montserrat, serif;
               font-weight: normal;
               font-size: 10px;
               color: #ffffff; }
@@ -217,8 +208,6 @@
             width: 100%;
             margin-top: 18px;
             text-align: left;
-            font-family: Montserrat, serif;
-            font-weight: bold;
             font-size: 24px;
             color: #ffffff;
             word-wrap: break-word; }
@@ -239,25 +228,23 @@
   .socials h5 {
     width: 100%;
     text-align: center;
-    font-family: Montserrat, serif;
-    font-weight: bold;
     font-size: 22px;
     color: #333333; }
   .socials .wrapFigure {
     margin-top: 36px;
-    width: 100%;
-    height: 260px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    width: 100%;
+    height: 260px; }
     .socials .wrapFigure figure {
-      width: 24%;
-      height: 100%;
       display: flex;
       flex-flow: column;
       justify-content: flex-start;
-      align-items: center; }
+      align-items: center;
+      width: 24%;
+      height: 100%; }
       .socials .wrapFigure figure div {
         position: relative;
         width: 120px;
@@ -290,14 +277,13 @@
         .socials .wrapFigure figure div .icon-coffee {
           background-color: #1cd7ad; }
       .socials .wrapFigure figure .figCapt {
-        margin-top: 16px;
+        margin-top: 19px;
         width: 100%;
         text-align: center;
-        font-family: Montserrat, serif;
-        font-weight: bold;
         font-size: 14px;
         color: #333333; }
       .socials .wrapFigure figure h6 {
+        margin-top: 15px;
         width: 100%;
         text-align: center;
         font-family: Roboto, serif;
@@ -306,7 +292,7 @@
         line-height: 14px;
         color: #666666; }
   .socials h3 {
-    margin-top: 30px;
+    margin-top: 10px;
     width: 100%;
     text-align: center; }
     .socials h3 button {
@@ -317,29 +303,38 @@
       border: 2px solid #ff4e50;
       background-color: transparent;
       text-align: center;
-      font-family: Montserrat, serif;
-      font-weight: bold;
       font-size: 14px;
       color: #ff4e50; }
       .socials h3 button:hover {
         cursor: pointer; }
 
 .interests {
-  width: 100%; }
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 98px; }
   .interests h5 {
     text-align: center;
-    font-family: Montserrat, serif;
-    font-weight: bold;
     font-size: 22px;
     color: #333333; }
+  .interests .titleTop {
+    margin-bottom: 40px; }
+  .interests .titleBottom {
+    margin-top: 82px;
+    margin-bottom: 40px; }
   .interests #grid {
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 1%;
+    column-count: 4; }
     .interests #grid .grid-item {
-      display: inline-block; }
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 20px; }
       .interests #grid .grid-item .divShow {
         position: relative; }
         .interests #grid .grid-item .divShow img {
-          width: 200px; }
+          width: 100%;
+          object-fit: cover;
+          border-radius: 5px; }
         .interests #grid .grid-item .divShow .divWrapP {
           position: absolute;
           display: flex;
@@ -351,18 +346,17 @@
           width: 100%;
           height: 100%;
           background-color: rgba(0, 0, 0, 0.3);
-          padding: 3%; }
+          padding: 3%;
+          border-radius: 5px; }
           .interests #grid .grid-item .divShow .divWrapP:hover {
             background-color: transparent; }
           .interests #grid .grid-item .divShow .divWrapP .pShow {
-            font-family: Montserrat, serif;
-            font-weight: bold;
             font-size: 24px;
             color: #ffffff;
             word-wrap: break-word;
             padding: 3px; }
   .interests h6 {
-    margin-top: 42px;
+    margin-top: 35px;
     text-align: center;
     font-family: Roboto, serif;
     font-weight: 300;
@@ -371,14 +365,14 @@
     color: #333333; }
   .interests form {
     margin-top: 42px;
-    width: 100%;
-    height: 38px;
     display: flex;
     flex-flow: row;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    width: 100%;
+    height: 38px; }
     .interests form #textApi {
-      margin-right: 3px;
+      margin-right: 8px;
       width: 240px;
       height: 100%;
       border-radius: 3px; }
@@ -388,8 +382,6 @@
       background-color: #ff4e50;
       border-radius: 18px;
       outline: none;
-      font-family: Montserrat, serif;
-      font-weight: bold;
       font-size: 14px;
       color: #ffffff; }
       .interests form #butSearch:hover {
@@ -400,44 +392,43 @@
   border-top: 4px solid #ff4e50; }
 
 .box-footer {
-  height: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: flex-start;
   padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  width: 100%; }
   .box-footer .slogan {
-    width: 23%;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
-    align-items: flex-start; }
+    align-items: flex-start;
+    width: 160px; }
     .box-footer .slogan h1 {
       text-align: left; }
       .box-footer .slogan h1 a {
-        font-family: Montserrat, serif;
-        font-weight: bold;
         font-size: 16px;
         color: #ff4e50;
         text-transform: uppercase;
-        text-decoration: none; }
+        text-decoration: none;
+        letter-spacing: 1px; }
   .box-footer .nav-footer {
-    width: 48%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: flex-start; }
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 52%; }
     .box-footer .nav-footer ul {
-      width: 40%; }
+      width: 80px;
+      margin-right: 80px; }
       .box-footer .nav-footer ul h6 {
+        margin-bottom: 5px;
         text-align: left;
-        font-family: Montserrat, serif;
-        font-weight: bold;
         font-size: 14px;
         color: #333333; }
       .box-footer .nav-footer ul li {
-        padding: 7px;
+        padding: 5px;
         text-align: left; }
         .box-footer .nav-footer ul li a {
           font-family: Roboto, serif;
@@ -446,16 +437,16 @@
           color: #666666;
           text-decoration: none; }
   .box-footer .designed {
-    width: 23%;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
-    align-items: flex-end; }
+    align-items: flex-end;
+    width: 130px; }
     .box-footer .designed h6 {
       margin-bottom: 10px;
-      font-family: Montserrat, serif;
-      font-weight: bold;
       font-size: 10px;
-      color: #cccccc; }
+      color: #cccccc;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
 
 /*# sourceMappingURL=style_desktop.css.map */

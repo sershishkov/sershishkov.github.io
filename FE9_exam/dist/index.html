@@ -132,9 +132,21 @@
   			<h3><button class="btnSee">See other partners</button></h3>
   		</section>
   		<section class="interests">
-  			<h5>Discover holiday activity ideas</h5>
+  			<h5 class="titleTop">Discover holiday activity ideas</h5>
   			<div id="grid" ></div>
-  			<h5>Discover holiday activity ideas</h5>
+  			<script type="text/template" id="template-grid">
+  				<% for (let i = 0;i < data.length ; i++){ %>
+  				<a  href="<%= data[i].webformatURL %>" class="grid-item" target="_blank">
+  					<div class="divShow">
+  						<img src="<%= data[i].previewURL %>" >
+  						<div class="divWrapP">
+  							<p class="pShow"><%= data[i].user %></p>
+  						</div>
+  					</div>
+  				</a>
+  				<%};%>
+  			</script>
+  			<h5 class="titleBottom">Discover holiday activity ideas</h5>
   			<h6>Hi! What are your holiday interests?</h6>
   			<form action="#" class="myForm">
   				<input  type = " text " id="textApi" placeholder="Enter your interests">

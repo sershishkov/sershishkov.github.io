@@ -2,23 +2,20 @@
   .container {
     margin: 0 auto;
     max-width: 1440px;
-    //min-width: 768px;
-    font-family: 'Roboto', serif;
-    padding: 1px;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
   }
   .header {
     margin: 0 auto;
     width: 100%;
+    height: 700px;
     background-size: cover;
     background-image: url("../img/backroundHeader.png");
-    height: 700px;
   }
-
   .inner {
     margin: 0 auto;
     height: 100%;
     max-width: 940px;
-    //min-width: 749px;
     text-align: center;
   }
 .box-header {
@@ -26,28 +23,27 @@
   flex-flow: column wrap;
   justify-content: flex-start;
   align-items: center;
+
   nav {
+    margin-top: 40px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 100px;
     h1 {
-      width: 40%;
-      height: 100%;
       display: flex;
       flex-flow: row wrap;
       justify-content: flex-start;
       align-items: center;
+      width: 180px;
+      height: 100%;
       a{
         text-decoration: none;
-        font-family: Montserrat, serif;
-        font-weight: bold;
         font-size: 20px;
         color: #ffffff;
+        letter-spacing: 1px;
       }
-
     }
     .box-signUp {
       display: flex;
@@ -57,12 +53,10 @@
       width: 40%;
       height: 100%;
       .btnSignUp {
-        font-family: Montserrat, serif;
-        font-weight: bold;
         font-size: 14px;
         color: #ffffff;
         border: 2px solid transparent;
-        width: 90px;
+        width: 88px;
         height: 35px;
         border-radius: 20px;
         background-color: transparent;
@@ -76,25 +70,23 @@
     }
   }
   .box-findPartner {
-    margin-top: 100px;
+    margin-top: 147px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
-    //height: 280px;
     h1 {
+      margin-bottom: 12px;
       width: 100%;
       text-transform: uppercase;
       text-align: center;
-      font-family: Montserrat, serif;
-      font-weight: bold;
       font-size: 52px;
       color: #ffffff;
     }
     h6 {
       width: 100%;
-      margin-top: 25px;
+      margin-top: 17px;
       text-align: center;
       font-family: Roboto, serif;
       font-weight: 300;
@@ -104,17 +96,15 @@
     h2 {
       width: 100%;
       text-align: center;
-      margin-top: 50px;
+      margin-top: 38px;
       button {
         width: 224px;
         height: 38px;
-        background-color: #ff4e50;
-        font-family: Montserrat, serif;
-        font-weight: bold;
         font-size: 14px;
         color: #ffffff;
         border-radius: 20px;
         outline-style: none;
+        background-color:#ff4e50 ;
         &:hover {
           cursor: pointer;
         }
@@ -128,8 +118,6 @@
   .main{
     background-color: #ffffff;
   }
-  ////////////////////////////////////////////
-
   .slide{
     position: absolute;
     left: 0;
@@ -153,7 +141,6 @@
     height: 100%;
     border: transparent;
     outline: none;
-
     i{
       font-size: 60px;
       color: #ffffff;
@@ -189,24 +176,22 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    height: 652px;
+    height: 644px;
     h5 {
       margin-top: 98px;
       width: 100%;
       text-align: center;
-      font-family: Montserrat, serif;
-      font-weight: bold;
       font-size: 22px;
       color: #333333;
     }
     .wrapSlider{
       margin-top: 35px;
-      width: 100%;
-      height: 400px;
       display: flex;
       flex-flow: row;
       justify-content: space-between;
       align-items: center;
+      width: 100%;
+      height: 400px;
       .containerSlider{
         position: relative;
         width: 32%;
@@ -215,7 +200,6 @@
           width: 100%;
           height: 100%;
           li{
-
             img {
               object-fit: cover;
               width: 100%;
@@ -242,7 +226,6 @@
                   outline: none;
                   border-radius: 10px;
                   background-color:#ff4e50 ;
-                  font-family: Montserrat, serif;
                   font-weight: normal;
                   font-size: 10px;
                   color: #ffffff;
@@ -252,8 +235,6 @@
                 width: 100%;
                 margin-top: 18px;
                 text-align: left;
-                font-family: Montserrat, serif;
-                font-weight: bold;
                 font-size: 24px;
                 color: #ffffff;
                 word-wrap: break-word;
@@ -278,31 +259,28 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    //height: 467px;
     padding: 1%;
     h5{
       width: 100%;
       text-align: center;
-      font-family: Montserrat, serif;
-      font-weight: bold;
       font-size: 22px;
       color: #333333;
     }
     .wrapFigure {
       margin-top: 36px;
-      width: 100%;
-      height: 260px;
       display: flex;
       flex-flow: row wrap;
       justify-content: space-between;
       align-items: center;
+      width: 100%;
+      height: 260px;
       figure {
-        width: 24%;
-        height: 100%;
         display: flex;
         flex-flow: column;
         justify-content: flex-start;
         align-items: center;
+        width: 24%;
+        height: 100%;
         div {
           position: relative;
           width: 120px;
@@ -342,15 +320,14 @@
           }
         }
         .figCapt {
-          margin-top: 16px;
+          margin-top: 19px;
           width: 100%;
           text-align: center;
-          font-family: Montserrat, serif;
-          font-weight: bold;
           font-size: 14px;
           color: #333333;
         }
         h6 {
+          margin-top: 15px;
           width: 100%;
           text-align: center;
           font-family: Roboto, serif;
@@ -362,7 +339,7 @@
       }
     }
     h3 {
-      margin-top: 30px;
+      margin-top: 10px;
       width: 100%;
       text-align: center;
       button {
@@ -373,8 +350,6 @@
         border:2px solid #ff4e50;
         background-color: transparent;
         text-align: center;
-        font-family: Montserrat, serif;
-        font-weight: bold;
         font-size: 14px;
         color: #ff4e50;
         &:hover {
@@ -386,31 +361,35 @@
 ////////////////////////////////////////////////////////
   .interests {
     width: 100%;
-    //outline: 3px dashed blue;
-    //padding: 10px;
+    padding-top: 90px;
+    padding-bottom: 98px;
     h5 {
       text-align: center;
-      font-family: Montserrat, serif;
-      font-weight: bold;
       font-size: 22px;
       color: #333333;
-      &:last-child {
-        //margin-top: 100px;
-      }
     }
+    .titleTop {
+      margin-bottom: 40px;
+    }
+    .titleBottom {
+      margin-top: 82px;
+      margin-bottom: 40px;
+    }
+
     #grid {
       margin: 0 auto;
-      //outline: 3px dashed red;
-
+      padding: 1%;
+      column-count: 4; // сколько колонок нужно?
       .grid-item {
         display: inline-block;
+        width: 100%;
+        margin-bottom: 20px;
         .divShow {
           position: relative;
-        //  display: inline-block;
-
           img {
-            width: 200px;
-
+            width: 100%;
+            object-fit: cover;
+            border-radius: 5px;
           }
           .divWrapP{
             position: absolute;
@@ -424,12 +403,11 @@
             height: 100%;
             background-color: rgba(0,0,0,0.3);
             padding: 3%;
+            border-radius: 5px;
             &:hover {
               background-color: transparent;
             }
             .pShow {
-              font-family: Montserrat, serif;
-              font-weight: bold;
               font-size: 24px;
               color: #ffffff;
               word-wrap: break-word;
@@ -440,7 +418,7 @@
       }
     }
     h6{
-      margin-top: 42px;
+      margin-top: 35px;
       text-align: center;
       font-family: Roboto, serif;
       font-weight: 300;
@@ -450,14 +428,14 @@
     }
     form{
       margin-top: 42px;
-      width: 100%;
-      height: 38px;
       display: flex;
       flex-flow: row;
       justify-content: center;
       align-items: center;
+      width: 100%;
+      height: 38px;
       #textApi {
-        margin-right: 3px;
+        margin-right: 8px;
         width:240px ;
         height: 100%;
         border-radius: 3px;
@@ -468,8 +446,6 @@
         background-color: #ff4e50;
         border-radius: 18px;
         outline: none;
-        font-family: Montserrat, serif;
-        font-weight: bold;
         font-size: 14px;
         color: #ffffff;
         &:hover {
@@ -481,53 +457,52 @@
   //main end
   ///////////////////////////////////////////////////
   .footer {
-    //height: 196px;
     background-color: #ffffff;
     border-top: 4px solid #ff4e50;
   }
 .box-footer {
-  height: 100%;
+
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: flex-start;
   padding-top: 40px;
   padding-bottom: 40px;
+  width: 100%;
   .slogan {
-    width: 23%;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 160px;
     h1 {
       text-align: left;
       a{
-        font-family: Montserrat, serif;
-        font-weight: bold;
         font-size: 16px;
         color: #ff4e50;
         text-transform: uppercase;
         text-decoration: none;
+        letter-spacing: 1px;
       }
     }
   }
   .nav-footer {
-    width: 48%;
     display: flex;
     flex-flow:row wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: flex-start;
+    width: 52%;
     ul{
-      width: 40%;
+      width: 80px;
+      margin-right: 80px;
       h6 {
+        margin-bottom: 5px;
         text-align: left;
-        font-family: Montserrat, serif;
-        font-weight: bold;
         font-size: 14px;
         color: #333333;
       }
       li {
-        padding: 7px;
+        padding: 5px;
         text-align: left;
         a {
           font-family: Roboto, serif;
@@ -540,17 +515,17 @@
     }
   }
   .designed {
-    width: 23%;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: flex-end;
+    width: 130px;
     h6 {
       margin-bottom: 10px;
-      font-family: Montserrat, serif;
-      font-weight: bold;
       font-size: 10px;
       color: #cccccc;
+      text-transform: uppercase;
+      letter-spacing: 1px;
     }
   }
 }

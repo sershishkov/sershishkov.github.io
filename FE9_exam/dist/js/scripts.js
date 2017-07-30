@@ -1,82 +1,6 @@
-"use strict";///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//Вариант №1
-// (function () {
-// 	let grid = document.getElementById('grid');
-// 		function SendGet(str) {
-// 			let strThis=str;
-// 			let API_KEY = '5574618-9f2251e0f5fdbede0f9cb5e69';
-// 			let URL = "https://pixabay.com/api/?key=" + API_KEY + "&q="+encodeURIComponent(strThis);
-//
-// 			let myData = fetch(URL)
-// 						.then(function(response) {
-// 							if (response.ok) {
-// 								return response.json();
-// 							}
-// 							throw new Error('ERROR fetching data!');
-// 						})
-// 						.then(function(data) {
-// 							if(data.hits.length > 0){
-// 								console.log(data.hits);
-// 								for (let key in data.hits){
-// 									let pShow = document.createElement('p');
-// 									let img = document.createElement('img');
-// 									let divWrapP = document.createElement('div');
-// 									let divShow = document.createElement('div');
-// 									let gridItem = document.createElement('a');
-//
-// 									pShow.setAttribute('class','pShow ');
-// 									divWrapP.setAttribute('class','divWrapP ');
-// 									divShow.setAttribute('class','divShow ');
-// 									img.setAttribute('src',data.hits[key].previewURL);
-// 									gridItem.setAttribute('class','grid-item ');
-// 									gridItem.setAttribute('href',data.hits[key].webformatURL);
-// 									pShow.innerHTML =data.hits[key].user;
-// 									divWrapP.appendChild(pShow);
-// 									divShow.appendChild(divWrapP);
-// 									divShow.appendChild(img);
-// 									gridItem.appendChild(divShow);
-// 									grid.appendChild(gridItem);
-// 								}
-// 								return grid;
-// 							}else{
-// 								alert('объект не пришел');
-// 							}
-// 						})
-// 						.catch(function (error) {
-//
-// 						});
-// }
-// 	SendGet ('n');
-//
-//
-//
-// //Запрос по клику на кнопку
-//
-// let myInput = document.getElementById('textApi');
-// let butSearch = document.getElementById('butSearch');
-// butSearch.addEventListener('click',function () {
-// 	//alert('Что то ...');
-// 	let myStr = myInput.value;
-// 	// alert(myStr);
-// 	grid.innerHTML= '';
-// 	SendGet(myStr);
-// 	myInput.value=" ";
-//
-// });
-//
-// myInput.addEventListener("keyup", function(event) {
-// 	event.preventDefault();
-// 	if (event.keyCode == 13) {
-// 		butSearch.click();
-// 	}
-// });
-// })();
-/////////////////////////////////////////////////////////////////////////////////////////
-//Вариант №2
-var _typeof=typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"?function(obj){return typeof obj;}:function(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};(function(){var myIMG=['https://media.giphy.com/media/6H4BDd2ZxPeAU/giphy.gif','https://media.giphy.com/media/zrgqFogFDV160/giphy.gif','https://media.giphy.com/media/Va7vvCMQjFrxK/giphy.gif','https://media.giphy.com/media/RPOle2zLtvdkY/giphy.gif','https://media.giphy.com/media/FL8ANluUfxyve/giphy.gif','https://media.giphy.com/media/Ro29C6bW4IsOk/giphy.gif','https://media.giphy.com/media/Pbb3yCU9LHtxm/giphy.gif','https://media.giphy.com/media/XbmRnSzRrQMcE/giphy.gif','https://media.giphy.com/media/r8UOm6i5MJAgo/giphy.gif','https://media.giphy.com/media/oMxkUIqkbJu5a/giphy.gif','https://media.giphy.com/media/XPCgAXhMJMoDu/giphy.gif','https://media.giphy.com/media/118Nyp2LSROwYU/giphy.gif','https://media.giphy.com/media/o7ajiKs7WmItW/giphy.gif','https://media.giphy.com/media/eP5q0QCbX7Qzu/giphy.gif','https://media.giphy.com/media/NhQwkWcd8hLZC/giphy.gif','https://media.giphy.com/media/Iz1A3fP4iLqBW/giphy.gif','https://media.giphy.com/media/ESySetwb9N7rO/giphy.gif','https://media.giphy.com/media/N1WgnxuBdPxbW/giphy.gif','https://media.giphy.com/media/FmeGktWfi5fQk/giphy.gif','https://media.giphy.com/media/EDTBuikyKjZRK/giphy.gif','https://media.giphy.com/media/uN7z6KVXIqkN2/giphy.gif','https://media.giphy.com/media/ptRXpn1QeeEMg/giphy.gif'];var grid=document.getElementById('grid');for(var key in myIMG){var pShow=document.createElement('p');var img=document.createElement('img');var divWrapP=document.createElement('div');var divShow=document.createElement('div');var gridItem=document.createElement('a');pShow.setAttribute('class','pShow ');divWrapP.setAttribute('class','divWrapP ');divShow.setAttribute('class','divShow ');img.setAttribute('src',myIMG[key]);gridItem.setAttribute('class','grid-item ');gridItem.setAttribute('href',myIMG[key]);pShow.innerHTML='test';divWrapP.appendChild(pShow);divShow.appendChild(divWrapP);divShow.appendChild(img);gridItem.appendChild(divShow);grid.appendChild(gridItem);}//Запрос по клику на кнопку
-var myInput=document.getElementById('textApi');var butSearch=document.getElementById('butSearch');butSearch.addEventListener('click',function(){//alert('Что то ...');
-var myStr=myInput.value;// alert(myStr);
-grid.innerHTML='';SendGet(myStr);myInput.value=" ";});myInput.addEventListener("keyup",function(event){event.preventDefault();if(event.keyCode==13){butSearch.click();}});})();/////////////////////////////////////////////////////////////
+"use strict";var _typeof=typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"?function(obj){return typeof obj;}:function(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};(function(){function SendGet(str){var strThis=str;var API_KEY='5574618-9f2251e0f5fdbede0f9cb5e69';var URL="https://pixabay.com/api/?key="+API_KEY+"&q="+encodeURIComponent(strThis);var grid=document.getElementById('grid');var myData=fetch(URL).then(function(response){if(response.ok){return response.json();}throw new Error('ERROR fetching data!');}).then(function(data){// let grid = document.getElementById('grid');
+if(data.hits.length>0){var htmlGridTemplate=document.getElementById('template-grid').innerHTML;var templsteGrid=_.template(htmlGridTemplate);var Content=templsteGrid({'data':data.hits});grid.innerHTML=Content;return grid;}else{alert('объект не пришел');}}).catch(function(error){});}SendGet('');//Запрос по клику на кнопку
+var myInput=document.getElementById('textApi');var butSearch=document.getElementById('butSearch');butSearch.addEventListener('click',function(){var myStr=myInput.value;grid.innerHTML='';SendGet(myStr);myInput.value=" ";});myInput.addEventListener("keyup",function(event){event.preventDefault();if(event.keyCode==13){butSearch.click();}});})();/////////////////////////////////////////////////////////////////////////////////////////
 /**
  * @license
  * Lodash <https://lodash.com/>
@@ -90,12 +14,12 @@ grid.innerHTML='';SendGet(myStr);myInput.value=" ";});myInput.addEventListener("
      */var reRegExpChar=/[\\^$.*+?()[\]{}|]/g,reHasRegExpChar=RegExp(reRegExpChar.source);/** Used to match leading and trailing whitespace. */var reTrim=/^\s+|\s+$/g,reTrimStart=/^\s+/,reTrimEnd=/\s+$/;/** Used to match wrap detail comments. */var reWrapComment=/\{(?:\n\/\* \[wrapped with .+\] \*\/)?\n?/,reWrapDetails=/\{\n\/\* \[wrapped with (.+)\] \*/,reSplitDetails=/,? & /;/** Used to match words composed of alphanumeric characters. */var reAsciiWord=/[^\x00-\x2f\x3a-\x40\x5b-\x60\x7b-\x7f]+/g;/** Used to match backslashes in property paths. */var reEscapeChar=/\\(\\)?/g;/**
      * Used to match
      * [ES template delimiters](http://ecma-international.org/ecma-262/7.0/#sec-template-literal-lexical-components).
-     */var reEsTemplate=/\$\{([^\\}]*(?:\\.[^\\}]*)*)\}/g;/** Used to match `RegExp` flags from their coerced string values. */var reFlags=/\w*$/;/** Used to detect bad signed hexadecimal string values. */var reIsBadHex=/^[-+]0x[0-9a-f]+$/i;/** Used to detect binary string values. */var reIsBinary=/^0b[01]+$/i;/** Used to detect host constructors (Safari). */var reIsHostCtor=/^\[object .+?Constructor\]$/;/** Used to detect octal string values. */var reIsOctal=/^0o[0-7]+$/i;/** Used to detect unsigned integer values. */var reIsUint=/^(?:0|[1-9]\d*)$/;/** Used to match Latin Unicode letters (excluding mathematical operators). */var reLatin=/[\xc0-\xd6\xd8-\xf6\xf8-\xff\u0100-\u017f]/g;/** Used to ensure capturing order of template delimiters. */var reNoMatch=/($^)/;/** Used to match unescaped characters in compiled string literals. */var reUnescapedString=/['\n\r\u2028\u2029\\]/g;/** Used to compose unicode character classes. */var rsAstralRange='\\ud800-\\udfff',rsComboMarksRange='\\u0300-\\u036f',reComboHalfMarksRange='\\ufe20-\\ufe2f',rsComboSymbolsRange='\\u20d0-\\u20ff',rsComboRange=rsComboMarksRange+reComboHalfMarksRange+rsComboSymbolsRange,rsDingbatRange='\\u2700-\\u27bf',rsLowerRange='a-z\\xdf-\\xf6\\xf8-\\xff',rsMathOpRange='\\xac\\xb1\\xd7\\xf7',rsNonCharRange='\\x00-\\x2f\\x3a-\\x40\\x5b-\\x60\\x7b-\\xbf',rsPunctuationRange='\\u2000-\\u206f',rsSpaceRange=' \\t\\x0b\\f\\xa0\\ufeff\\n\\r\\u2028\\u2029\\u1680\\u180e\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\\u202f\\u205f\\u3000',rsUpperRange='A-Z\\xc0-\\xd6\\xd8-\\xde',rsVarRange='\\ufe0e\\ufe0f',rsBreakRange=rsMathOpRange+rsNonCharRange+rsPunctuationRange+rsSpaceRange;/** Used to compose unicode capture groups. */var rsApos='[\'\u2019]',rsAstral='['+rsAstralRange+']',rsBreak='['+rsBreakRange+']',rsCombo='['+rsComboRange+']',rsDigits='\\d+',rsDingbat='['+rsDingbatRange+']',rsLower='['+rsLowerRange+']',rsMisc='[^'+rsAstralRange+rsBreakRange+rsDigits+rsDingbatRange+rsLowerRange+rsUpperRange+']',rsFitz='\\ud83c[\\udffb-\\udfff]',rsModifier='(?:'+rsCombo+'|'+rsFitz+')',rsNonAstral='[^'+rsAstralRange+']',rsRegional='(?:\\ud83c[\\udde6-\\uddff]){2}',rsSurrPair='[\\ud800-\\udbff][\\udc00-\\udfff]',rsUpper='['+rsUpperRange+']',rsZWJ='\\u200d';/** Used to compose unicode regexes. */var rsMiscLower='(?:'+rsLower+'|'+rsMisc+')',rsMiscUpper='(?:'+rsUpper+'|'+rsMisc+')',rsOptContrLower='(?:'+rsApos+'(?:d|ll|m|re|s|t|ve))?',rsOptContrUpper='(?:'+rsApos+'(?:D|LL|M|RE|S|T|VE))?',reOptMod=rsModifier+'?',rsOptVar='['+rsVarRange+']?',rsOptJoin='(?:'+rsZWJ+'(?:'+[rsNonAstral,rsRegional,rsSurrPair].join('|')+')'+rsOptVar+reOptMod+')*',rsOrdLower='\\d*(?:(?:1st|2nd|3rd|(?![123])\\dth)\\b)',rsOrdUpper='\\d*(?:(?:1ST|2ND|3RD|(?![123])\\dTH)\\b)',rsSeq=rsOptVar+reOptMod+rsOptJoin,rsEmoji='(?:'+[rsDingbat,rsRegional,rsSurrPair].join('|')+')'+rsSeq,rsSymbol='(?:'+[rsNonAstral+rsCombo+'?',rsCombo,rsRegional,rsSurrPair,rsAstral].join('|')+')';/** Used to match apostrophes. */var reApos=RegExp(rsApos,'g');/**
+     */var reEsTemplate=/\$\{([^\\}]*(?:\\.[^\\}]*)*)\}/g;/** Used to match `RegExp` flags from their coerced string values. */var reFlags=/\w*$/;/** Used to detect bad signed hexadecimal string values. */var reIsBadHex=/^[-+]0x[0-9a-f]+$/i;/** Used to detect binary string values. */var reIsBinary=/^0b[01]+$/i;/** Used to detect host constructors (Safari). */var reIsHostCtor=/^\[object .+?Constructor\]$/;/** Used to detect octal string values. */var reIsOctal=/^0o[0-7]+$/i;/** Used to detect unsigned integer values. */var reIsUint=/^(?:0|[1-9]\d*)$/;/** Used to match Latin Unicode letters (excluding mathematical operators). */var reLatin=/[\xc0-\xd6\xd8-\xf6\xf8-\xff\u0100-\u017f]/g;/** Used to ensure capturing order of template delimiters. */var reNoMatch=/($^)/;/** Used to match unescaped characters in compiled string literals. */var reUnescapedString=/['\n\r\u2028\u2029\\]/g;/** Used to compose unicode character classes. */var rsAstralRange="\\ud800-\\udfff",rsComboMarksRange="\\u0300-\\u036f",reComboHalfMarksRange="\\ufe20-\\ufe2f",rsComboSymbolsRange="\\u20d0-\\u20ff",rsComboRange=rsComboMarksRange+reComboHalfMarksRange+rsComboSymbolsRange,rsDingbatRange="\\u2700-\\u27bf",rsLowerRange='a-z\\xdf-\\xf6\\xf8-\\xff',rsMathOpRange='\\xac\\xb1\\xd7\\xf7',rsNonCharRange='\\x00-\\x2f\\x3a-\\x40\\x5b-\\x60\\x7b-\\xbf',rsPunctuationRange="\\u2000-\\u206f",rsSpaceRange=" \\t\\x0b\\f\\xa0\\ufeff\\n\\r\\u2028\\u2029\\u1680\\u180e\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\\u202f\\u205f\\u3000",rsUpperRange='A-Z\\xc0-\\xd6\\xd8-\\xde',rsVarRange="\\ufe0e\\ufe0f",rsBreakRange=rsMathOpRange+rsNonCharRange+rsPunctuationRange+rsSpaceRange;/** Used to compose unicode capture groups. */var rsApos="['\u2019]",rsAstral='['+rsAstralRange+']',rsBreak='['+rsBreakRange+']',rsCombo='['+rsComboRange+']',rsDigits='\\d+',rsDingbat='['+rsDingbatRange+']',rsLower='['+rsLowerRange+']',rsMisc='[^'+rsAstralRange+rsBreakRange+rsDigits+rsDingbatRange+rsLowerRange+rsUpperRange+']',rsFitz="\\ud83c[\\udffb-\\udfff]",rsModifier='(?:'+rsCombo+'|'+rsFitz+')',rsNonAstral='[^'+rsAstralRange+']',rsRegional="(?:\\ud83c[\\udde6-\\uddff]){2}",rsSurrPair="[\\ud800-\\udbff][\\udc00-\\udfff]",rsUpper='['+rsUpperRange+']',rsZWJ="\\u200d";/** Used to compose unicode regexes. */var rsMiscLower='(?:'+rsLower+'|'+rsMisc+')',rsMiscUpper='(?:'+rsUpper+'|'+rsMisc+')',rsOptContrLower='(?:'+rsApos+'(?:d|ll|m|re|s|t|ve))?',rsOptContrUpper='(?:'+rsApos+'(?:D|LL|M|RE|S|T|VE))?',reOptMod=rsModifier+'?',rsOptVar='['+rsVarRange+']?',rsOptJoin='(?:'+rsZWJ+'(?:'+[rsNonAstral,rsRegional,rsSurrPair].join('|')+')'+rsOptVar+reOptMod+')*',rsOrdLower='\\d*(?:(?:1st|2nd|3rd|(?![123])\\dth)\\b)',rsOrdUpper='\\d*(?:(?:1ST|2ND|3RD|(?![123])\\dTH)\\b)',rsSeq=rsOptVar+reOptMod+rsOptJoin,rsEmoji='(?:'+[rsDingbat,rsRegional,rsSurrPair].join('|')+')'+rsSeq,rsSymbol='(?:'+[rsNonAstral+rsCombo+'?',rsCombo,rsRegional,rsSurrPair,rsAstral].join('|')+')';/** Used to match apostrophes. */var reApos=RegExp(rsApos,'g');/**
      * Used to match [combining diacritical marks](https://en.wikipedia.org/wiki/Combining_Diacritical_Marks) and
      * [combining diacritical marks for symbols](https://en.wikipedia.org/wiki/Combining_Diacritical_Marks_for_Symbols).
      */var reComboMark=RegExp(rsCombo,'g');/** Used to match [string symbols](https://mathiasbynens.be/notes/javascript-unicode). */var reUnicode=RegExp(rsFitz+'(?='+rsFitz+')|'+rsSymbol+rsSeq,'g');/** Used to match complex or compound words. */var reUnicodeWord=RegExp([rsUpper+'?'+rsLower+'+'+rsOptContrLower+'(?='+[rsBreak,rsUpper,'$'].join('|')+')',rsMiscUpper+'+'+rsOptContrUpper+'(?='+[rsBreak,rsUpper+rsMiscLower,'$'].join('|')+')',rsUpper+'?'+rsMiscLower+'+'+rsOptContrLower,rsUpper+'+'+rsOptContrUpper,rsOrdUpper,rsOrdLower,rsDigits,rsEmoji].join('|'),'g');/** Used to detect strings with [zero-width joiners or code points from the astral planes](http://eev.ee/blog/2015/09/12/dark-corners-of-unicode/). */var reHasUnicode=RegExp('['+rsZWJ+rsAstralRange+rsComboRange+rsVarRange+']');/** Used to detect strings that need a more robust regexp to match words. */var reHasUnicodeWord=/[a-z][A-Z]|[A-Z]{2,}[a-z]|[0-9][a-zA-Z]|[a-zA-Z][0-9]|[^a-zA-Z0-9 ]/;/** Used to assign default `context` object properties. */var contextProps=['Array','Buffer','DataView','Date','Error','Float32Array','Float64Array','Function','Int8Array','Int16Array','Int32Array','Map','Math','Object','Promise','RegExp','Set','String','Symbol','TypeError','Uint8Array','Uint8ClampedArray','Uint16Array','Uint32Array','WeakMap','_','clearTimeout','isFinite','parseInt','setTimeout'];/** Used to make template sourceURLs easier to identify. */var templateCounter=-1;/** Used to identify `toStringTag` values of typed arrays. */var typedArrayTags={};typedArrayTags[float32Tag]=typedArrayTags[float64Tag]=typedArrayTags[int8Tag]=typedArrayTags[int16Tag]=typedArrayTags[int32Tag]=typedArrayTags[uint8Tag]=typedArrayTags[uint8ClampedTag]=typedArrayTags[uint16Tag]=typedArrayTags[uint32Tag]=true;typedArrayTags[argsTag]=typedArrayTags[arrayTag]=typedArrayTags[arrayBufferTag]=typedArrayTags[boolTag]=typedArrayTags[dataViewTag]=typedArrayTags[dateTag]=typedArrayTags[errorTag]=typedArrayTags[funcTag]=typedArrayTags[mapTag]=typedArrayTags[numberTag]=typedArrayTags[objectTag]=typedArrayTags[regexpTag]=typedArrayTags[setTag]=typedArrayTags[stringTag]=typedArrayTags[weakMapTag]=false;/** Used to identify `toStringTag` values supported by `_.clone`. */var cloneableTags={};cloneableTags[argsTag]=cloneableTags[arrayTag]=cloneableTags[arrayBufferTag]=cloneableTags[dataViewTag]=cloneableTags[boolTag]=cloneableTags[dateTag]=cloneableTags[float32Tag]=cloneableTags[float64Tag]=cloneableTags[int8Tag]=cloneableTags[int16Tag]=cloneableTags[int32Tag]=cloneableTags[mapTag]=cloneableTags[numberTag]=cloneableTags[objectTag]=cloneableTags[regexpTag]=cloneableTags[setTag]=cloneableTags[stringTag]=cloneableTags[symbolTag]=cloneableTags[uint8Tag]=cloneableTags[uint8ClampedTag]=cloneableTags[uint16Tag]=cloneableTags[uint32Tag]=true;cloneableTags[errorTag]=cloneableTags[funcTag]=cloneableTags[weakMapTag]=false;/** Used to map Latin Unicode letters to basic Latin letters. */var deburredLetters={// Latin-1 Supplement block.
 '\xc0':'A','\xc1':'A','\xc2':'A','\xc3':'A','\xc4':'A','\xc5':'A','\xe0':'a','\xe1':'a','\xe2':'a','\xe3':'a','\xe4':'a','\xe5':'a','\xc7':'C','\xe7':'c','\xd0':'D','\xf0':'d','\xc8':'E','\xc9':'E','\xca':'E','\xcb':'E','\xe8':'e','\xe9':'e','\xea':'e','\xeb':'e','\xcc':'I','\xcd':'I','\xce':'I','\xcf':'I','\xec':'i','\xed':'i','\xee':'i','\xef':'i','\xd1':'N','\xf1':'n','\xd2':'O','\xd3':'O','\xd4':'O','\xd5':'O','\xd6':'O','\xd8':'O','\xf2':'o','\xf3':'o','\xf4':'o','\xf5':'o','\xf6':'o','\xf8':'o','\xd9':'U','\xda':'U','\xdb':'U','\xdc':'U','\xf9':'u','\xfa':'u','\xfb':'u','\xfc':'u','\xdd':'Y','\xfd':'y','\xff':'y','\xc6':'Ae','\xe6':'ae','\xde':'Th','\xfe':'th','\xdf':'ss',// Latin Extended-A block.
-'\u0100':'A','\u0102':'A','\u0104':'A','\u0101':'a','\u0103':'a','\u0105':'a','\u0106':'C','\u0108':'C','\u010A':'C','\u010C':'C','\u0107':'c','\u0109':'c','\u010B':'c','\u010D':'c','\u010E':'D','\u0110':'D','\u010F':'d','\u0111':'d','\u0112':'E','\u0114':'E','\u0116':'E','\u0118':'E','\u011A':'E','\u0113':'e','\u0115':'e','\u0117':'e','\u0119':'e','\u011B':'e','\u011C':'G','\u011E':'G','\u0120':'G','\u0122':'G','\u011D':'g','\u011F':'g','\u0121':'g','\u0123':'g','\u0124':'H','\u0126':'H','\u0125':'h','\u0127':'h','\u0128':'I','\u012A':'I','\u012C':'I','\u012E':'I','\u0130':'I','\u0129':'i','\u012B':'i','\u012D':'i','\u012F':'i','\u0131':'i','\u0134':'J','\u0135':'j','\u0136':'K','\u0137':'k','\u0138':'k','\u0139':'L','\u013B':'L','\u013D':'L','\u013F':'L','\u0141':'L','\u013A':'l','\u013C':'l','\u013E':'l','\u0140':'l','\u0142':'l','\u0143':'N','\u0145':'N','\u0147':'N','\u014A':'N','\u0144':'n','\u0146':'n','\u0148':'n','\u014B':'n','\u014C':'O','\u014E':'O','\u0150':'O','\u014D':'o','\u014F':'o','\u0151':'o','\u0154':'R','\u0156':'R','\u0158':'R','\u0155':'r','\u0157':'r','\u0159':'r','\u015A':'S','\u015C':'S','\u015E':'S','\u0160':'S','\u015B':'s','\u015D':'s','\u015F':'s','\u0161':'s','\u0162':'T','\u0164':'T','\u0166':'T','\u0163':'t','\u0165':'t','\u0167':'t','\u0168':'U','\u016A':'U','\u016C':'U','\u016E':'U','\u0170':'U','\u0172':'U','\u0169':'u','\u016B':'u','\u016D':'u','\u016F':'u','\u0171':'u','\u0173':'u','\u0174':'W','\u0175':'w','\u0176':'Y','\u0177':'y','\u0178':'Y','\u0179':'Z','\u017B':'Z','\u017D':'Z','\u017A':'z','\u017C':'z','\u017E':'z','\u0132':'IJ','\u0133':'ij','\u0152':'Oe','\u0153':'oe','\u0149':"'n",'\u017F':'s'};/** Used to map characters to HTML entities. */var htmlEscapes={'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'};/** Used to map HTML entities to characters. */var htmlUnescapes={'&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&#39;':"'"};/** Used to escape characters for inclusion in compiled string literals. */var stringEscapes={'\\':'\\',"'":"'",'\n':'n','\r':'r','\u2028':'u2028','\u2029':'u2029'};/** Built-in method references without a dependency on `root`. */var freeParseFloat=parseFloat,freeParseInt=parseInt;/** Detect free variable `global` from Node.js. */var freeGlobal=(typeof global==='undefined'?'undefined':_typeof(global))=='object'&&global&&global.Object===Object&&global;/** Detect free variable `self`. */var freeSelf=(typeof self==='undefined'?'undefined':_typeof(self))=='object'&&self&&self.Object===Object&&self;/** Used as a reference to the global object. */var root=freeGlobal||freeSelf||Function('return this')();/** Detect free variable `exports`. */var freeExports=(typeof exports==='undefined'?'undefined':_typeof(exports))=='object'&&exports&&!exports.nodeType&&exports;/** Detect free variable `module`. */var freeModule=freeExports&&(typeof module==='undefined'?'undefined':_typeof(module))=='object'&&module&&!module.nodeType&&module;/** Detect the popular CommonJS extension `module.exports`. */var moduleExports=freeModule&&freeModule.exports===freeExports;/** Detect free variable `process` from Node.js. */var freeProcess=moduleExports&&freeGlobal.process;/** Used to access faster Node.js helpers. */var nodeUtil=function(){try{return freeProcess&&freeProcess.binding&&freeProcess.binding('util');}catch(e){}}();/* Node.js helper references. */var nodeIsArrayBuffer=nodeUtil&&nodeUtil.isArrayBuffer,nodeIsDate=nodeUtil&&nodeUtil.isDate,nodeIsMap=nodeUtil&&nodeUtil.isMap,nodeIsRegExp=nodeUtil&&nodeUtil.isRegExp,nodeIsSet=nodeUtil&&nodeUtil.isSet,nodeIsTypedArray=nodeUtil&&nodeUtil.isTypedArray;/*--------------------------------------------------------------------------*//**
+"\u0100":'A',"\u0102":'A',"\u0104":'A',"\u0101":'a',"\u0103":'a',"\u0105":'a',"\u0106":'C',"\u0108":'C',"\u010A":'C',"\u010C":'C',"\u0107":'c',"\u0109":'c',"\u010B":'c',"\u010D":'c',"\u010E":'D',"\u0110":'D',"\u010F":'d',"\u0111":'d',"\u0112":'E',"\u0114":'E',"\u0116":'E',"\u0118":'E',"\u011A":'E',"\u0113":'e',"\u0115":'e',"\u0117":'e',"\u0119":'e',"\u011B":'e',"\u011C":'G',"\u011E":'G',"\u0120":'G',"\u0122":'G',"\u011D":'g',"\u011F":'g',"\u0121":'g',"\u0123":'g',"\u0124":'H',"\u0126":'H',"\u0125":'h',"\u0127":'h',"\u0128":'I',"\u012A":'I',"\u012C":'I',"\u012E":'I',"\u0130":'I',"\u0129":'i',"\u012B":'i',"\u012D":'i',"\u012F":'i',"\u0131":'i',"\u0134":'J',"\u0135":'j',"\u0136":'K',"\u0137":'k',"\u0138":'k',"\u0139":'L',"\u013B":'L',"\u013D":'L',"\u013F":'L',"\u0141":'L',"\u013A":'l',"\u013C":'l',"\u013E":'l',"\u0140":'l',"\u0142":'l',"\u0143":'N',"\u0145":'N',"\u0147":'N',"\u014A":'N',"\u0144":'n',"\u0146":'n',"\u0148":'n',"\u014B":'n',"\u014C":'O',"\u014E":'O',"\u0150":'O',"\u014D":'o',"\u014F":'o',"\u0151":'o',"\u0154":'R',"\u0156":'R',"\u0158":'R',"\u0155":'r',"\u0157":'r',"\u0159":'r',"\u015A":'S',"\u015C":'S',"\u015E":'S',"\u0160":'S',"\u015B":'s',"\u015D":'s',"\u015F":'s',"\u0161":'s',"\u0162":'T',"\u0164":'T',"\u0166":'T',"\u0163":'t',"\u0165":'t',"\u0167":'t',"\u0168":'U',"\u016A":'U',"\u016C":'U',"\u016E":'U',"\u0170":'U',"\u0172":'U',"\u0169":'u',"\u016B":'u',"\u016D":'u',"\u016F":'u',"\u0171":'u',"\u0173":'u',"\u0174":'W',"\u0175":'w',"\u0176":'Y',"\u0177":'y',"\u0178":'Y',"\u0179":'Z',"\u017B":'Z',"\u017D":'Z',"\u017A":'z',"\u017C":'z',"\u017E":'z',"\u0132":'IJ',"\u0133":'ij',"\u0152":'Oe',"\u0153":'oe',"\u0149":"'n","\u017F":'s'};/** Used to map characters to HTML entities. */var htmlEscapes={'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'};/** Used to map HTML entities to characters. */var htmlUnescapes={'&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&#39;':"'"};/** Used to escape characters for inclusion in compiled string literals. */var stringEscapes={'\\':'\\',"'":"'",'\n':'n','\r':'r',"\u2028":'u2028',"\u2029":'u2029'};/** Built-in method references without a dependency on `root`. */var freeParseFloat=parseFloat,freeParseInt=parseInt;/** Detect free variable `global` from Node.js. */var freeGlobal=(typeof global==="undefined"?"undefined":_typeof(global))=='object'&&global&&global.Object===Object&&global;/** Detect free variable `self`. */var freeSelf=(typeof self==="undefined"?"undefined":_typeof(self))=='object'&&self&&self.Object===Object&&self;/** Used as a reference to the global object. */var root=freeGlobal||freeSelf||Function('return this')();/** Detect free variable `exports`. */var freeExports=(typeof exports==="undefined"?"undefined":_typeof(exports))=='object'&&exports&&!exports.nodeType&&exports;/** Detect free variable `module`. */var freeModule=freeExports&&(typeof module==="undefined"?"undefined":_typeof(module))=='object'&&module&&!module.nodeType&&module;/** Detect the popular CommonJS extension `module.exports`. */var moduleExports=freeModule&&freeModule.exports===freeExports;/** Detect free variable `process` from Node.js. */var freeProcess=moduleExports&&freeGlobal.process;/** Used to access faster Node.js helpers. */var nodeUtil=function(){try{return freeProcess&&freeProcess.binding&&freeProcess.binding('util');}catch(e){}}();/* Node.js helper references. */var nodeIsArrayBuffer=nodeUtil&&nodeUtil.isArrayBuffer,nodeIsDate=nodeUtil&&nodeUtil.isDate,nodeIsMap=nodeUtil&&nodeUtil.isMap,nodeIsRegExp=nodeUtil&&nodeUtil.isRegExp,nodeIsSet=nodeUtil&&nodeUtil.isSet,nodeIsTypedArray=nodeUtil&&nodeUtil.isTypedArray;/*--------------------------------------------------------------------------*//**
      * Adds the key-value `pair` to `map`.
      *
      * @private
@@ -1393,7 +1317,7 @@ baseFlatten(value,depth-1,predicate,isStrict,result);}else{arrayPush(result,valu
          * @returns {Function} Returns the iteratee.
          */function baseIteratee(value){// Don't store the `typeof` result in a variable to avoid a JIT bug in Safari 9.
 // See https://bugs.webkit.org/show_bug.cgi?id=156034 for more details.
-if(typeof value=='function'){return value;}if(value==null){return identity;}if((typeof value==='undefined'?'undefined':_typeof(value))=='object'){return isArray(value)?baseMatchesProperty(value[0],value[1]):baseMatches(value);}return property(value);}/**
+if(typeof value=='function'){return value;}if(value==null){return identity;}if((typeof value==="undefined"?"undefined":_typeof(value))=='object'){return isArray(value)?baseMatchesProperty(value[0],value[1]):baseMatches(value);}return property(value);}/**
          * The base implementation of `_.keys` which doesn't treat sparse arrays as dense.
          *
          * @private
@@ -2348,20 +2272,20 @@ if(length&&typeof array[0]=='string'&&hasOwnProperty.call(array,'index')){result
          * @param {*} object The potential iteratee object argument.
          * @returns {boolean} Returns `true` if the arguments are from an iteratee call,
          *  else `false`.
-         */function isIterateeCall(value,index,object){if(!isObject(object)){return false;}var type=typeof index==='undefined'?'undefined':_typeof(index);if(type=='number'?isArrayLike(object)&&isIndex(index,object.length):type=='string'&&index in object){return eq(object[index],value);}return false;}/**
+         */function isIterateeCall(value,index,object){if(!isObject(object)){return false;}var type=typeof index==="undefined"?"undefined":_typeof(index);if(type=='number'?isArrayLike(object)&&isIndex(index,object.length):type=='string'&&index in object){return eq(object[index],value);}return false;}/**
          * Checks if `value` is a property name and not a property path.
          *
          * @private
          * @param {*} value The value to check.
          * @param {Object} [object] The object to query keys on.
          * @returns {boolean} Returns `true` if `value` is a property name, else `false`.
-         */function isKey(value,object){if(isArray(value)){return false;}var type=typeof value==='undefined'?'undefined':_typeof(value);if(type=='number'||type=='symbol'||type=='boolean'||value==null||isSymbol(value)){return true;}return reIsPlainProp.test(value)||!reIsDeepProp.test(value)||object!=null&&value in Object(object);}/**
+         */function isKey(value,object){if(isArray(value)){return false;}var type=typeof value==="undefined"?"undefined":_typeof(value);if(type=='number'||type=='symbol'||type=='boolean'||value==null||isSymbol(value)){return true;}return reIsPlainProp.test(value)||!reIsDeepProp.test(value)||object!=null&&value in Object(object);}/**
          * Checks if `value` is suitable for use as unique object key.
          *
          * @private
          * @param {*} value The value to check.
          * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
-         */function isKeyable(value){var type=typeof value==='undefined'?'undefined':_typeof(value);return type=='string'||type=='number'||type=='symbol'||type=='boolean'?value!=='__proto__':value===null;}/**
+         */function isKeyable(value){var type=typeof value==="undefined"?"undefined":_typeof(value);return type=='string'||type=='number'||type=='symbol'||type=='boolean'?value!=='__proto__':value===null;}/**
          * Checks if `func` has a lazy counterpart.
          *
          * @private
@@ -6057,7 +5981,7 @@ var tag=baseGetTag(value);return tag==funcTag||tag==genTag||tag==asyncTag||tag==
          *
          * _.isObject(null);
          * // => false
-         */function isObject(value){var type=typeof value==='undefined'?'undefined':_typeof(value);return value!=null&&(type=='object'||type=='function');}/**
+         */function isObject(value){var type=typeof value==="undefined"?"undefined":_typeof(value);return value!=null&&(type=='object'||type=='function');}/**
          * Checks if `value` is object-like. A value is object-like if it's not `null`
          * and has a `typeof` result of "object".
          *
@@ -6080,7 +6004,7 @@ var tag=baseGetTag(value);return tag==funcTag||tag==genTag||tag==asyncTag||tag==
          *
          * _.isObjectLike(null);
          * // => false
-         */function isObjectLike(value){return value!=null&&(typeof value==='undefined'?'undefined':_typeof(value))=='object';}/**
+         */function isObjectLike(value){return value!=null&&(typeof value==="undefined"?"undefined":_typeof(value))=='object';}/**
          * Checks if `value` is classified as a `Map` object.
          *
          * @static
@@ -6386,7 +6310,7 @@ return isNumber(value)&&value!=+value;}/**
          *
          * _.isSymbol('abc');
          * // => false
-         */function isSymbol(value){return(typeof value==='undefined'?'undefined':_typeof(value))=='symbol'||isObjectLike(value)&&baseGetTag(value)==symbolTag;}/**
+         */function isSymbol(value){return(typeof value==="undefined"?"undefined":_typeof(value))=='symbol'||isObjectLike(value)&&baseGetTag(value)==symbolTag;}/**
          * Checks if `value` is classified as a typed array.
          *
          * @static
@@ -9521,9 +9445,21 @@ define(function(){return _;});}// Check for `exports` after `define` in case a b
 else if(freeModule){// Export for Node.js.
 (freeModule.exports=_)._=_;// Export for CommonJS support.
 freeExports._=_;}else{// Export to the global object.
-root._=_;}}).call(undefined);"use strict";document.addEventListener("DOMContentLoaded",function(){(function(){var grid=document.getElementById('grid');imagesLoaded(grid,function(){var msnry=new Masonry(grid,{// options
-itemSelector:'.grid-item',columnWidth:200,gutter:10,isFitWidth:true// singleMode: false, // true - если у вас все блоки одинаковой ширины
-// resizeable: true, // перестраивает блоки при изменении размеров окна
-// isAnimated: !Modernizr.csstransitions // анимируем перестроение блоков при помощи css transitions и Modernizr
-});});})();});"use strict";// document.addEventListener("DOMContentLoaded", function () {
+root._=_;}}).call(undefined);"use strict";document.addEventListener("DOMContentLoaded",function(){(function(){// let grid = document.getElementById('grid');
+// imagesLoaded(grid, function () {
+// 	let msnry = new Masonry(grid, {
+// 		// itemSelector: '.grid-item',
+// 		// columnWidth: 200,
+// 		// gutter: 20,
+// 		// isFitWidth: true,
+// 		// containerStyle: null,
+// 		// isInitLayout:false,
+// 		// isOriginLeft:false,
+// 		// isOriginTop:true,
+// 		// isResizeBound:false,
+// 		// transitionDuration:1
+// 	});
+// });
+//НЕ РАБОТАЕТ
+})();});"use strict";// document.addEventListener("DOMContentLoaded", function () {
 (function(){var myDataL=[{id:1,src:"https://media.giphy.com/media/1ncx1ypcalsEE/giphy.gif",title:"Morbi velit risus",text:"Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est."},{id:2,src:"img/forSlider_2.png",title:"Morbi velit risus",text:"Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est."},{id:3,src:"img/forSlider_3.png",title:"Sed leo enim, condimentum",text:"Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis."},{id:4,src:"https://media.giphy.com/media/wlYf1WNgAqHHW/giphy.gif",title:"Morbi velit risus",text:"Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est."},{id:5,src:"https://media.giphy.com/media/3ornkdFBpmfKS9AyjK/giphy.gif",title:"Morbi velit risus",text:"The latest news, business, sport, comment, lifestyle and culture. Content from the Daily Telegraph and Sunday Telegraph newspapers "},{id:6,src:"https://media.giphy.com/media/nWWayVr77ePQY/giphy.gif",title:"Sed leo enim, condimentum",text:"Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis."}];var myDataM=[{id:1,src:"img/forSlider_1.png",title:"Morbi velit risus",text:"Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est."},{id:2,src:"https://media.giphy.com/media/3o6ZtelrVAOD5EcmCQ/giphy.gif",title:"Morbi velit risus",text:"Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est."},{id:3,src:"img/forSlider_3.png",title:"Sed leo enim, condimentum",text:"Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis."},{id:4,src:"https://media.giphy.com/media/xT1XGYhZZlnrgqETDi/giphy.gif",title:"Morbi velit risus",text:"Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est."},{id:5,src:"https://media.giphy.com/media/wWidXcUPChxkI/giphy.gif",title:"Morbi velit risus",text:"The latest news, business, sport, comment, lifestyle and culture. Content from the Daily Telegraph and Sunday Telegraph newspapers "},{id:6,src:"https://media.giphy.com/media/3l1d8zkvkfOo0/giphy.gif",title:"Sed leo enim, condimentum",text:"Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis."}];var myDataR=[{id:1,src:"img/forSlider_1.png",title:"Morbi velit risus",text:"Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est."},{id:2,src:"img/forSlider_2.png",title:"Morbi velit risus",text:"Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est."},{id:3,src:"https://media.giphy.com/media/xBfyIGXRZnsOY/giphy.gif",title:"Sed leo enim, condimentum",text:"Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis."},{id:4,src:"https://media.giphy.com/media/l2JJAW0kMUlY0TM9a/giphy.gif",title:"Morbi velit risus",text:"Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est."},{id:5,src:"https://media.giphy.com/media/n7WXpwt5Nwsg/giphy.gif",title:"Morbi velit risus",text:"The latest news, business, sport, comment, lifestyle and culture. Content from the Daily Telegraph and Sunday Telegraph newspapers "},{id:6,src:"https://media.giphy.com/media/26xBtWxaKpedKsBJC/giphy.gif",title:"Sed leo enim, condimentum",text:"Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis."}];var htmlTableTemplateL=document.getElementById('slide-template-LL').innerHTML;var listLL=document.getElementById('listLL');var listL=_.template(htmlTableTemplateL);var listContentL=listL({'data':myDataL});listLL.innerHTML=listContentL;var htmlTableTemplateM=document.getElementById('slide-template-MM').innerHTML;var listMM=document.getElementById('listMM');var listM=_.template(htmlTableTemplateM);var listContentM=listM({'data':myDataM});listMM.innerHTML=listContentM;var htmlTableTemplateR=document.getElementById('slide-template-RR').innerHTML;var listRR=document.getElementById('listRR');var listR=_.template(htmlTableTemplateR);var listContentR=listR({'data':myDataR});listRR.innerHTML=listContentR;function SlidersGo(controlsd,slidesd,nextd,previousd){var next=nextd;var previous=previousd;var controls=controlsd;var slides=slidesd;var currentSlide=0;for(var i=0;i<controls.length;i++){controls[i].style.display='inline-block';}function nextSlide(){goToSlide(currentSlide+1);}function previousSlide(){goToSlide(currentSlide-1);}function goToSlide(n){slides[currentSlide].className='slide';currentSlide=(n+slides.length)%slides.length;slides[currentSlide].className='slide showing';}next.onclick=function(){nextSlide();};previous.onclick=function(){previousSlide();};}var controlsL=document.querySelectorAll('.controlsLL');var slidesL=document.querySelectorAll('.slideLL');var nextL=document.getElementById('nextLL');var previousL=document.getElementById('previousLL');var controlsM=document.querySelectorAll('.controlsMM');var slidesM=document.querySelectorAll('.slideMM');var nextM=document.getElementById('nextMM');var previousM=document.getElementById('previousMM');var controlsR=document.querySelectorAll('.controlsRR');var slidesR=document.querySelectorAll('.slideRR');var nextR=document.getElementById('nextRR');var previousR=document.getElementById('previousRR');SlidersGo(controlsL,slidesL,nextL,previousL);SlidersGo(controlsM,slidesM,nextM,previousM);SlidersGo(controlsR,slidesR,nextR,previousR);})();

@@ -143,14 +143,14 @@
 	let controls = controlsd;
 	let slides = slidesd;
 	let currentSlide = 0;
-	for(let i= 0; i<controls.length; i++){
+	for(let i= 0; i < controls.length; i++){
 		controls[i].style.display = 'inline-block';
 	}
 	function nextSlide(){
-		goToSlide(currentSlide+1);
+		goToSlide(currentSlide + 1);
 	}
 	function previousSlide(){
-		goToSlide(currentSlide-1);
+		goToSlide(currentSlide - 1);
 	}
 	function goToSlide(n){
 		slides[currentSlide].className = 'slide';
@@ -182,9 +182,6 @@
 	SlidersGo(controlsL,slidesL,nextL,previousL);
 	SlidersGo(controlsM,slidesM,nextM,previousM);
 	SlidersGo(controlsR,slidesR,nextR,previousR);
-
-
-
 
 })();
 
